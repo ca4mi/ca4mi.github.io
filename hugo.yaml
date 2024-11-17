@@ -23,7 +23,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  hidemeta: true
+  hidemeta: false
   hideSummary: true
   showtoc: false
   tocopen: false
@@ -47,18 +47,22 @@ menu:
     - identifier: search
       name: Search
       url: /search/
-      weight: 15
+      weight: 10
     - identifier: bookmark
       name: Bookmark
       url: /bookmark/
-      weight: 20
+      weight: 15
     - identifier: using
       name: Using
       url: /using/
-      weight: 25
+      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
+      weight: 25
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 30
 
 pygmentsUseClasses: true
