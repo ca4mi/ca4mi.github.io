@@ -15,10 +15,8 @@ I'm using a Google Pixel 7a with stock Android. I considered switching to Graphe
 | App                                                                 | Description                                                                             |
 | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | [Syncthing](https://github.com/syncthing/syncthing-android)         | Sync files between devices                                                              |
-| [Breezy Weather](https://github.com/breezy-weather/breezy-weather)  | Privacy friendly weather app.                                                           |
-| [VLC Player](https://f-droid.org/packages/org.videolan.vlc/)                                             | Default media player                                                                    |
+| [VLC Player](https://f-droid.org/packages/org.videolan.vlc/)        | Default media player                                                                    |
 | [Termux](https://github.com/termux/termux-app)                      | Terminal                                                                                |
-| [FUTO Keyboard](https://github.com/futo-org/android-keyboard)       | Open source/privacy friendly keyboard                                                   |
 | [Capy Reader](https://github.com/jocmp/capyreader)                  | Read RSS feeds. Want to check my RSS feeds in [here](https://cadil.github.io/bookmark/) |
 | [Cromite](https://github.com/uazo/cromite)                          | Main/default browser                                                                    |
 | [Mullvad VPN](https://f-droid.org/packages/net.mullvad.mullvadvpn/) | VPN for mostly for privacy                                                              |

@@ -34,3 +34,7 @@ SSH Key нэмсэн бол терминал дээр:
 ssh -T git@github.com
 ```
 
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```

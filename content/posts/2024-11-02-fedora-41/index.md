@@ -69,7 +69,7 @@ flatpak install com.anydesk.Anydesk com.jeffser.Alpaca \
     com.thincast.client com.visualstudio.code io.gitlab.news_flash.NewsFlash \
     md.obsidian.Obsidian net.mullvad.MullvadBrowser \
     org.signal.Signal org.kde.kdenlive org.darktable.Darktable \
-    io.github.zen_browser.zen
+    io.github.zen_browser.zen com.valvesoftware.Steam com.obsproject.Studio
 ```
 
 Apps info:
@@ -86,6 +86,8 @@ Mullvad Browser                        net.mullvad.MullvadBrowser
 darktable                              org.darktable.Darktable
 Kdenlive                               org.kde.kdenlive
 Signal Desktop                         org.signal.Signal
+Steam                                  com.valvesoftware.Steam
+OBS                                    com.obsproject.Studio
 ```
 
 #### Keyboard layout
