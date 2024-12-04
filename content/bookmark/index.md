@@ -51,10 +51,10 @@ summary: "Bookmarks"
 | [Jared Owen](https://www.youtube.com/@JaredOwen)                   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA) |
 | [3Blue1Brown](https://www.youtube.com/@3blue1brown)                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw) |
 | [Koji Seto](https://www.youtube.com/@Kojiseto)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCFBjsYvwX7kWUjQoW7GcJ5A) |
-| [PewDiePie](https://www.youtube.com/@PewDiePie)                    | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw) |
+| [PewDiePie](https://www.youtube.com/@PewDiePie)         z           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw) |
 | [CaseyNeistat](https://www.youtube.com/@casey)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ) |
 | [Nostalgia Nerd](https://www.youtube.com/@Nostalgianerd)           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ) |
 | [LGR](https://www.youtube.com/@LGR)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) | 
 | [Only A Roadtrip Away](https://www.youtube.com/@OnlyARoadtripAway) | [RSS]()                                                                             |
 
-[Download OPML](./ca4mi_rss.opml)
+<a href="./ca4mi_rss.opml" download>Download OPML</a>
