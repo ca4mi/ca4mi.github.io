@@ -57,4 +57,4 @@ summary: "Bookmarks"
 | [LGR](https://www.youtube.com/@LGR)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) | 
 | [Only A Roadtrip Away](https://www.youtube.com/@OnlyARoadtripAway) | [RSS]()                                                                             |
 
-<a href="./ca4mi_rss.opml" download>Download OPML</a>
+[OPML file](./ca4mi_rss.opml)
