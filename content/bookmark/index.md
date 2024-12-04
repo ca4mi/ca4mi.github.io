@@ -56,3 +56,5 @@ summary: "Bookmarks"
 | [Nostalgia Nerd](https://www.youtube.com/@Nostalgianerd)           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ) |
 | [LGR](https://www.youtube.com/@LGR)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) | 
 | [Only A Roadtrip Away](https://www.youtube.com/@OnlyARoadtripAway) | [RSS]()                                                                             |
+
+[Download OPML](./ca4mi_rss.opml)
