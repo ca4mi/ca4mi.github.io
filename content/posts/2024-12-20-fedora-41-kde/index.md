@@ -30,7 +30,7 @@ sudo dnf install xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
 Install other apps using `dnf`:
 ```bash
 # Apps
-sudo dnf install btop kitty syncthing podman-compose fastfetch
+sudo dnf install btop kitty syncthing podman-compose fastfetch vim git-crypt
 
 # Mullvad VPN
 wget https://repository.mullvad.net/rpm/stable/mullvad.repo
@@ -85,3 +85,7 @@ cd Dusal_Bicheech_XKB/
 chmod +x Dusal_bicheech.sh
 ./Dusal_bicheech.sh 
 ```
+
+### Shell script
+TL;DR: A shell script to install apps and driver on Fedora 41 KDE Plasma, as instructed in this blog post:
+[Shell script](./fedora_41_kde_basics.sh)
