@@ -1,0 +1,58 @@
+z<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>ca4mi RSS Export</title>
+  </head>
+  <body>
+    <outline text="Blog" title="Blog">
+      <outline text="0xdf hacks stuff" title="0xdf hacks stuff" description="" type="rss" version="RSS" htmlUrl="https://0xdf.gitlab.io/" xmlUrl="https://0xdf.gitlab.io/feed.xml"/>
+      <outline text="CaDiL's Blog" title="CaDiL's Blog" description="" type="rss" version="RSS" htmlUrl="https://cadil.github.io/" xmlUrl="https://cadil.github.io/index.xml"/>
+      <outline text="David Eisinger" title="David Eisinger" description="" type="rss" version="RSS" htmlUrl="https://davideisinger.com/" xmlUrl="https://davideisinger.com/index.xml"/>
+      <outline text="Jeff Geerling's Blog" title="Jeff Geerling's Blog" description="" type="rss" version="RSS" htmlUrl="https://www.jeffgeerling.com/" xmlUrl="https://www.jeffgeerling.com/blog.xml"/>
+      <outline text="Tim Hårek" title="Tim Hårek" description="" type="rss" version="RSS" htmlUrl="https://timharek.no" xmlUrl="https://timharek.no/feed.xml"/>
+      <outline text="Wait But Why" title="Wait But Why" description="" type="rss" version="RSS" htmlUrl="https://waitbutwhy.com/" xmlUrl="https://waitbutwhy.com/feed"/>
+      <outline text="Wolfgang's Blog" title="Wolfgang's Blog" description="" type="rss" version="RSS" htmlUrl="https://notthebe.ee/" xmlUrl="https://notthebe.ee/rss.xml"/>
+      <outline text="マリウス" title="マリウス" description="" type="rss" version="RSS" htmlUrl="https://xn--gckvb8fzb.com/" xmlUrl="https://xn--gckvb8fzb.com/index.xml"/>
+    </outline>
+    <outline text="Magazine" title="Magazine">
+      <outline text="AnOther" title="AnOther" description="" type="rss" version="RSS" htmlUrl="https://www.anothermag.com/Feed" xmlUrl="https://www.anothermag.com/Feed"/>
+      <outline text="Dazed" title="Dazed" description="" type="rss" version="RSS" htmlUrl="https://www.dazeddigital.com/rss" xmlUrl="https://www.dazeddigital.com/rss"/>
+    </outline>
+    <outline text="News" title="News">
+      <outline text="Ars Technica" title="Ars Technica" description="" type="rss" version="RSS" htmlUrl="https://arstechnica.com" xmlUrl="http://feeds.arstechnica.com/arstechnica/index"/>
+      <outline text="The Verge" title="The Verge" description="" type="rss" version="RSS" htmlUrl="https://www.theverge.com/" xmlUrl="https://www.theverge.com/rss/front-page/index.xml"/>
+    </outline>
+    <outline text="Podcast" title="Podcast">
+      <outline text="Hidden Brain" title="Hidden Brain" description="" type="rss" version="RSS" htmlUrl="https://www.stitcher.com" xmlUrl="https://feeds.simplecast.com/kwWc0lhf"/>
+      <outline text="Rebuild" title="Rebuild" description="" type="rss" version="RSS" htmlUrl="https://rebuild.fm/" xmlUrl="https://feeds.rebuild.fm/rebuildfm"/>
+    </outline>
+    <outline text="Tech" title="Tech">
+      <outline text="9to5Google" title="9to5Google" description="" type="rss" version="RSS" htmlUrl="https://9to5google.com/" xmlUrl="https://9to5google.com/feed/"/>
+      <outline text="9to5Mac" title="9to5Mac" description="" type="rss" version="RSS" htmlUrl="https://9to5mac.com/" xmlUrl="https://9to5mac.com/feed/"/>
+      <outline text="Hacker News" title="Hacker News" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/" xmlUrl="https://hnrss.org/frontpage"/>
+      <outline text="Home Assistant" title="Home Assistant" description="" type="rss" version="RSS" htmlUrl="https://www.home-assistant.io/" xmlUrl="https://www.home-assistant.io/atom.xml"/>
+      <outline text="The Mullvad Blog" title="The Mullvad Blog" description="" type="rss" version="RSS" htmlUrl="https://www.mullvad.net/blog/" xmlUrl="https://mullvad.net/en/blog/feed/rss/"/>
+    </outline>
+    <outline text="Youtube" title="Youtube">
+      <outline text="3Blue1Brown" title="3Blue1Brown" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw"/>
+      <outline text="aChair Leg" title="aChair Leg" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCRYeRa2iUMd8An1WTPIP2bw" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRYeRa2iUMd8An1WTPIP2bw"/>
+      <outline text="CaseyNeistat" title="CaseyNeistat" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCtinbF-Q-fVthA0qrFQTgXQ" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ"/>
+      <outline text="Einzelgänger" title="Einzelgänger" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCybBViio_TH_uiFFDJuz5tg" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCybBViio_TH_uiFFDJuz5tg"/>
+      <outline text="f4mi" title="f4mi" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCSWMraguMlNanVQgseTTr_Q" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSWMraguMlNanVQgseTTr_Q"/>
+      <outline text="Fireship" title="Fireship" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"/>
+      <outline text="IppSec" title="IppSec" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA"/>
+      <outline text="Jacob Geller" title="Jacob Geller" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCeTfBygNb1TahcNpZyELO8g" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeTfBygNb1TahcNpZyELO8g"/>
+      <outline text="Jared Owen" title="Jared Owen" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCbsfyGlrjrKQC0gbzK0-EiA" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA"/>
+      <outline text="Jeff Geerling" title="Jeff Geerling" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCR-DXc1voovS8nhAvccRZhg" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg"/>
+      <outline text="Kurzgesagt" title="Kurzgesagt" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q"/>
+      <outline text="LGR" title="LGR" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ"/>
+      <outline text="mCoding" title="mCoding" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCaiL2GDNpLYH6Wokkk1VNcg" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg"/>
+      <outline text="Mental Outlaw" title="Mental Outlaw" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC7YOGHUfC1Tb6E4pudI9STA" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA"/>
+      <outline text="Nerdwriter1" title="Nerdwriter1" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCJkMlOu7faDgqh4PfzbpLdg" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg"/>
+      <outline text="Nostalgia Nerd" title="Nostalgia Nerd" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC7qPftDWPw9XuExpSgfkmJQ" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ"/>
+      <outline text="PewDiePie" title="PewDiePie" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw"/>
+      <outline text="Wolfgang's Channel" title="Wolfgang's Channel" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg"/>
+      <outline text="Koji Seto" title="Koji Seto" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCFBjsYvwX7kWUjQoW7GcJ5A" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCFBjsYvwX7kWUjQoW7GcJ5A"/>
+    </outline>
+  </body>
+</opml>

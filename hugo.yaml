@@ -1,0 +1,71 @@
+baseURL: "https://ca4mi.github.io/"
+title: ca4mi
+paginate: 5
+theme: PaperMod
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
+
+params:
+  env: production
+  title: ca4mi
+  description: "ca4mi's blog"
+  keywords: [Blog]
+  author: ca4mi
+  DateFormat: "January 2, 2006"
+  defaultTheme: light
+
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: true
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    Title: Hi, I'm Hosono
+    Content: Welcome!
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ca4mi"
+    - name: instagram
+      url: "https://instagram.com/khosoonoo"
+    - name: mastodon
+      url: "https://mastodon.social/@hosono"
+    - name: rss
+      url: "index.xml"
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: bookmark
+      name: Bookmark
+      url: /bookmark/
+      weight: 15
+    - identifier: using
+      name: Using
+      url: /using/
+      weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 25
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false

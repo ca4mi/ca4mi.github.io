@@ -1,0 +1,27 @@
+name: GitHub Pages
+on: push
+jobs:
+  build-github-pages:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Install Hugo
+        run: sudo snap install hugo --edge
+      - name: Git checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Build
+        run: hugo --buildDrafts --gc --cleanDestinationDir --logLevel info --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
