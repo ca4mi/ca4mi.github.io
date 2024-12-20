@@ -1,7 +1,7 @@
 ---
 author: "ca4mi"
 title: "Fedora 41 KDE Plasma, apps and configs"
-date: "2024-12-21"
+date: "2024-12-20"
 description: "Fedora 41 KDE Plasma - config"
 categories: ["Linux"]
 ShowToc: true

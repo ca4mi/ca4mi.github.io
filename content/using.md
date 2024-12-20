@@ -6,7 +6,7 @@ summary: "Here's list of items that using for daily"
 
 | Item             | Description                                                                                                                                  |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Laptop           | IdeaPad Gaming 3 15IHU6. See what os/apps using from [here](https://ca4mi.github.io/posts/2024-12-21-fedora-41-kde/)                         |
+| Laptop           | IdeaPad Gaming 3 15IHU6. See what os/apps using from [here](https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/)                         |
 | Phone            | Google Pixel 7a. See what os/apps using from [here](https://ca4mi.github.io/posts/2024-08-26-android-and-apps/)                              |
 | Headphone & Buds | Sony CH-720N & Sony Linkbuds S                                                                                                               |
 | Custom PC        | Custom build PC since 2012, running macOS Monterey. You can see from [here](https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/) |
