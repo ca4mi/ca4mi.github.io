@@ -1,17 +1,17 @@
 ---
 author: "ca4mi"
-title: "Fedora 41 KDE Plasma, apps and configs"
+title: "Fedora 41 KDE Plasma"
 date: "2024-12-20"
 description: "Fedora 41 KDE Plasma - config"
 categories: ["Linux"]
-ShowToc: true
+ShowToc: false
 TocOpen: false
 ---
 
-Fastfetch:
+### Fastfetch
 ![Fedora 41 KDE Plasma - fastfetch](images/fedora_41_kde_plasma_fastfetch.png)
 
-#### Add repos and install apps & drivers
+### Add repos and install apps & drivers
 Add repos:
 ```bash
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -39,7 +39,7 @@ sudo dnf update --refresh
 sudo dnf install mullvad-vpn
 ```
 
-#### Install flatpak & apps
+### Install flatpak & apps
 Add repo:
 ```bash
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -77,7 +77,7 @@ App info:
 | Obsidian                       | md.obsidian.Obsidian             | 
 | Mullvad Browser                | net.mullvad.MullvadBrowser       |  
 
-#### Keyboard layout
+### Keyboard layout
 Dusal bicheech:
 ```bash
 git clone https://github.com/almas/Dusal_Bicheech_XKB
