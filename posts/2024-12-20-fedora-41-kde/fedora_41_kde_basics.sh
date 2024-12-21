@@ -36,7 +36,7 @@ sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
 
 # Install additional applications via dnf
 print_message "Installing additional applications via dnf..."
-sudo dnf install -y btop kitty syncthing podman-compose fastfetch vim git-crypt
+sudo dnf install -y btop kitty syncthing podman-compose fastfetch vim git git-crypt
 
 # Install Mullvad VPN
 print_message "Checking for Mullvad repository..."
@@ -79,6 +79,35 @@ flatpak install -y flathub \
     io.github.zen_browser.zen \
     com.valvesoftware.Steam \
     com.obsproject.Studio
+
+# Install EnvyControl
+print_message "Installing EnvyControl..."
+sudo dnf copr enable sunwire/envycontrol -y
+sudo dnf install python3-envycontrol
+# Install Optimus GPU Switcher widget
+# Variables
+REPO_URL="https://github.com/enielrodriguez/optimus-gpu-switcher.git"
+BRANCH="main-kde6"
+TARGET_DIR="$HOME/optimus-gpu-switcher"
+
+echo "Cloning the repository..."
+if git clone --branch $BRANCH $REPO_URL $TARGET_DIR; then
+    echo "Repository cloned successfully."
+else
+    echo "Error cloning repository. Skipping..."
+fi
+
+# Install the widget using kpackagetool6
+echo "Installing the widget..."
+if kpackagetool6 -t Plasma/Applet -i $TARGET_DIR; then
+    echo "Widget installed successfully."
+else
+    echo "Error installing the widget. Skip..."
+fi
+
+# Clean up
+echo "Cleaning up temporary files..."
+rm -rf $TARGET_DIR
 
 # Clone and install Dusal Bicheech keyboard layout
 print_message "Installing Dusal Bicheech keyboard layout..."
