@@ -86,7 +86,7 @@ chmod +x Dusal_bicheech.sh
 ./Dusal_bicheech.sh 
 ```
 
-### Insatall EnvyControl
+### Install EnvyControl
 In order to play games on external display with Nvidia gpu (dGPU) need to install EnvyControl and widget:
 ```sh
 sudo dnf copr enable sunwire/envycontrol
@@ -95,7 +95,7 @@ sudo dnf install python3-envycontrol
 git clone https://github.com/enielrodriguez/optimus-gpu-switcher/tree/main-kde6
 kpackagetool6 -t Plasma/Applet -i optimus-gpu-switcher
 ```
-Change mode to 'Nvidia' for gaming. More info: https://github.com/bayasdev/envycontrol?tab=readme-ov-file
+Change mode to 'Nvidia' for gaming. More info: [EnvyControl](https://github.com/bayasdev/envycontrol?tab=readme-ov-file#some-examples), [optimus-gpu-switcher](https://github.com/bayasdev/envycontrol?tab=readme-ov-file)
 
 ### Shell script
 TL;DR: A shell script to install apps and driver on Fedora 41 KDE Plasma, as instructed in this blog post:
