@@ -97,6 +97,11 @@ kpackagetool6 -t Plasma/Applet -i optimus-gpu-switcher
 ```
 Change mode to 'Nvidia' for gaming. More info: [EnvyControl](https://github.com/bayasdev/envycontrol?tab=readme-ov-file#some-examples), [optimus-gpu-switcher](https://github.com/bayasdev/envycontrol?tab=readme-ov-file)
 
+Before launch game from Steam, add this line for launch option:
+```sh
+DRI_PRIME=1 %command%
+``` 
+
 ### Shell script
 TL;DR: A shell script to install apps and driver on Fedora 41 KDE Plasma, as instructed in this blog post:
 [Shell script](./fedora_41_kde_basics.sh)
