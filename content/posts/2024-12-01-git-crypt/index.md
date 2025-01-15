@@ -69,3 +69,26 @@ gpg --delete-key "KEYID"
 gpg --list-keys --keyid-format LONG
 gpg --list-secret-keys --keyid-format LONG
 ```
+
+**TL;DR**
+```sh
+git init
+# vi .gitattributes and save it
+* filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff
+.gitignore !filter !diff
+
+# git-crypt
+git-crypt init
+# copy long key from:
+gpg --list-keys --keyid-format LONG
+
+# replace long key <KEY_ID>
+git-crypt add-gpg-user KEY_ID
+git-crypt status
+git add .
+git commit -m "add git-crypt"
+git push -u origin main
+# after that add your note files
+# then push it again to main repo
+```
