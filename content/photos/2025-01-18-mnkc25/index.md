@@ -7,7 +7,7 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 ---
-Photos aren taken by iPhone SE (2021)
+Taken by iPhone SE (2021)
 Jan 18, 2024
 ![see more at @mnkendo - instagram](images/20250120_0014.jpg)
 ![see more at @mnkendo - instagram](images/20250120_0016.jpg)
