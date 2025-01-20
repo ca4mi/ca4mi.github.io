@@ -52,18 +52,22 @@ menu:
       name: Bookmark
       url: /bookmark/
       weight: 15
+    - identifier: Photos
+      name: Photos
+      url: /photos/
+      weight: 20
     - identifier: using
       name: Using
       url: /using/
-      weight: 20
+      weight: 25
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 25
+      weight: 30
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 30
+      weight: 35
 
 pygmentsUseClasses: true
 markup:
