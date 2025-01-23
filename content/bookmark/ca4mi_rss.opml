@@ -6,7 +6,7 @@
   <body>
     <outline text="Blog" title="Blog">
       <outline text="0xdf hacks stuff" title="0xdf hacks stuff" description="" type="rss" version="RSS" htmlUrl="https://0xdf.gitlab.io/" xmlUrl="https://0xdf.gitlab.io/feed.xml"/>
-      <outline text="CaDiL's Blog" title="CaDiL's Blog" description="" type="rss" version="RSS" htmlUrl="https://cadil.github.io/" xmlUrl="https://cadil.github.io/index.xml"/>
+      <outline text="ca4mi" title="ca4mi" description="" type="rss" version="RSS" htmlUrl="https://ca4mi.github.io/" xmlUrl="https://ca4mi.github.io/index.xml"/>
       <outline text="David Eisinger" title="David Eisinger" description="" type="rss" version="RSS" htmlUrl="https://davideisinger.com/" xmlUrl="https://davideisinger.com/index.xml"/>
       <outline text="Jeff Geerling's Blog" title="Jeff Geerling's Blog" description="" type="rss" version="RSS" htmlUrl="https://www.jeffgeerling.com/" xmlUrl="https://www.jeffgeerling.com/blog.xml"/>
       <outline text="Tim Hårek" title="Tim Hårek" description="" type="rss" version="RSS" htmlUrl="https://timharek.no" xmlUrl="https://timharek.no/feed.xml"/>
@@ -20,7 +20,7 @@
     </outline>
     <outline text="News" title="News">
       <outline text="Ars Technica" title="Ars Technica" description="" type="rss" version="RSS" htmlUrl="https://arstechnica.com" xmlUrl="http://feeds.arstechnica.com/arstechnica/index"/>
-      <outline text="The Verge" title="The Verge" description="" type="rss" version="RSS" htmlUrl="https://www.theverge.com/" xmlUrl="https://www.theverge.com/rss/front-page/index.xml"/>
+      <outline text="The Verge" title="The Verge" descrciption="" type="rss" version="RSS" htmlUrl="https://www.theverge.com/" xmlUrl="https://www.theverge.com/rss/front-page/index.xml"/>
     </outline>
     <outline text="Podcast" title="Podcast">
       <outline text="Hidden Brain" title="Hidden Brain" description="" type="rss" version="RSS" htmlUrl="https://www.stitcher.com" xmlUrl="https://feeds.simplecast.com/kwWc0lhf"/>
