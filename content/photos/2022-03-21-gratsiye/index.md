@@ -1,6 +1,6 @@
 ---
 author: "ca4mi"
-title: "ГРАЦИЕ/Gratsiye/"
+title: "ГРАЦИЕ - /Gratsiye/"
 date: "2022-03-21"
 description: "`Gratsiye` photos during 2022"
 categories: ["Photography"]

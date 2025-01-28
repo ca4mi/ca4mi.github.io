@@ -6,6 +6,9 @@ description: "MNKC 2025 x UNC"
 categories: ["Photography"]
 ShowToc: false
 TocOpen: false
+cover:
+  image: "images/20250120_0034.jpg"
+  relative: false 
 ---
 Taken by iPhone SE (2021)
 Jan 18, 2024
