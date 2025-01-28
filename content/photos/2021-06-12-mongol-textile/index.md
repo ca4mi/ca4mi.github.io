@@ -7,18 +7,18 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 cover:
-  image: "images/IMG_7636.jpg"
+  image: "images/IMG_7636.avif"
   relative: false 
 ---
-![see more from @khosoonoo - instagram](images/IMG_7528.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7547.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7592.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7636.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7660.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7665.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7670.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7686.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7732.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7746.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7846.jpg)
-![see more from @khosoonoo - instagram](images/IMG_7937.jpg)
+![see more from @khosoonoo - instagram](images/IMG_7528.avif)
+![see more from @khosoonoo - instagram](images/IMG_7547.avif)
+![see more from @khosoonoo - instagram](images/IMG_7592.avif)
+![see more from @khosoonoo - instagram](images/IMG_7636.avif)
+![see more from @khosoonoo - instagram](images/IMG_7660.avif)
+![see more from @khosoonoo - instagram](images/IMG_7665.avif)
+![see more from @khosoonoo - instagram](images/IMG_7670.avif)
+![see more from @khosoonoo - instagram](images/IMG_7686.avif)
+![see more from @khosoonoo - instagram](images/IMG_7732.avif)
+![see more from @khosoonoo - instagram](images/IMG_7746.avif)
+![see more from @khosoonoo - instagram](images/IMG_7846.avif)
+![see more from @khosoonoo - instagram](images/IMG_7937.avif)
