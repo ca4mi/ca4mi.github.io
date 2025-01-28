@@ -44,6 +44,10 @@ params:
 
 menu:
   main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
     - identifier: Photos
       name: Photos
       url: /photos/
