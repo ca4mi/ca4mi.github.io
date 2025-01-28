@@ -7,14 +7,16 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 cover:
-  image: "images/CDL_2510.jpg"
+  image: "images/CDL_2510.avif"
   relative: false 
 ---
-![see more from @khosoonoo - instagram](images/CDL_2267.jpg)
-![see more from @khosoonoo - instagram](images/CDL_2284.jpg)
-![see more from @khosoonoo - instagram](images/CDL_2510.jpg)
-![see more from @khosoonoo - instagram](images/CDL_2612.jpg)
-![see more from @khosoonoo - instagram](images/CDL_2621.jpg)
-![see more from @khosoonoo - instagram](images/CDL_2698.jpg)
-![see more from @khosoonoo - instagram](images/CDL_2748.jpg)
-![see more from @khosoonoo - instagram](images/CDL_2991.jpg)
+![see more from @khosoonoo - instagram](images/CDL_2284.avif)
+![see more from @khosoonoo - instagram](images/CDL_2510.avif)
+![see more from @khosoonoo - instagram](images/CDL_2612.avif)
+![see more from @khosoonoo - instagram](images/CDL_2621.avif)
+![see more from @khosoonoo - instagram](images/CDL_2689.avif)
+![see more from @khosoonoo - instagram](images/CDL_2694.avif)
+![see more from @khosoonoo - instagram](images/CDL_2991.avif)
+![see more from @khosoonoo - instagram](images/CDL_2995.avif)
+![see more from @khosoonoo - instagram](images/CDL_2991.avif)
+![see more from @khosoonoo - instagram](images/CDL_3056.avif)

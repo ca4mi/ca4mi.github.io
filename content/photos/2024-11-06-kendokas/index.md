@@ -7,11 +7,11 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 cover:
-  image: "images/CDL_8336.jpg"
+  image: "images/CDL_8336.avif"
   relative: false 
 ---
-![see more from @khosoonoo - instagram](images/CDL_8303.jpg)
-![see more from @khosoonoo - instagram](images/CDL_8314.jpg)
-![see more from @khosoonoo - instagram](images/CDL_8336.jpg)
-![see more from @khosoonoo - instagram](images/CDL_8353.jpg)
-![see more from @khosoonoo - instagram](images/CDL_8366.jpg)
+![see more from @khosoonoo - instagram](images/CDL_8303.avif)
+![see more from @khosoonoo - instagram](images/CDL_8314.avif)
+![see more from @khosoonoo - instagram](images/CDL_8336.avif)
+![see more from @khosoonoo - instagram](images/CDL_8353.avif)
+![see more from @khosoonoo - instagram](images/CDL_8366.avif)
