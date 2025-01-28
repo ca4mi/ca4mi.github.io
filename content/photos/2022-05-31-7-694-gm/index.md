@@ -6,6 +6,9 @@ description: "7-694 Series - Good Memories"
 categories: ["Photography"]
 ShowToc: false
 TocOpen: false
+cover:
+  image: "images/20250128_0056.jpg"
+  relative: false 
 ---
 ![see more from @khosoonoo - instagram](images/20250128_0043.jpg)
 ![see more from @khosoonoo - instagram](images/20250128_0045.jpg)

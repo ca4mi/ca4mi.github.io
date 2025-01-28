@@ -6,6 +6,9 @@ description: "UV Brand - 2022"
 categories: ["Photography"]
 ShowToc: false
 TocOpen: false
+cover:
+  image: "images/CDL_4182.jpg"
+  relative: false 
 ---
 ![see more from @khosoonoo - instagram](images/CDL_3985.jpg)
 ![see more from @khosoonoo - instagram](images/CDL_4012.jpg)
