@@ -7,7 +7,7 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 cover:
-  image: "images/CDL_7147-2.jpg"
+  image: "images/CDL_7267.jpg"
   relative: false 
 ---
 ![see more from @khosoonoo - instagram](images/CDL_6891.jpg)

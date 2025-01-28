@@ -44,17 +44,13 @@ params:
 
 menu:
   main:
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 10
-    - identifier: bookmark
-      name: Bookmark
-      url: /bookmark/
-      weight: 15
     - identifier: Photos
       name: Photos
       url: /photos/
+      weight: 15
+    - identifier: bookmark
+      name: Bookmark
+      url: /bookmark/
       weight: 20
     - identifier: using
       name: Using
@@ -64,9 +60,9 @@ menu:
       name: Categories
       url: /categories/
       weight: 30
-    - identifier: archives
-      name: Archives
-      url: /archives/
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 35
 
 pygmentsUseClasses: true

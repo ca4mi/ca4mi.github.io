@@ -1,0 +1,18 @@
+---
+author: "ca4mi"
+title: "Chayodu"
+date: "2024-02-17"
+description: "Chayodu"
+categories: ["Photography"]
+ShowToc: false
+TocOpen: false
+cover:
+  image: "images/CDL_1967.jpg"
+  relative: false 
+---
+![see more from @khosoonoo - instagram](images/CDL_1419.jpg)
+![see more from @khosoonoo - instagram](images/CDL_1520.jpg)
+![see more from @khosoonoo - instagram](images/CDL_1555.jpg)
+![see more from @khosoonoo - instagram](images/CDL_1967.jpg)
+![see more from @khosoonoo - instagram](images/CDL_2026.jpg)
+![see more from @khosoonoo - instagram](images/CDL_2111.jpg)
