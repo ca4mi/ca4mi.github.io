@@ -8,7 +8,7 @@ ShowToc: false
 TocOpen: false
 cover:
   image: "images/IMG_7636.avif"
-  relative: false 
+  relative: true 
 ---
 ![see more from @khosoonoo - instagram](images/IMG_7528.avif)
 ![see more from @khosoonoo - instagram](images/IMG_7547.avif)
