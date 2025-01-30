@@ -8,7 +8,7 @@ ShowToc: false
 TocOpen: false
 cover:
   image: "images/CDL_3061.avif"
-  relative: false 
+  relative: true 
 ---
 ![see more from @khosoonoo - instagram](images/CDL_2762.avif)
 ![see more from @khosoonoo - instagram](images/CDL_2779.avif)
