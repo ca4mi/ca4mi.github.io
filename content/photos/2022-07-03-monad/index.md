@@ -1,6 +1,6 @@
 ---
 author: "ca4mi"
-title: "7-694"
+title: "Monad"
 date: "2022-07-03"
 description: "Monad"
 categories: ["Photography"]
