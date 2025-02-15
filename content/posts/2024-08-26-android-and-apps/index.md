@@ -36,4 +36,3 @@ I'm using a Google Pixel 7a with stock Android. I considered switching to Graphe
 | [Proton Mail](https://play.google.com/store/apps/details?id=ch.protonmail.android&hl=en_US)          | General mail app                                                                                               |
 | [Spotify](https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US)                  | Using for explore new artists and albums/single                                                                |
 | [Obsidian](https://play.google.com/store/apps/details?id=md.obsidian&hl=en_US)                       | For Notes                                                                                                      |
-| [ChatGPT](https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en_US)                 | Not often used                                                                                                 |

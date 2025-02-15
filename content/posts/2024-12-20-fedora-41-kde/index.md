@@ -92,7 +92,7 @@ In order to play games on external display with Nvidia gpu (dGPU) need to instal
 sudo dnf copr enable sunwire/envycontrol
 sudo dnf install python3-envycontrol
 # Optimus GPU Switcher
-git clone https://github.com/enielrodriguez/optimus-gpu-switcher/tree/main-kde6
+git clone --branch main-kde6 https://github.com/enielrodriguez/optimus-gpu-switcher.git
 kpackagetool6 -t Plasma/Applet -i optimus-gpu-switcher
 ```
 Change mode to 'Nvidia' for gaming. More info: [EnvyControl](https://github.com/bayasdev/envycontrol?tab=readme-ov-file#some-examples), [optimus-gpu-switcher](https://github.com/bayasdev/envycontrol?tab=readme-ov-file)
