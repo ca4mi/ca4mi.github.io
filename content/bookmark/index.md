@@ -65,6 +65,7 @@ summary: "Bookmarks"
 | [PewDiePie](https://www.youtube.com/@PewDiePie)                    | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw) |
 | [CaseyNeistat](https://www.youtube.com/@casey)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ) |
 | [Nostalgia Nerd](https://www.youtube.com/@Nostalgianerd)           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ) |
-| [LGR](https://www.youtube.com/@LGR)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) | 
+| [LGR](https://www.youtube.com/@LGR)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) |
+| [David Steca](https://www.youtube.com/@davidsteca)                 | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA) |
 
 [OPML file](./ca4mi_rss.opml)
