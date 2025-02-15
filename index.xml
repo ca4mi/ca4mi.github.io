@@ -1,8 +1,1753 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ca4mi</title><link>https://ca4mi.github.io/</link><description>Recent content on ca4mi</description><generator>Hugo -- 0.143.0-DEV</generator><language>en</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Ordered DDR3 RAM from cross-border eCommerce</title><link>https://ca4mi.github.io/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/</guid><description>I didn’t have any experience using **hibox.mn** before so here is a journey how i ordered DDR3 RAMx2.</description></item><item><title>Fedora 41 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</guid><description>Fedora 41 KDE Plasma - config</description></item><item><title>Backing up obsidian notes using github &amp; git-crypt</title><link>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</guid><description>Obsidian notes -&amp;gt; Push to github -&amp;gt; all notes will encrypted in github repo -&amp;gt; clone it -&amp;gt; import/export GPG keys -&amp;gt; unlock encrypted notes</description></item><item><title>Kendoka</title><link>https://ca4mi.github.io/photos/2024-11-06-kendokas/</link><pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2024-11-06-kendokas/</guid><description>Kendoka</description></item><item><title>Running Windows VMs using dockurr/windows</title><link>https://ca4mi.github.io/posts/2024-10-25-windows-wms/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-25-windows-wms/</guid><description>How to use Docker VMs to run various Windows environments within a Linux-based OS, like Fedora. Sometimes need to access to different Windows versions (7, 10, 11) for testing or other office/work related purposes. Manually installing and managing these versions can be cumbersome. This solution leverages podman with podman-compose and the `dockurr/windows` image to streamline the process.</description></item><item><title>Hackintosh setup &amp; apps</title><link>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</guid><description>I&amp;#39;m using this custom desktop (hackintosh) since 2012. It just works!</description></item><item><title>Automating upload workflow using Selenium</title><link>https://ca4mi.github.io/posts/2024-10-10-photo-upload-automation-workflow/</link><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-10-photo-upload-automation-workflow/</guid><description>Automating upload workflow using Selenium</description></item><item><title>Fedora 40 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</guid><description>Fedora 40 KDE Plasma - Setup</description></item><item><title>Android and Apps</title><link>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</guid><description>Here&amp;#39;s apps using (actually in app list) daily</description></item><item><title>Fedora 40 - Config</title><link>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</link><pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</guid><description>Fedora 40 - Configuration</description></item><item><title>Tailscale VPN(mesh) + Cloudflare + NextDNS + Nignx Proxy Manager (Let's Encrypt) SSL certificate тохируулах</title><link>https://ca4mi.github.io/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</guid><description>&lt;p>Note: Дээрх аргаас гадна өөр олон арга ашиглан vpn үүсгэх, тохируулах боломжтой.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ca4mi</title><link>https://ca4mi.github.io/</link><description>Recent content on ca4mi</description><generator>Hugo -- 0.143.1</generator><language>en</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Ordered DDR3 RAM from cross-border eCommerce</title><link>https://ca4mi.github.io/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/</guid><description>I didn’t have any experience using **hibox.mn** before so here is a journey how i ordered DDR3 RAMx2.</description><content:encoded><![CDATA[<p>I registered on the site, and they didn’t ask for any personal information such as my first or last name. The only requirement was a phone number. After confirming my number, I created a 4-digit PIN to log in. That was it—just a phone number and a 4-digit PIN to register!</p>
+<p>Next, they asked me to choose one of their branch addresses for picking up orders. Before ordering the main item—which costs $90–$100 (ill buy later CPU if this site is trust-able)—I decided to test the service first. I ordered <strong>DDR3 8GB x 2 1600 MHz</strong> RAM for a total of $9 (a cheap option).</p>
+<p><img alt="Order info of hibox.mn" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/order_info.png"></p>
+<p>Here’s the price breakdown:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Product</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Total</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>DDR3 8GB 1600 MHz</td>
+          <td>2</td>
+          <td>$4.50 / 17,500 MNT</td>
+          <td>$9.00 / 31,400 MNT</td>
+      </tr>
+      <tr>
+          <td>Internal shipping cost in China</td>
+          <td>1</td>
+          <td>$2.50 / 9,000 MNT</td>
+          <td>$2.50 / 9,000 MNT</td>
+      </tr>
+      <tr>
+          <td>Internal shipping cost in Mongolia</td>
+          <td>1</td>
+          <td>$1.14 / 4,000 MNT</td>
+          <td>$1.14 / 4,000 MNT</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><strong>$12.64 / 44,400 MNT</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>After checkout, they generated a QR code for <strong>QPay</strong> (local e-payment or e-wallet system). The payment was successful, but when I checked the transaction, QPay merchant account was an individual’s name, not <strong>Hibox LLC</strong> or any registered company’s bank account.</p>
+<table>
+  <thead>
+      <tr>
+          <th>date</th>
+          <th>desc</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>2024/12/23 17:50</td>
+          <td>order confirmed</td>
+      </tr>
+      <tr>
+          <td>2024/12/25 10:33</td>
+          <td>YT751****** track enabled</td>
+      </tr>
+      <tr>
+          <td>2024/12/30 11:53</td>
+          <td>Came in Chinese warehouse</td>
+      </tr>
+      <tr>
+          <td>2025/01/08 17:53</td>
+          <td>Came in Hibox branch</td>
+      </tr>
+  </tbody>
+</table>
+<p>After 16 days, item arrived and i installed it my <a href="https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/">hackintosh</a></p>
+<table>
+  <thead>
+      <tr>
+          <th>Image</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><img alt="RAM spec on MacOS" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/ram_spec_macos.png"></td>
+      </tr>
+      <tr>
+          <td><img alt="Item" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/20250120_0029.jpg"></td>
+      </tr>
+  </tbody>
+</table>
+]]></content:encoded></item><item><title>Fedora 41 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</guid><description>Fedora 41 KDE Plasma - config</description><content:encoded><![CDATA[<h3 id="fastfetch">Fastfetch</h3>
+<p><img alt="Fedora 41 KDE Plasma - fastfetch" loading="lazy" src="/posts/2024-12-20-fedora-41-kde/images/fedora_41_kde_plasma_fastfetch.png"></p>
+<h3 id="add-repos-and-install-apps--drivers">Add repos and install apps &amp; drivers</h3>
+<p>Add repos:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span></code></pre></div><p>Install Nvidia driver:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf update -y
+</span></span><span class="line"><span class="cl">sudo dnf install akmod-nvidia
+</span></span><span class="line"><span class="cl">sudo dnf install xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># also you can install Multimedia</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://rpmfusion.org/Howto/Multimedia</span>
+</span></span></code></pre></div><p>Install other apps using <code>dnf</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Apps</span>
+</span></span><span class="line"><span class="cl">sudo dnf install btop kitty syncthing podman-compose fastfetch vim git git-crypt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Mullvad VPN</span>
+</span></span><span class="line"><span class="cl">wget https://repository.mullvad.net/rpm/stable/mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf config-manager addrepo --from-repofile<span class="o">=</span>mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf update --refresh
+</span></span><span class="line"><span class="cl">sudo dnf install mullvad-vpn
+</span></span></code></pre></div><h3 id="install-flatpak--apps">Install flatpak &amp; apps</h3>
+<p>Add repo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+</span></span><span class="line"><span class="cl">flatpak remote-modify --enable flathub
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># checking flathub is enabled</span>
+</span></span><span class="line"><span class="cl">flatpak remotes
+</span></span></code></pre></div><p>install apps:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak install com.anydesk.Anydesk com.jeffser.Alpaca <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    com.thincast.client com.visualstudio.code io.gitlab.news_flash.NewsFlash <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    md.obsidian.Obsidian net.mullvad.MullvadBrowser org.videolan.VLC <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    org.signal.Signal org.kde.kdenlive org.darktable.Darktable <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    io.github.zen_browser.zen com.valvesoftware.Steam com.obsproject.Studio <span class="se">\
+</span></span></span></code></pre></div><p>App info:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Application ID</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>darktable</td>
+          <td>org.darktable.Darktable</td>
+      </tr>
+      <tr>
+          <td>Kdenlive</td>
+          <td>org.kde.kdenlive</td>
+      </tr>
+      <tr>
+          <td>Signal Desktop</td>
+          <td>org.signal.Signal</td>
+      </tr>
+      <tr>
+          <td>VLC</td>
+          <td>org.videolan.VLC</td>
+      </tr>
+      <tr>
+          <td>AnyDesk</td>
+          <td>com.anydesk.Anydesk</td>
+      </tr>
+      <tr>
+          <td>Alpaca</td>
+          <td>com.jeffser.Alpaca</td>
+      </tr>
+      <tr>
+          <td>Thincast Remote Desktop Client</td>
+          <td>com.thincast.client</td>
+      </tr>
+      <tr>
+          <td>Steam</td>
+          <td>com.valvesoftware.Steam</td>
+      </tr>
+      <tr>
+          <td>OBS</td>
+          <td>com.obsproject.Studio</td>
+      </tr>
+      <tr>
+          <td>Visual Studio Code</td>
+          <td>com.visualstudio.code</td>
+      </tr>
+      <tr>
+          <td>Zen</td>
+          <td>io.github.zen_browser.zen</td>
+      </tr>
+      <tr>
+          <td>Newsflash</td>
+          <td>io.gitlab.news_flash.NewsFlash</td>
+      </tr>
+      <tr>
+          <td>Obsidian</td>
+          <td>md.obsidian.Obsidian</td>
+      </tr>
+      <tr>
+          <td>Mullvad Browser</td>
+          <td>net.mullvad.MullvadBrowser</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="keyboard-layout">Keyboard layout</h3>
+<p>Dusal bicheech:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/almas/Dusal_Bicheech_XKB
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
+</span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
+</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
+</span></span></code></pre></div><h3 id="install-envycontrol">Install EnvyControl</h3>
+<p>In order to play games on external display with Nvidia gpu (dGPU) need to install EnvyControl and widget:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo dnf copr <span class="nb">enable</span> sunwire/envycontrol
+</span></span><span class="line"><span class="cl">sudo dnf install python3-envycontrol
+</span></span><span class="line"><span class="cl"><span class="c1"># Optimus GPU Switcher</span>
+</span></span><span class="line"><span class="cl">git clone --branch main-kde6 https://github.com/enielrodriguez/optimus-gpu-switcher.git
+</span></span><span class="line"><span class="cl">kpackagetool6 -t Plasma/Applet -i optimus-gpu-switcher
+</span></span></code></pre></div><p>Change mode to &lsquo;Nvidia&rsquo; for gaming. More info: <a href="https://github.com/bayasdev/envycontrol?tab=readme-ov-file#some-examples">EnvyControl</a>, <a href="https://github.com/bayasdev/envycontrol?tab=readme-ov-file">optimus-gpu-switcher</a></p>
+<p>Before launch game from Steam, add this line for launch option:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nv">DRI_PRIME</span><span class="o">=</span><span class="m">1</span> %command%
+</span></span></code></pre></div><h3 id="shell-script">Shell script</h3>
+<p>TL;DR: A shell script to install apps and driver on Fedora 41 KDE Plasma, as instructed in this blog post:
+<a href="./fedora_41_kde_basics.sh">Shell script</a></p>
+]]></content:encoded></item><item><title>Backing up obsidian notes using github &amp; git-crypt</title><link>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</guid><description>Obsidian notes -&amp;gt; Push to github -&amp;gt; all notes will encrypted in github repo -&amp;gt; clone it -&amp;gt; import/export GPG keys -&amp;gt; unlock encrypted notes</description><content:encoded><![CDATA[<p>Install:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># fedora</span>
+</span></span><span class="line"><span class="cl">sudo dnf install git-crypt
+</span></span><span class="line"><span class="cl"><span class="c1"># macos</span>
+</span></span><span class="line"><span class="cl">brew install git-crypt
+</span></span></code></pre></div><p>Get GPG Key</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --full-generate-key
+</span></span><span class="line"><span class="cl"><span class="c1"># Choose RSA (1)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Choose 4096 bits</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Choose how long the key should be valid</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Enter your name and email</span>
+</span></span><span class="line"><span class="cl">gpg --list-keys --keyid-format LONG
+</span></span></code></pre></div><p>Then export key and save it safe place:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># export keys</span>
+</span></span><span class="line"><span class="cl">gpg --export-secret-key -a YOUR_EMAIL &gt; private_key.asc
+</span></span><span class="line"><span class="cl">gpg --export -a YOUR_EMAIL &gt; public_key.asc
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># import *.asc keys to other devices</span>
+</span></span><span class="line"><span class="cl">gpg --import private_key.asc
+</span></span><span class="line"><span class="cl">gpg --import public_key.asc
+</span></span></code></pre></div><p><strong>In your obsidian notes directory</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;* filter=git-crypt diff=git-crypt&#34;</span> &gt; .gitattributes
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;.gitattributes !filter !diff&#34;</span> &gt;&gt; .gitattributes
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;.gitignore !filter !diff&#34;</span> &gt;&gt; .gitattributes
+</span></span><span class="line"><span class="cl">git-crypt init
+</span></span><span class="line"><span class="cl"><span class="c1"># # replace KEY_ID with actual key ID)</span>
+</span></span><span class="line"><span class="cl">git-crypt add-gpg-user KEY_ID
+</span></span></code></pre></div><p>Add github repo then push it.</p>
+<p><code>.gitattributes</code>:
+Git-crypt encrypt everything in directory.</p>
+<pre tabindex="0"><code>* filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff
+.gitignore !filter !diff
+</code></pre><p><strong>Useful commands</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># unlock/lock</span>
+</span></span><span class="line"><span class="cl">git-crypt unlock
+</span></span><span class="line"><span class="cl">git-crypt lock
+</span></span><span class="line"><span class="cl"><span class="c1"># verify</span>
+</span></span><span class="line"><span class="cl">git-crypt status
+</span></span><span class="line"><span class="cl"><span class="c1"># delete gpg key</span>
+</span></span><span class="line"><span class="cl">gpg --delete-secret-key <span class="s2">&#34;KEYID&#34;</span>
+</span></span><span class="line"><span class="cl">gpg --delete-key <span class="s2">&#34;KEYID&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># check for existing keys</span>
+</span></span><span class="line"><span class="cl">gpg --list-keys --keyid-format LONG
+</span></span><span class="line"><span class="cl">gpg --list-secret-keys --keyid-format LONG
+</span></span></code></pre></div><p><strong>TL;DR</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl"><span class="c1"># vi .gitattributes and save it</span>
+</span></span><span class="line"><span class="cl">* <span class="nv">filter</span><span class="o">=</span>git-crypt <span class="nv">diff</span><span class="o">=</span>git-crypt
+</span></span><span class="line"><span class="cl">.gitattributes !filter !diff
+</span></span><span class="line"><span class="cl">.gitignore !filter !diff
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># git-crypt</span>
+</span></span><span class="line"><span class="cl">git-crypt init
+</span></span><span class="line"><span class="cl"><span class="c1"># copy long key from:</span>
+</span></span><span class="line"><span class="cl">gpg --list-keys --keyid-format LONG
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># replace long key &lt;KEY_ID&gt;</span>
+</span></span><span class="line"><span class="cl">git-crypt add-gpg-user KEY_ID
+</span></span><span class="line"><span class="cl">git-crypt status
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;add git-crypt&#34;</span>
+</span></span><span class="line"><span class="cl">git push -u origin main
+</span></span><span class="line"><span class="cl"><span class="c1"># after that add your note files</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># then push it again to main repo</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Kendoka</title><link>https://ca4mi.github.io/photos/2024-11-06-kendokas/</link><pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2024-11-06-kendokas/</guid><description>Kendoka</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-11-06-kendokas/images/CDL_8303.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-11-06-kendokas/images/CDL_8314.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-11-06-kendokas/images/CDL_8336.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-11-06-kendokas/images/CDL_8353.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-11-06-kendokas/images/CDL_8366.avif"></p>
+]]></content:encoded></item><item><title>Running Windows VMs using dockurr/windows</title><link>https://ca4mi.github.io/posts/2024-10-25-windows-wms/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-25-windows-wms/</guid><description>How to use Docker VMs to run various Windows environments within a Linux-based OS, like Fedora. Sometimes need to access to different Windows versions (7, 10, 11) for testing or other office/work related purposes. Manually installing and managing these versions can be cumbersome. This solution leverages podman with podman-compose and the `dockurr/windows` image to streamline the process.</description><content:encoded><![CDATA[<h4 id="sources">Sources</h4>
+<ul>
+<li><a href="https://youtu.be/xhGYobuG508">https://youtu.be/xhGYobuG508</a> /Running Windows in a Docker Container! - Wolfgang&rsquo;s Channel/</li>
+<li><a href="https://bobpony.com/downloads/">https://bobpony.com/downloads/</a> /Download ISO images/</li>
+<li><a href="https://github.com/dockur/windows">https://github.com/dockur/windows</a> /Github repo/</li>
+</ul>
+<h4 id="docker-composeyml-example">docker-compose.yml example:</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2.2&#39;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">win7</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">dockurr/windows</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">windows-7</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">RAM_SIZE</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;2G&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">CPU_CORES</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">DISK_SIZE</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;20G&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">devices</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/dev/kvm</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">cap_add</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">NET_ADMIN</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">8007</span><span class="p">:</span><span class="m">8006</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">3387</span><span class="p">:</span><span class="m">3389</span><span class="l">/tcp</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">3387</span><span class="p">:</span><span class="m">3389</span><span class="l">/udp</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./data-7:/storage:Z</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/path/windows-7.iso:/custom.iso:Z</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">stop_grace_period</span><span class="p">:</span><span class="w"> </span><span class="l">2m</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">win10</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">dockurr/windows</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">windows-10</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">RAM_SIZE</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;4G&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">CPU_CORES</span><span class="p">:</span><span class="w"> </span><span class="m">2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">DISK_SIZE</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;30G&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">devices</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/dev/kvm</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">cap_add</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">NET_ADMIN</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">8010</span><span class="p">:</span><span class="m">8006</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">3310</span><span class="p">:</span><span class="m">3389</span><span class="l">/tcp</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">3310</span><span class="p">:</span><span class="m">3389</span><span class="l">/udp</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./data-10:/storage:Z</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/path/windows-10.iso:custom.iso:Z</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">stop_grace_period</span><span class="p">:</span><span class="w"> </span><span class="l">2m</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">win11</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">dockurr/windows</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">windows-11</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">RAM_SIZE</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;8G&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">CPU_CORES</span><span class="p">:</span><span class="w"> </span><span class="m">2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">DISK_SIZE</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;50G&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">devices</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/dev/kvm</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">cap_add</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">NET_ADMIN</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">8011</span><span class="p">:</span><span class="m">8006</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">3311</span><span class="p">:</span><span class="m">3389</span><span class="l">/tcp</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">3311</span><span class="p">:</span><span class="m">3389</span><span class="l">/udp</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./data-11:/storage:Z</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/path/windows-11.iso:/custom.iso:Z</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">stop_grace_period</span><span class="p">:</span><span class="w"> </span><span class="l">2m  </span><span class="w">
+</span></span></span></code></pre></div><p><strong>Explanation:</strong>
+This <code>docker-compose.yml</code> file defines three Windows VMs, each running a different OS (Windows 7, 10, and 11). The <code>dockurr/windows</code> image handles the automatic downloading and installation of the OS during runtime. However, this setup uses ISO images for each VM. Each VM&rsquo;s configuration specifies:</p>
+<ul>
+<li><strong>Resource Allocation:</strong> RAM (<code>RAM_SIZE</code>), CPU cores (<code>CPU_CORES</code>), and disk space (<code>DISK_SIZE</code>)</li>
+<li><strong>Devices:</strong> <code>/dev/kvm</code> is required for KVM virtualization.</li>
+<li><strong>Capabilities:</strong>  <code>NET_ADMIN</code> allows network administration within the container.</li>
+<li><strong>Ports:</strong> Different ports are mapped for each VM on the host machine to allow access to RDP (Remote Desktop Protocol).</li>
+<li><strong>Volumes:</strong> Volumes are used to persist data specific to each VM.
+You can check each details from here: <a href="https://github.com/dockur/windows">https://github.com/dockur/windows</a></li>
+</ul>
+<h4 id="connecting-to-the-vms">Connecting to the VMs</h4>
+<p>Use <code>xfreerdp</code> to connect to the Windows VMs</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">xfreerdp /u:docker /p: /v:127.0.0.1:&lt;tcp port&gt; /clipboard
+</span></span><span class="line"><span class="cl"><span class="c1"># for example:</span>
+</span></span><span class="line"><span class="cl">xfreerdp /u:docker /p: /v:127.0.0.1:3387 /clipboard <span class="c1">#win 7</span>
+</span></span><span class="line"><span class="cl">xfreerdp /u:docker /p: /v:127.0.0.1:3310 /clipboard <span class="c1">#win 10</span>
+</span></span><span class="line"><span class="cl">xfreerdp /u:docker /p: /v:127.0.0.1:3311 /clipboard <span class="c1">#win 11</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Hackintosh setup &amp; apps</title><link>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</guid><description>I&amp;#39;m using this custom desktop (hackintosh) since 2012. It just works!</description><content:encoded><![CDATA[<h4 id="os">OS</h4>
+<p>You can check my OpenCore config from <a href="https://github.com/ca4mi/open-core-config-sandy-bridge">here</a></p>
+<p><img alt="MacOS - Overview" loading="lazy" src="/posts/2024-10-13-hackintosh-setup-apps/images/macos_info.png"></p>
+<h4 id="hardware">Hardware</h4>
+<ul>
+<li>Motherboard: Colorful C.H61U V27</li>
+<li>CPU: Quad Core <a href="https://www.intel.com/content/www/us/en/products/sku/52206/intel-core-i52300-processor-6m-cache-up-to-3-10-ghz/specifications.html">Intel Core i5</a> | 2.79 GHz | Sandy Bridge</li>
+<li>GPU: ASUS GTX 770 DirectCU II OC 2 GB + kernel patch from <a href="https://github.com/chris1111/Geforce-Kepler-patcher">chirs1111</a></li>
+<li>Power Supply: COOLER MASTER|500 Watts| PFC Active MPW-5001-ACABN1</li>
+<li>SSD: Kingston 240 GB | <a href="https://en.wikipedia.org/wiki/Trim_(computing)">TRIM</a> Enabled via Kernel</li>
+<li>RAM: Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/</li>
+<li>Display: Asus PA279CV</li>
+<li>Keyboard &amp; Mouse: Generic</li>
+</ul>
+<h4 id="apps">Apps</h4>
+<p>Install Homebrew:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><p>Brew app list:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># formula</span>
+</span></span><span class="line"><span class="cl">brew install syncthing
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># cask</span>
+</span></span><span class="line"><span class="cl">brew install --cask mullvadvpn
+</span></span><span class="line"><span class="cl">brew install --cask obsidian
+</span></span><span class="line"><span class="cl">brew install --cask kitty
+</span></span></code></pre></div><p>Useful brew commands:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew search &lt;package_name&gt; <span class="c1"># search available packages </span>
+</span></span><span class="line"><span class="cl">brew update <span class="c1"># update homebrew</span>
+</span></span><span class="line"><span class="cl">brew list <span class="c1"># list all packages</span>
+</span></span><span class="line"><span class="cl">brew upgrade <span class="c1"># upgrade packages</span>
+</span></span><span class="line"><span class="cl">brew autoremove <span class="c1"># remove unused dependencies</span>
+</span></span><span class="line"><span class="cl">brew cleanup --prune<span class="o">=</span>all <span class="c1"># will cleanup</span>
+</span></span></code></pre></div><p><strong>Other Apps</strong></p>
+<ul>
+<li>Adobe Photoshop 2024</li>
+<li>Adobe Lightroom Classic</li>
+<li>Capture One 16.3</li>
+</ul>
+<p>I&rsquo;m thinking about upgrading 240GB SSD to a 2TB SSD in the future.</p>
+]]></content:encoded></item><item><title>Automating upload workflow using Selenium</title><link>https://ca4mi.github.io/posts/2024-10-10-photo-upload-automation-workflow/</link><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-10-photo-upload-automation-workflow/</guid><description>Automating upload workflow using Selenium</description><content:encoded><![CDATA[<p>Often need to efficiently share large photo sets with clients. This post outlines a workflow that utilizes automation tools for managing and organizing the process, specifically focusing on WeTransfer file sharing.</p>
+<p>WeTransfer&rsquo;s free tier offers up to 2GB of shared files for 7 days before they expire. For larger projects, it&rsquo;s necessary to split photos into manageable chunks (around 1.8GB each) before uploading.</p>
+<p><strong>Step 1: Initial Photo Selection and Ranking</strong></p>
+<p>After shooting a session, photographers should carefully select the best images. Software like Darktable or Lightroom can be used to identify poorly exposed or blurry photos and discard them. The remaining photos are then ranked, and low-resolution copies are exported to a designated folder. This bash script can further filter photo filenames and save them as a text file for easy reference.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls <span class="p">|</span> grep -oP <span class="s1">&#39;\d+&#39;</span> &gt; filenames.txt
+</span></span></code></pre></div><p><strong>Step 2: Handling Client Requests for All Photos</strong></p>
+<p>Occasionally, clients may request all high-quality images, regardless of initial ranking or non-selected photos that not edited or non-post-production versions. In these cases, can simply gather the full set of JPEGs and organize them according to the filenames listed in the <code>filenames.txt</code>. This is bash script:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Define variables</span>
+</span></span><span class="line"><span class="cl"><span class="nv">numbers_file</span><span class="o">=</span><span class="s2">&#34;/path/to/Photos/filenames.txt&#34;</span> <span class="c1"># Path to your text file containing the numbers</span>
+</span></span><span class="line"><span class="cl"><span class="nv">source_dir</span><span class="o">=</span><span class="s2">&#34;/path/to/Photos/raw/jpg&#34;</span> <span class="c1"># Directory where the files are located</span>
+</span></span><span class="line"><span class="cl"><span class="nv">destination_dir</span><span class="o">=</span><span class="s2">&#34;/path/to/Photos/new_photo_folder&#34;</span> <span class="c1"># Directory to copy the matching files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Read each number from the text file</span>
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="nv">IFS</span><span class="o">=</span> <span class="nb">read</span> -r number<span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Find and copy files starting with the number</span>
+</span></span><span class="line"><span class="cl">    find <span class="s2">&#34;</span><span class="nv">$source_dir</span><span class="s2">&#34;</span> -type f -name <span class="s2">&#34;*</span><span class="nv">$number</span><span class="s2">*&#34;</span> -exec cp <span class="o">{}</span> <span class="s2">&#34;</span><span class="nv">$destination_dir</span><span class="s2">&#34;</span> <span class="se">\;</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span> &lt; <span class="s2">&#34;</span><span class="nv">$numbers_file</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Photos copied successfully!&#34;</span>
+</span></span></code></pre></div><p><strong>Step 3: Splitting Photos into WeTransfer-Friendly Chunks</strong></p>
+<p>A custom bash script (<code>wt_split.sh</code>) split the photos into chunks of approximately 1.8GB each. This ensures that stay within WeTransfer&rsquo;s file size limits.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Usage: ./split_dir.sh /path/to/large_directory</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Check if directory is provided</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> -z <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">echo</span> <span class="s2">&#34;Usage: </span><span class="nv">$0</span><span class="s2"> /path/to/directory&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">exit</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Variables</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DIR_PATH</span><span class="o">=</span><span class="nv">$1</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PART_SIZE</span><span class="o">=</span><span class="k">$((</span><span class="m">1800</span> <span class="o">*</span> <span class="m">1024</span> <span class="o">*</span> <span class="m">1024</span><span class="k">))</span>  <span class="c1"># 1.8GB in bytes</span>
+</span></span><span class="line"><span class="cl"><span class="nv">OUTPUT_DIR</span><span class="o">=</span><span class="s2">&#34;upload_to_wt&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">COUNTER</span><span class="o">=</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="nv">CURRENT_SIZE</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Create output directory</span>
+</span></span><span class="line"><span class="cl">mkdir -p <span class="nv">$OUTPUT_DIR</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Create first part directory</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PART_DIR</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$OUTPUT_DIR</span><span class="s2">/part_</span><span class="nv">$COUNTER</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">mkdir -p <span class="s2">&#34;</span><span class="nv">$PART_DIR</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Loop through files in the directory</span>
+</span></span><span class="line"><span class="cl">find <span class="s2">&#34;</span><span class="nv">$DIR_PATH</span><span class="s2">&#34;</span> -type f <span class="p">|</span> <span class="k">while</span> <span class="nb">read</span> FILE<span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">FILE_SIZE</span><span class="o">=</span><span class="k">$(</span>stat --printf<span class="o">=</span><span class="s2">&#34;%s&#34;</span> <span class="s2">&#34;</span><span class="nv">$FILE</span><span class="s2">&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Check if adding this file exceeds the part size limit</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="o">((</span> CURRENT_SIZE + FILE_SIZE &gt; PART_SIZE <span class="o">))</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Create new part directory and reset size</span>
+</span></span><span class="line"><span class="cl">    <span class="o">((</span>COUNTER++<span class="o">))</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">PART_DIR</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$OUTPUT_DIR</span><span class="s2">/part_</span><span class="nv">$COUNTER</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    mkdir -p <span class="s2">&#34;</span><span class="nv">$PART_DIR</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">CURRENT_SIZE</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">  <span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Move file to current part directory</span>
+</span></span><span class="line"><span class="cl">  mv <span class="s2">&#34;</span><span class="nv">$FILE</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$PART_DIR</span><span class="s2">/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">CURRENT_SIZE</span><span class="o">=</span><span class="k">$((</span>CURRENT_SIZE <span class="o">+</span> FILE_SIZE<span class="k">))</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Directory </span><span class="nv">$DIR_PATH</span><span class="s2"> has been split into directories of up to 1.8GB in </span><span class="nv">$OUTPUT_DIR</span><span class="s2">/.&#34;</span>
+</span></span></code></pre></div><p><strong>Step 4: Uploading with Python and Selenium</strong></p>
+<p>Finally, a Python code (<code>wetransfer_selenium.py</code>) leverages the Selenium library to automate the WeTransfer upload process. This script handles selecting photos, uploading files, and generating a shareable link for clients.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">selenium</span> <span class="kn">import</span> <span class="n">webdriver</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">selenium.webdriver.common.by</span> <span class="kn">import</span> <span class="n">By</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">selenium.webdriver.support.ui</span> <span class="kn">import</span> <span class="n">WebDriverWait</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">selenium.webdriver.support</span> <span class="kn">import</span> <span class="n">expected_conditions</span> <span class="k">as</span> <span class="n">EC</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Check if the user provided a file or directory to upload</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Usage: python3 wetransfer_selenium.py &lt;path_to_file_or_directory&gt;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Get the file or directory path from the command-line argument</span>
+</span></span><span class="line"><span class="cl"><span class="n">file_or_dir_path</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Check if the path exists</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">file_or_dir_path</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error: The path </span><span class="si">{</span><span class="n">file_or_dir_path</span><span class="si">}</span><span class="s2"> does not exist.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Set up the browser (use Chrome or Firefox)</span>
+</span></span><span class="line"><span class="cl"><span class="n">driver</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">Chrome</span><span class="p">()</span>  <span class="c1"># Or webdriver.Firefox()</span>
+</span></span><span class="line"><span class="cl"><span class="n">wait</span> <span class="o">=</span> <span class="n">WebDriverWait</span><span class="p">(</span><span class="n">driver</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>  <span class="c1"># Add an explicit wait</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Open WeTransfer website</span>
+</span></span><span class="line"><span class="cl"><span class="n">driver</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&#34;https://wetransfer.com/&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Wait for the page to load fully</span>
+</span></span><span class="line"><span class="cl"><span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>  <span class="c1"># Optional: increase the sleep time if necessary</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Wait for the &#34;Accept All Cookies&#34; button to appear and click it</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">accept_cookies_button</span> <span class="o">=</span> <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">element_to_be_clickable</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//button[contains(text(), &#39;Accept All&#39;)]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">accept_cookies_button</span><span class="o">.</span><span class="n">click</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Accepted cookies.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error locating or clicking the Accept All button:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Wait for the &#34;I Agree&#34; button to appear and click it</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">agree_button</span> <span class="o">=</span> <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">element_to_be_clickable</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//button[contains(text(), &#39;I agree&#39;)]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">agree_button</span><span class="o">.</span><span class="n">click</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Agreed to the terms.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error locating or clicking the I Agree button:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Click the three-dot button to open more options</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Clicking the three-dot button for more options...&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">three_dot_button</span> <span class="o">=</span> <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">element_to_be_clickable</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//span[@data-testid=&#39;iconbar-icon&#39;]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">three_dot_button</span><span class="o">.</span><span class="n">click</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error clicking the three-dot button:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Select the &#34;Create link&#34; boolean option</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Selecting &#39;Create link&#39; boolean option...&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">create_link_radio</span> <span class="o">=</span> <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">element_to_be_clickable</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//input[@id=&#39;transfer__type-link&#39;]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="ow">not</span> <span class="n">create_link_radio</span><span class="o">.</span><span class="n">is_selected</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="n">driver</span><span class="o">.</span><span class="n">execute_script</span><span class="p">(</span><span class="s2">&#34;arguments[0].click();&#34;</span><span class="p">,</span> <span class="n">create_link_radio</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;&#39;Create link&#39; option selected.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;&#39;Create link&#39; option is already selected.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error selecting &#39;Create link&#39; option:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Proceed to set the expiry options</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Opening expiry dropdown...&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expiry_dropdown</span> <span class="o">=</span> <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">element_to_be_clickable</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//button[contains(@class, &#39;TransferWindowSetExpiry_input&#39;)]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">execute_script</span><span class="p">(</span><span class="s2">&#34;arguments[0].click();&#34;</span><span class="p">,</span> <span class="n">expiry_dropdown</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Expiry dropdown opened.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Wait for the dropdown options to be visible</span>
+</span></span><span class="line"><span class="cl">    <span class="n">seven_days_option</span> <span class="o">=</span> <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">element_to_be_clickable</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//li[contains(text(), &#39;7 days&#39;)]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Click the &#39;7 days&#39; option</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">execute_script</span><span class="p">(</span><span class="s2">&#34;arguments[0].click();&#34;</span><span class="p">,</span> <span class="n">seven_days_option</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Expiry set to 7 days.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error selecting &#39;7 days&#39; option:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Wait for the uploader form to appear</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Waiting for the uploader form...&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">visibility_of_element_located</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">CLASS_NAME</span><span class="p">,</span> <span class="s2">&#34;uploader--form&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Uploader form is now visible.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error locating the uploader form:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Wait for the file input element to appear</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Waiting for the file input element...&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">file_input</span> <span class="o">=</span> <span class="n">wait</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">presence_of_element_located</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">CSS_SELECTOR</span><span class="p">,</span> <span class="s1">&#39;input[data-testid=&#34;file-input&#34;]&#39;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;File input element located successfully.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error locating the file input element:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Upload file(s)</span>
+</span></span><span class="line"><span class="cl"><span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># If it&#39;s a directory, get all files inside the directory</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">file_or_dir_path</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">file_or_dir_path</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">file_or_dir_path</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="p">[</span><span class="n">file_or_dir_path</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Upload each file</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">file_path</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Fetch: </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">file_input</span><span class="o">.</span><span class="n">send_keys</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>  <span class="c1"># Upload the file(s)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Click the &#39;Get a link&#39; button</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Clicking the &#39;Get a link&#39; button...&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">get_link_button</span> <span class="o">=</span> <span class="n">WebDriverWait</span><span class="p">(</span><span class="n">driver</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">element_to_be_clickable</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//button[contains(text(), &#39;Get a link&#39;)]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">get_link_button</span><span class="o">.</span><span class="n">click</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;&#39;Get a link&#39; button clicked.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error clicking the &#39;Get a link&#39; button: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Waiting for Transferring.. text will shown in page</span>
+</span></span><span class="line"><span class="cl"><span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;&#39;Transferring...&#39;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">WebDriverWait</span><span class="p">(</span><span class="n">driver</span><span class="p">,</span> <span class="mi">7200</span><span class="p">)</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">invisibility_of_element_located</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">XPATH</span><span class="p">,</span> <span class="s2">&#34;//div[contains(@class, &#39;transfer__window uploader--progress&#39;)]//h2[text()=&#39;Transferring...&#39;]&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Upload complete.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error waiting for the upload to complete: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Get the download link</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">link</span> <span class="o">=</span> <span class="n">WebDriverWait</span><span class="p">(</span><span class="n">driver</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">presence_of_element_located</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">CSS_SELECTOR</span><span class="p">,</span> <span class="s2">&#34;.TransferDetails__link.link input.link__url&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">link</span> <span class="o">=</span> <span class="n">WebDriverWait</span><span class="p">(</span><span class="n">driver</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span><span class="o">.</span><span class="n">until</span><span class="p">(</span><span class="n">EC</span><span class="o">.</span><span class="n">visibility_of_element_located</span><span class="p">((</span><span class="n">By</span><span class="o">.</span><span class="n">CSS_SELECTOR</span><span class="p">,</span> <span class="s2">&#34;.TransferDetails__link.link input.link__url&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Retrieve the link</span>
+</span></span><span class="line"><span class="cl">    <span class="n">download_link</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">get_attribute</span><span class="p">(</span><span class="s2">&#34;value&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Download link: </span><span class="si">{</span><span class="n">download_link</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error retrieving the download link:&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Close the browser</span>
+</span></span><span class="line"><span class="cl"><span class="n">driver</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Fedora 40 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</guid><description>Fedora 40 KDE Plasma - Setup</description><content:encoded><![CDATA[<p>Neofetch:
+<img alt="fedora plasma 40 - neofetch" loading="lazy" src="/posts/2024-10-01-fedora-40-plasma/images/neofetch-fedora-40-plasma.png">
+Fedora 40 KDE Plasma was suggested by a co-worker, and I tried it out. It seems way better than I thought. GPU is stable, X11 environment is clean, and overall it&rsquo;s running smoothly.</p>
+<p>Screenshot:
+<img alt="fedora plasma 40 - screenshot" loading="lazy" src="/posts/2024-10-01-fedora-40-plasma/images/fedora-40-plasma-screen.png"></p>
+<h3 id="setup">Setup</h3>
+<h4 id="dnf-installs">dnf installs</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Flatpak repo</span>
+</span></span><span class="line"><span class="cl">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Other apps</span>
+</span></span><span class="line"><span class="cl">sudo dnf install btop
+</span></span><span class="line"><span class="cl">sudo dnf install kitty
+</span></span><span class="line"><span class="cl">sudo dnf install syncthing
+</span></span><span class="line"><span class="cl">sudo dnf install fastfetch
+</span></span><span class="line"><span class="cl">sudo dnf install podman-compose
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># VPN</span>
+</span></span><span class="line"><span class="cl"><span class="c1">## Tailscale</span>
+</span></span><span class="line"><span class="cl">curl -fsSL https://tailscale.com/install.sh <span class="p">|</span> sh
+</span></span><span class="line"><span class="cl"><span class="c1">## Mulvad VPN</span>
+</span></span><span class="line"><span class="cl">sudo dnf config-manager --add-repo https://repository.mullvad.net/rpm/stable/mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf install mullvad-vpn
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># GPU</span>
+</span></span><span class="line"><span class="cl">sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span><span class="line"><span class="cl">sudo dnf install akmod-nvidia
+</span></span><span class="line"><span class="cl">sudo dnf install xorg-x11-drv-nvidia-cuda
+</span></span></code></pre></div><h4 id="mongolian-qwerty-keyboard-dusal-bicheech">Mongolian qwerty keyboard /Dusal bicheech/</h4>
+<p>I&rsquo;ve been using Dusal bicheech for a decade now. Really appreciate <a href="https://github.com/almas">Almas</a> for creating Mongolian qwerty keyboard.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/almas/Dusal_Bicheech_XKB
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
+</span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
+</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
+</span></span></code></pre></div><h4 id="flatpak-apps">Flatpak apps</h4>
+<p>Apps that using daily.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Name                             Application ID
+</span></span><span class="line"><span class="cl">AnyDesk                          com.anydesk.Anydesk
+</span></span><span class="line"><span class="cl">Discord                          com.discordapp.Discord
+</span></span><span class="line"><span class="cl">Alpaca                           com.jeffser.Alpaca
+</span></span><span class="line"><span class="cl">Thincast Remote Desktop Client   com.thincast.client
+</span></span><span class="line"><span class="cl">Visual Studio Code               com.visualstudio.code
+</span></span><span class="line"><span class="cl">Newsflash                        io.gitlab.news_flash.NewsFlash
+</span></span><span class="line"><span class="cl">Obsidian                         md.obsidian.Obsidian
+</span></span><span class="line"><span class="cl">Mullvad Browser                  net.mullvad.MullvadBrowser
+</span></span><span class="line"><span class="cl">Signal Desktop                   org.signal.Signal
+</span></span><span class="line"><span class="cl">Kdenlive                         org.kde.kdenlive
+</span></span><span class="line"><span class="cl">darktable                        org.darktable.Darktable
+</span></span><span class="line"><span class="cl">Zen                              io.github.zen_browser.zen 
+</span></span></code></pre></div><p>Note: Since NewsFlash&rsquo;s latest release was under Gnome 47, so need to run it with <code>GSK_RENDERER=opengl</code> from terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">GSK_RENDERER</span><span class="o">=</span>opengl flatpak run io.gitlab.news_flash.NewsFlash
+</span></span></code></pre></div><p>or use a specific environment:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># copy the desktop entry to your local directory</span>
+</span></span><span class="line"><span class="cl">cp /var/lib/flatpak/exports/share/applications/io.gitlab.news_flash.NewsFlash.desktop ~/.local/share/applications/
+</span></span><span class="line"><span class="cl"><span class="c1"># edit the copied desktop file</span>
+</span></span><span class="line"><span class="cl">vi ~/.local/share/applications/io.gitlab.news_flash.NewsFlash.desktop
+</span></span><span class="line"><span class="cl"><span class="c1"># find `exec=` and replace with:</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Exec</span><span class="o">=</span>sh -c <span class="s1">&#39;GSK_RENDERER=opengl flatpak run io.gitlab.news_flash.NewsFlash&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># save &amp; exit</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Android and Apps</title><link>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</guid><description>Here&amp;#39;s apps using (actually in app list) daily</description><content:encoded><![CDATA[<p>I&rsquo;m using a Google Pixel 7a with stock Android. I considered switching to GrapheneOS, but is it really necessary to change to a custom ROM for my main phone? Or am I overthinking the need for extra privacy?  For now, I&rsquo;ve stayed on Pixel OS with Android 15.</p>
+<p><strong><a href="https://f-droid.org">F-Droid</a></strong> apps:</p>
+<table>
+  <thead>
+      <tr>
+          <th>App</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://github.com/syncthing/syncthing-android">Syncthing</a></td>
+          <td>Sync files between devices</td>
+      </tr>
+      <tr>
+          <td><a href="https://f-droid.org/packages/org.videolan.vlc/">VLC Player</a></td>
+          <td>Default media player</td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/termux/termux-app">Termux</a></td>
+          <td>Terminal</td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/jocmp/capyreader">Capy Reader</a></td>
+          <td>Read RSS feeds. Want to check my RSS feeds in <a href="https://cadil.github.io/bookmark/">here</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/uazo/cromite">Cromite</a></td>
+          <td>Main/default browser</td>
+      </tr>
+      <tr>
+          <td><a href="https://f-droid.org/packages/net.mullvad.mullvadvpn/">Mullvad VPN</a></td>
+          <td>VPN for mostly for privacy</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Play store</strong> apps:</p>
+<table>
+  <thead>
+      <tr>
+          <th>App</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.authy.authy&amp;hl=en_US">Authy</a></td>
+          <td>Secondary 2FA app for backups.</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.x8bit.bitwarden&amp;hl=en_US">Bitwarden</a></td>
+          <td>Password manager</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.discord&amp;hl=en_US">Discord</a></td>
+          <td>Communicate with friends and community</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;hl=en_US">Firefox</a></td>
+          <td>Primary browser</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&amp;hl=en_US">Google Fit</a></td>
+          <td>Track my activities because sometimes I run. Then need to know how far went (km) and how fast (pace) was going</td>
+      </tr>
+      <tr>
+          <td>Finance Apps</td>
+          <td>Local bank apps</td>
+      </tr>
+      <tr>
+          <td>Instagram</td>
+          <td>Using for connect friends</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.sony.songpal.mdr&amp;hl=en_US">Sound Connect</a></td>
+          <td>Sony headphone app. Track/monitor usage of Sony CH-720N</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=ch.protonmail.android&amp;hl=en_US">Proton Mail</a></td>
+          <td>General mail app</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.spotify.music&amp;hl=en_US">Spotify</a></td>
+          <td>Using for explore new artists and albums/single</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=md.obsidian&amp;hl=en_US">Obsidian</a></td>
+          <td>For Notes</td>
+      </tr>
+  </tbody>
+</table>
+]]></content:encoded></item><item><title>Fedora 40 - Config</title><link>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</link><pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</guid><description>Fedora 40 - Configuration</description><content:encoded><![CDATA[<p><img alt="fedora 40 - neofetch" loading="lazy" src="/posts/2024-07-11-fedora-40/images/fedora-40-neofetch.png">
+Configuration of Fedora 40</p>
+<h3 id="cleaning">Cleaning</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf remove mediawriter gnome-contacts gnome-weather gnome-maps gnome-boxes gnome-tour gnome-software cheese totem -y
+</span></span><span class="line"><span class="cl">sudo dnf autoremove -y
+</span></span><span class="line"><span class="cl">systemctl disable NetworkManager-wait-online
+</span></span><span class="line"><span class="cl">systemctl mask NetworkManager-wait-online
+</span></span></code></pre></div><h3 id="configuring">Configuring</h3>
+<p>Install flatpak:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+</span></span></code></pre></div><p>Install dnf5:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Insatall dnf5</span>
+</span></span><span class="line"><span class="cl">sudo ln -sf dnf-3 /usr/bin/dnf
+</span></span><span class="line"><span class="cl">sudo dnf install dnf5
+</span></span><span class="line"><span class="cl">sudo ln -sf dnf5 /usr/bin/dnf
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;max_parallel_downloads=10&#34;</span> <span class="p">|</span> sudo tee -a /etc/dnf/dnf.conf
+</span></span><span class="line"><span class="cl">sudo dnf5 install <span class="s1">&#39;dnf5-command(config-manager)&#39;</span>
+</span></span></code></pre></div><p>Other apps:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Nvidia</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://rpmfusion.org/Howto/NVIDIA</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Multimedia</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://rpmfusion.org/Howto/Multimedia</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo dnf install btop                      <span class="c1"># https://github.com/aristocratos/btop</span>
+</span></span><span class="line"><span class="cl">sudo dnf install kitty                     <span class="c1"># https://sw.kovidgoyal.net/kitty/</span>
+</span></span><span class="line"><span class="cl">sudo dnf install syncthing                 <span class="c1"># https://syncthing.net/</span>
+</span></span><span class="line"><span class="cl">sudo dnf install podman                    <span class="c1"># https://podman.io/</span>
+</span></span><span class="line"><span class="cl">sudo dnf install podman-compose
+</span></span><span class="line"><span class="cl">sudo dnf install fastfetch
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># install VLC Player</span>
+</span></span><span class="line"><span class="cl">sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span><span class="line"><span class="cl">sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span><span class="line"><span class="cl">sudo dnf install vlc
+</span></span></code></pre></div><h3 id="install-apps">Install Apps</h3>
+<h4 id="vpn">VPN</h4>
+<ul>
+<li><a href="https://tailscale.com">Tailscale</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -fsSL https://tailscale.com/install.sh <span class="p">|</span> sh
+</span></span></code></pre></div><ul>
+<li><a href="https://mullvad.net/en">Mullvad VPN</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://repository.mullvad.net/rpm/stable/mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf config-manager addrepo --from-repofile<span class="o">=</span>mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf update --refresh
+</span></span><span class="line"><span class="cl">sudo dnf install mullvad-vpn
+</span></span></code></pre></div><h4 id="apps-from-flatpak">Apps from flatpak</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Name                             Application ID
+</span></span><span class="line"><span class="cl">AnyDesk                          com.anydesk.Anydesk
+</span></span><span class="line"><span class="cl">Discord                          com.discordapp.Discord
+</span></span><span class="line"><span class="cl">Alpaca                           com.jeffser.Alpaca
+</span></span><span class="line"><span class="cl">Thincast Remote Desktop Client   com.thincast.client
+</span></span><span class="line"><span class="cl">Visual Studio Code               com.visualstudio.code
+</span></span><span class="line"><span class="cl">Newsflash                        io.gitlab.news_flash.NewsFlash
+</span></span><span class="line"><span class="cl">Obsidian                         md.obsidian.Obsidian
+</span></span><span class="line"><span class="cl">Mullvad Browser                  net.mullvad.MullvadBrowser
+</span></span><span class="line"><span class="cl">Signal Desktop                   org.signal.Signal
+</span></span><span class="line"><span class="cl">Kdenlive                         org.kde.kdenlive
+</span></span><span class="line"><span class="cl">darktable                        org.darktable.Darktable
+</span></span><span class="line"><span class="cl">Zen                              io.github.zen_browser.zen 
+</span></span></code></pre></div><h3 id="firefox-addons">Firefox addons</h3>
+<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark reader</a></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Bitwarden</a></li>
+<li><a href="https://ublockorigin.com/">uBlock Origin</a></li>
+</ul>
+<h3 id="keyboard-layout">Keyboard Layout</h3>
+<p>I&rsquo;ve been using Dusal bicheech for a decade now. Really appreciate <a href="https://github.com/almas">Almas</a> for creating Mongolian qwerty keyboard.
+<a href="https://dusal.blogmn.net/10759/">Dusal bicheech</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/almas/Dusal_Bicheech_XKB
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
+</span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
+</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Tailscale VPN(mesh) + Cloudflare + NextDNS + Nignx Proxy Manager (Let's Encrypt) SSL certificate тохируулах</title><link>https://ca4mi.github.io/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</guid><description>&lt;p>Note: Дээрх аргаас гадна өөр олон арга ашиглан vpn үүсгэх, тохируулах боломжтой.&lt;/p>
 &lt;h3 id="domain-худалдан-авах">Domain худалдан авах&lt;/h3>
 &lt;p>Энэ удаа hover.com-с domain аван тохируулга хийнэ. Нэвтрэн ороод авах гэж domain нэрээр хайлт хийнэ. Гарч ирсэн утгуудаас сонголт хийн худалдан авна. Domain, нэг жилдээ хямдхан, дараа жилээс үнэ нь 10 хэд дахин өсдөг тул сунгалт хийхэд үнийн өсөлт бага байхаар худалдан авалт хийгээрэй.
 &lt;img alt="Hover.com domain pick" loading="lazy" src="https://ca4mi.github.io/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325000838.png">
 &lt;code>hosono.space&lt;/code> нэртэй domain худалдан авлаа.&lt;/p>
 &lt;h4 id="domain-dns">Domain DNS&lt;/h4>
 &lt;p>hosono.space domain-н тохироо дах DNS хэсэгт доорх байдлаар тохируулга хийнэ:
-&lt;img alt="Hover.com domain DNS" loading="lazy" src="https://ca4mi.github.io/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325001442.png">&lt;/p></description></item><item><title>Negun cashmere</title><link>https://ca4mi.github.io/photos/2024-03-03-negun/</link><pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2024-03-03-negun/</guid><description>Negun cashmere</description></item><item><title>Chayodu</title><link>https://ca4mi.github.io/photos/2024-02-17-chayodu/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2024-02-17-chayodu/</guid><description>Chayodu</description></item><item><title>Thinkpad R500-д Almalinux 8 OS + Docker + Nginx proxy manager + SSL certificate + DuckDNS</title><link>https://ca4mi.github.io/posts/2024-01-18-docker-thinkpadr500/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-01-18-docker-thinkpadr500/</guid><description>Nginx Proxy Manager + DuckDNS + Containers</description></item><item><title>Chikara Kendo</title><link>https://ca4mi.github.io/photos/2023-11-26-chikara-kendo/</link><pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2023-11-26-chikara-kendo/</guid><description>Chikara Kendo</description></item><item><title>Monad</title><link>https://ca4mi.github.io/photos/2022-07-03-monad/</link><pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-07-03-monad/</guid><description>Monad</description></item><item><title>XanaX - 2022</title><link>https://ca4mi.github.io/photos/2022-07-01-xanax/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-07-01-xanax/</guid><description>XanaX - 2022</description></item><item><title>7-694 Good Memories</title><link>https://ca4mi.github.io/photos/2022-05-31-7-694-gm/</link><pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-05-31-7-694-gm/</guid><description>7-694 Series - Good Memories</description></item><item><title>UV Brand - 2022</title><link>https://ca4mi.github.io/photos/2022-04-05-uv-brand/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-04-05-uv-brand/</guid><description>UV Brand - 2022</description></item><item><title>ГРАЦИЕ - /Gratsiye/</title><link>https://ca4mi.github.io/photos/2022-03-21-gratsiye/</link><pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-03-21-gratsiye/</guid><description>`Gratsiye` photos during 2022</description></item><item><title>Gerhub X Uukhai</title><link>https://ca4mi.github.io/photos/2022-03-19-gerhub-x-uukhai/</link><pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-03-19-gerhub-x-uukhai/</guid><description>Gerhub X Uukhai</description></item><item><title>Bilgun Zayah - 2022</title><link>https://ca4mi.github.io/photos/2022-02-14-bilgun-zayah/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-02-14-bilgun-zayah/</guid><description>Bilgun Zayah - 2022</description></item><item><title>Tsedoo</title><link>https://ca4mi.github.io/photos/2022-01-13-tsedoo/</link><pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-01-13-tsedoo/</guid><description>Tsedoo</description></item><item><title>Motocross</title><link>https://ca4mi.github.io/photos/2021-08-08-motocross/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-08-08-motocross/</guid><description>Motocross</description></item><item><title>Anna &amp; Chayo</title><link>https://ca4mi.github.io/photos/2021-06-19-anna/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-06-19-anna/</guid><description>Anna &amp;amp; Chayo</description></item><item><title>Mongol Textile</title><link>https://ca4mi.github.io/photos/2021-06-12-mongol-textile/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-06-12-mongol-textile/</guid><description>Mongol Textile</description></item><item><title>7-694</title><link>https://ca4mi.github.io/photos/2021-05-13-7-694/</link><pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-05-13-7-694/</guid><description>7-694</description></item><item><title>Git</title><link>https://ca4mi.github.io/posts/2016-01-03-git/</link><pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2016-01-03-git/</guid><description>Git</description></item><item><title>Bookmark</title><link>https://ca4mi.github.io/bookmark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/bookmark/</guid><description>Bookmarks</description></item><item><title>Using for daily</title><link>https://ca4mi.github.io/using/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/using/</guid><description>Here&amp;rsquo;s list of items that using for daily</description></item></channel></rss>
+&lt;img alt="Hover.com domain DNS" loading="lazy" src="https://ca4mi.github.io/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325001442.png">&lt;/p></description><content:encoded><![CDATA[<p>Note: Дээрх аргаас гадна өөр олон арга ашиглан vpn үүсгэх, тохируулах боломжтой.</p>
+<h3 id="domain-худалдан-авах">Domain худалдан авах</h3>
+<p>Энэ удаа hover.com-с domain аван тохируулга хийнэ. Нэвтрэн ороод авах гэж domain нэрээр хайлт хийнэ. Гарч ирсэн утгуудаас сонголт хийн худалдан авна. Domain, нэг жилдээ хямдхан, дараа жилээс үнэ нь 10 хэд дахин өсдөг тул сунгалт хийхэд үнийн өсөлт бага байхаар худалдан авалт хийгээрэй.
+<img alt="Hover.com domain pick" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325000838.png">
+<code>hosono.space</code> нэртэй domain худалдан авлаа.</p>
+<h4 id="domain-dns">Domain DNS</h4>
+<p>hosono.space domain-н тохироо дах DNS хэсэгт доорх байдлаар тохируулга хийнэ:
+<img alt="Hover.com domain DNS" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325001442.png"></p>
+<table>
+  <thead>
+      <tr>
+          <th>TYPE</th>
+          <th>HOST</th>
+          <th>VALUE</th>
+          <th>TTL</th>
+          <th>ADDED BY</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>*</td>
+          <td>216.40.34.41</td>
+          <td>15 Minutes</td>
+          <td>Hover</td>
+      </tr>
+      <tr>
+          <td>A</td>
+          <td>@</td>
+          <td>216.40.34.41</td>
+          <td>15 Minutes</td>
+          <td>Hover</td>
+      </tr>
+      <tr>
+          <td>MX</td>
+          <td>@</td>
+          <td>10 mx.hover.com.cust.hostedemail.com</td>
+          <td>15 Minutes</td>
+          <td>Hover</td>
+      </tr>
+      <tr>
+          <td>CNAME</td>
+          <td>mail</td>
+          <td>mail.hover.com.cust.hostedemail.com</td>
+          <td>15 Minutes</td>
+          <td>Hover</td>
+      </tr>
+  </tbody>
+</table>
+<p><code>MX</code>, <code>CNAME</code> тохируулга хийхгүй байж болно.</p>
+<h4 id="domain-nameserver">Domain Nameserver</h4>
+<p>Overview хэсэг дах Nameserver хэсэгт edit хийнэ
+<img alt="Edit Nameserver" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325004547.png">
+<code>ridge.ns.cloudflare.com</code>, <code>tess.ns.cloudflare.com</code> оруулан save хийнэ.</p>
+<h3 id="cloudflare-д-бүртгүүлэх--тохируулах">Cloudflare-д бүртгүүлэх &amp; тохируулах</h3>
+<h4 id="dns-records">DNS Records</h4>
+<p>Cloudflare.com хаягаар орон бүртгэлгүй бол шинээр бүртгүүлнэ. Нэвтрэн ороод Websites хэсгээр орон <code>Add a site</code> дээр даран өмнө авсан domain нэрээ оруулаарай. <code>DNS</code> цэсээр орон Records бүртгэл хийнэ.
+<img alt="Cloudflare add DNS records for domain" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325003911.png"></p>
+<table>
+  <thead>
+      <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Content</th>
+          <th>Proxy Status</th>
+          <th>TLL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>*</td>
+          <td>216.40.34.41</td>
+          <td>Proxied</td>
+          <td>Auto</td>
+      </tr>
+      <tr>
+          <td>A</td>
+          <td>hosono.space</td>
+          <td>216.40.34.41</td>
+          <td>Proxied</td>
+          <td>Auto</td>
+      </tr>
+      <tr>
+          <td>A</td>
+          <td>www</td>
+          <td>216.40.34.41</td>
+          <td>Proxied</td>
+          <td>Auto</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="api-token-авах">API Token авах</h4>
+<p>Overview цэсээс доошлуулаад харвал API гэсэн хэсэг байгаа Get your IP token дээр дарна.
+<img alt="Cloudflare get API Token" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325171509.png"></p>
+<p><code>Edit zone DNS</code> дэх use template -г сонгоно.
+<img alt="Edit zone DNS" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325174231.png">
+Нэр, Permission, Zone Resources -г доорх зургийн дагуу тохируулаад <code>Contiune and summary</code> дарна.
+<img alt="Edit zone DNS" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325173045.png">
+Permissions:
+<code>Zone</code>, <code>DNS</code>, <code>Edit</code>
+Zone Resources
+<code>Include</code>, <code>All Zones</code></p>
+<p>Create Token дарна:
+<img alt="Create Token" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325174717.png"></p>
+<p><code>gjeuX3Jw8zXCCohha11N9zauX4y02XVx8ZrmY5Nt</code> token-гоо хуулж аваарай. Бусдад дамжуулах ил газар хуулаад хэрэггүй юм.
+<img alt="Copy token" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325174908.png">
+Note: Жишээ энэ token-г устгасан болно.</p>
+<h3 id="nignx-proxy-manager">Nignx Proxy Manager</h3>
+<h4 id="npm">NPM</h4>
+<p>NPM суулгах заавартай <a href="https://ca4mi.github.io/posts/2024-01-18-docker-thinkpadr500/">энд</a> даран дэлгэрүүлэн үзнэ үү. Товчоор бол <code>docker-compose.yml</code> дотор жишээ нь:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2.2&#39;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">nginxproxymanager</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;jc21/nginx-proxy-manager:latest&#39;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">nginxproxymanager</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;80:80&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;81:81&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;443:443&#39;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./nginx/data:/data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./nginx/letsencrypt:/etc/letsencrypt</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="c"># default cred: admin@example.com, changeme</span><span class="w">
+</span></span></span></code></pre></div><p>суулгаад <code>localhost:81</code> -р хандан default creds хандалт хийнэ.</p>
+<h4 id="lets-encrypt---cloudflare">Let&rsquo;s Encrypt - Cloudflare</h4>
+<p><code>SSL Certificates</code> -&gt;  <code>Add SSL Certificate</code> -&gt; <code>Let's Encrypt</code> сонгоно.
+<img alt="Add SSL - Let&rsquo;s Encrypt" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325180527.png"></p>
+<table>
+  <thead>
+      <tr>
+          <th>Талбар</th>
+          <th>Тайлбар</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Domain Names</td>
+          <td>Эхэнд авсан domain-г бичин оруулна. <code>*.hosono.space</code> г.м</td>
+      </tr>
+      <tr>
+          <td>Email Address for Let&rsquo;s Encrypt</td>
+          <td>Certificates хугацаа дуусах үед мэдэгдэл авах мэйл хаяг бичин тохируулна</td>
+      </tr>
+      <tr>
+          <td>Use a DNS Challenge</td>
+          <td>Үүнийг чагтлах</td>
+      </tr>
+      <tr>
+          <td>DNS Provider</td>
+          <td>Cloudflare -г сонгоно</td>
+      </tr>
+      <tr>
+          <td>Credentials File Content</td>
+          <td>Cloudflares-с авсан API token-г 1234 гэсэн тоон утгийн оронд солин оруулна</td>
+      </tr>
+      <tr>
+          <td>Propagation Seconds</td>
+          <td>Хоосон орхиж болно</td>
+      </tr>
+      <tr>
+          <td>I Agree</td>
+          <td>Үүнийг чагтлах</td>
+      </tr>
+  </tbody>
+</table>
+<p>Credentials File Content:</p>
+<pre tabindex="0"><code>dns_cloudflare_api_token = &lt;Cloudflare API token байна&gt;
+</code></pre><h4 id="proxy-hosts">Proxy Hosts</h4>
+<p>Add proxy hosts дээр даран жишээ нь jellyfin-г тохируулж буйг зургаас харна уу. Domain name хэсэгт хандах subdomain бичнэ. Scheme, IP, forward port-ууд тухайн container-н тохиргооноос хамааран өөр байна. Jellyfin-н default port: 8096, docker-compose дотор container name нь jellyfin ба compose нэг network-д тул container name-г хандалт хийж болох юм г.м.
+<img alt="Proxy Hosts" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328155401.png"></p>
+<p>SSL цэсээр орон SSL Certificate талбарт өмнө үүсгэсэн <code>*.hosono.space</code> -г сонгоод <code>force SSL</code>, <code>HTTPS Support</code> сонгон save хийнэ.
+<img alt="Proxy Hosts" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328155453.png"></p>
+<p>Энэ мэтээр proxy hosts тохируулах юм.</p>
+<h3 id="tailscale--nextdns">Tailscale &amp; NextDNS</h3>
+<p><a href="https://tailscale.com">Tailscale</a> бүртгэлгүй бол бүртгүүлээд сервер дээрээ <a href="https://tailscale.com/kb/1347/installation">script</a> ашиглан суулгаад machine бүртгэл хийгээд approve хийсэн бол доорх зураг шиг харагдана.
+<img alt="Tailscale dashbaord" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328161357.png"></p>
+<p><a href="https://nextdns.io">NextDNS</a> бүртгэлгүй бол бүртгүүлээд Endpoints хэсэг дэх ID хуулна. Tailscale-н dashbaord руу буцан ороод DNS цэсээр орон <code>Add nameserver</code> дээр даран <code>NextDNS</code>-г сонгоно.
+<img alt="Add nameserver" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328163003.png"></p>
+<p>Гарч ирсэн цонхонд NextDNS-н Endpoints хэсэг дэх ID-г оруулан save. Дараа нь <code>Override local DNS</code> -г on болгоно.
+<img alt="NextDNS endpoints" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328163200.png"></p>
+<p>Үүний дараа NextDNS <a href="https://my.nextdns.io/">тохиргоон</a> дах Settings хэсэг дах Rewrites-д <code>New rewrite</code> оруулна.
+<img alt="NextDNS rewrites" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328164037.png">
+Domain талбарт <code>hosono.space</code>, Answer хэсэгт tailscale-н machine IP address оруулан save. Save хийсэн бол дараах байдалтай харагдана.
+<img alt="NextDNS rewrites sample" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328164305.png">
+Tailscale -г on болгоод <code>https://jellyfin.hosono.space</code> руу хандан, SSL Cert шалгавал:
+<img alt="Shown SSL Cert on jellyfin" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240328160211.png"></p>
+]]></content:encoded></item><item><title>Negun cashmere</title><link>https://ca4mi.github.io/photos/2024-03-03-negun/</link><pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2024-03-03-negun/</guid><description>Negun cashmere</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2284.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2510.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2612.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2621.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2689.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2694.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2991.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2995.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_2991.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-03-03-negun/images/CDL_3056.avif"></p>
+]]></content:encoded></item><item><title>Chayodu</title><link>https://ca4mi.github.io/photos/2024-02-17-chayodu/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2024-02-17-chayodu/</guid><description>Chayodu</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-02-17-chayodu/images/CDL_1520.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-02-17-chayodu/images/CDL_1555.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-02-17-chayodu/images/CDL_1967.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-02-17-chayodu/images/CDL_2026.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2024-02-17-chayodu/images/CDL_2111.avif"></p>
+]]></content:encoded></item><item><title>Thinkpad R500-д Almalinux 8 OS + Docker + Nginx proxy manager + SSL certificate + DuckDNS</title><link>https://ca4mi.github.io/posts/2024-01-18-docker-thinkpadr500/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-01-18-docker-thinkpadr500/</guid><description>Nginx Proxy Manager + DuckDNS + Containers</description><content:encoded><![CDATA[<h4 id="os">OS</h4>
+<p>Almalinux 8.9 minimal <a href="https://mirrors.almalinux.org/isos/x86_64/8.9.html">ISO</a> суулгасан. Суулгах явцад root-с тусад нь user үүсгэн wheel группд нэмсэн.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># hostnamectl</span>
+</span></span><span class="line"><span class="cl">         Icon name: computer-laptop
+</span></span><span class="line"><span class="cl">           Chassis: laptop
+</span></span><span class="line"><span class="cl">  Operating System: AlmaLinux 8.9 <span class="o">(</span>Midnight Oncilla<span class="o">)</span>
+</span></span><span class="line"><span class="cl">       CPE OS Name: cpe:/o:almalinux:almalinux:8::baseos
+</span></span><span class="line"><span class="cl">            Kernel: Linux 4.18.0-513.9.1.el8_9.x86_64
+</span></span><span class="line"><span class="cl">      Architecture: x86-64
+</span></span><span class="line"><span class="cl"><span class="c1"># lshw</span>
+</span></span><span class="line"><span class="cl">    vendor: LENOVO
+</span></span><span class="line"><span class="cl">    version: ThinkPad R500
+</span></span><span class="line"><span class="cl">    cpu: Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 @ 1.90GHz
+</span></span><span class="line"><span class="cl">    ram: 8G DDR2 800MHz
+</span></span></code></pre></div><h4 id="docker--docker-compose">Docker &amp; docker compose</h4>
+<p>Суулгах</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf upgrade
+</span></span><span class="line"><span class="cl">sudo dnf install yum-utils
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo dnf install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Complete бол сервис асаана</span>
+</span></span><span class="line"><span class="cl">sudo systemctl start docker
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> docker
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># check version</span>
+</span></span><span class="line"><span class="cl">docker --version
+</span></span><span class="line"><span class="cl"><span class="c1"># Docker version 24.0.7, build afdd53b</span>
+</span></span><span class="line"><span class="cl">docker-compose --version
+</span></span><span class="line"><span class="cl"><span class="c1"># Docker Compose version v2.12.2</span>
+</span></span></code></pre></div><p>Compose ажиллахгүй бол энэ аргаар суулгана:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -L <span class="s2">&#34;https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-</span><span class="k">$(</span>uname -s<span class="k">)</span><span class="s2">-</span><span class="k">$(</span>uname -m<span class="k">)</span><span class="s2">&#34;</span> -o /usr/bin/docker-compose
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">chmod +x /usr/bin/docker-compose
+</span></span></code></pre></div><p>Non root user бол docker group үүсгээд sudo үүсгэх боломжтой болгоорой.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Add alma user to wheel group</span>
+</span></span><span class="line"><span class="cl">sudo usermod -aG wheel alma
+</span></span><span class="line"><span class="cl"><span class="c1"># Add alma user to docker group</span>
+</span></span><span class="line"><span class="cl">sudo usermod -aG docker alma
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># groups</span>
+</span></span><span class="line"><span class="cl">alma wheel docker
+</span></span><span class="line"><span class="cl"><span class="c1"># id</span>
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>alma<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1000<span class="o">(</span>alma<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1000<span class="o">(</span>alma<span class="o">)</span>,10<span class="o">(</span>wheel<span class="o">)</span>,992<span class="o">(</span>docker<span class="o">)</span>
+</span></span></code></pre></div><h4 id="docker-compose">Docker compose</h4>
+<p><a href="https://nginxproxymanager.com/">nginxproxymanager</a>, <a href="https://nextcloud.com/">nextcloud</a>, <a href="https://www.home-assistant.io/">homeassistant</a>, <a href="https://jellyfin.org/">jellyfin</a>, <a href="https://github.com/bitnami/containers/blob/main/bitnami/odoo/docker-compose.yml">odoo+postgres</a>, <a href="https://www.navidrome.org/">navidrome</a> docker compose бүрдэнэ. Nginx proxy manager дээр HTTPS (Let&rsquo;s encrypt) авахад бас <a href="https://www.duckdns.org/">DuckDNS</a> domain авахад ашиглана. Docker network-оо дундаа ашиглана. 3 port docker -с host руу 80, 81, 443 expose хийсэн.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2.2&#39;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">nginxproxymanager</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;jc21/nginx-proxy-manager:latest&#39;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">nginxproxymanager</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;80:80&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;81:81&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s1">&#39;443:443&#39;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./nginx/data:/data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./nginx/letsencrypt:/etc/letsencrypt</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="c"># default cred: admin@example.com, changeme</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">nextcloud</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">lscr.io/linuxserver/nextcloud:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">nextcloud</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PUID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PGID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">TZ=Asia/Ulaanbaatar</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./nextcloud/appdata:/config </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./nextcloud/data:/data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">homeassistant</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">lscr.io/linuxserver/homeassistant:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">homeassistant </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PUID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PGID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">TZ=Asia/Ulaanbaatar</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./hass/config:/config </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">jellyfin</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">lscr.io/linuxserver/jellyfin:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">jellyfin </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PUID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PGID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">TZ=Asia/Ulaanbaatar</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./jellyfin/config:/config</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./jellyfin/tvshows:/data/tvshows</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./jellyfin/movies:/data/movies </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">postgresql</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">docker.io/bitnami/postgresql:16</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">postgresql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PUID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PGID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">TZ=Asia/Ulaanbaatar</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">ALLOW_EMPTY_PASSWORD=yes</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">POSTGRESQL_USERNAME=bn_odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">POSTGRESQL_DATABASE=bitnami_odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./postgresql/postgresql-persistence:/bitnami/postgresql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">odoo</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">docker.io/bitnami/odoo:17</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PUID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PGID=1000</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">TZ=Asia/Ulaanbaatar</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">ALLOW_EMPTY_PASSWORD=yes</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">ODOO_DATABASE_HOST=postgresql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">ODOO_DATABASE_PORT_NUMBER=5432</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">ODOO_DATABASE_USER=bn_odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">ODOO_DATABASE_NAME=bitnami_odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./odoo/odoo-persistence:/bitnami/odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">depends_on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">postgresql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c"># default cred: user@example.com, bitnami</span><span class="w">
+</span></span></span></code></pre></div><p>Compose run:</p>
+<pre tabindex="0"><code>docker-compose up -d
+</code></pre><p><code>docker ps</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">CONTAINER ID   IMAGE                                      COMMAND                  CREATED         STATUS                   PORTS                                                                                  NAMES
+</span></span><span class="line"><span class="cl">0f35e9aafd25   bitnami/odoo:17                            <span class="s2">&#34;/opt/bitnami/script…&#34;</span>   <span class="m">6</span> minutes ago   Up <span class="m">6</span> minutes             3000/tcp, 8069/tcp, 8072/tcp                                                           odoo
+</span></span><span class="line"><span class="cl">91faa3c03087   lscr.io/linuxserver/homeassistant:latest   <span class="s2">&#34;/init&#34;</span>                  <span class="m">6</span> minutes ago   Up <span class="m">6</span> minutes             8123/tcp                                                                               homeassistant
+</span></span><span class="line"><span class="cl">a2aa28911120   lscr.io/linuxserver/nextcloud:latest       <span class="s2">&#34;/init&#34;</span>                  <span class="m">6</span> minutes ago   Up <span class="m">6</span> minutes             80/tcp, 443/tcp                                                                        nextcloud
+</span></span><span class="line"><span class="cl">89039950eded   bitnami/postgresql:16                      <span class="s2">&#34;/opt/bitnami/script…&#34;</span>   <span class="m">6</span> minutes ago   Up <span class="m">6</span> minutes             5432/tcp                                                                               postgresql
+</span></span><span class="line"><span class="cl">a2c89d8405bf   jc21/nginx-proxy-manager:latest            <span class="s2">&#34;/init&#34;</span>                  <span class="m">6</span> minutes ago   Up <span class="m">6</span> minutes             0.0.0.0:80-81-&gt;80-81/tcp, :::80-81-&gt;80-81/tcp, 0.0.0.0:443-&gt;443/tcp, :::443-&gt;443/tcp   nginxproxymanager
+</span></span><span class="line"><span class="cl">029423ea3e20   lscr.io/linuxserver/jellyfin:latest        <span class="s2">&#34;/init&#34;</span>                  <span class="m">6</span> minutes ago   Up <span class="m">6</span> minutes             8096/tcp, 8920/tcp                                                                     jellyfin
+</span></span></code></pre></div><h4 id="port-нээх">Port нээх</h4>
+<p>docker expose хийсэн портуудыг хост талдаа нээнэ.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Host port нээх</span>
+</span></span><span class="line"><span class="cl">sudo firewall-cmd --zone<span class="o">=</span>public --add-service<span class="o">=</span>http --permanent
+</span></span><span class="line"><span class="cl">sudo firewall-cmd --zone<span class="o">=</span>public --add-port 8080/tcp --permanent
+</span></span><span class="line"><span class="cl"><span class="c1"># reload хийх</span>
+</span></span><span class="line"><span class="cl">sudo firewall-cmd --reload
+</span></span><span class="line"><span class="cl"><span class="c1"># port шалгах</span>
+</span></span><span class="line"><span class="cl">sudo firewall-cmd --zone<span class="o">=</span>public --list-ports
+</span></span></code></pre></div><h3 id="host-д-persist-хийгдсэн-volume">Host-д persist хийгдсэн volume</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#pwd</span>
+</span></span><span class="line"><span class="cl">/home/alma/docker/compose
+</span></span><span class="line"><span class="cl"><span class="c1">#ls -la -d * */*</span>
+</span></span><span class="line"><span class="cl">-rw-rw-r--. <span class="m">1</span> alma             alma <span class="m">2022</span> Jan <span class="m">18</span> 00:59 docker-compose.yml
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">3</span> root             root   <span class="m">20</span> Jan  <span class="m">6</span> 01:49 hass
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">8</span> alma             alma <span class="m">4096</span> Jan <span class="m">18</span> 01:21 hass/config
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">5</span> root             root   <span class="m">49</span> Jan  <span class="m">6</span> 01:49 jellyfin
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">6</span> alma             alma  <span class="m">179</span> Jan <span class="m">16</span> 09:28 jellyfin/config
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">2</span> alma             alma <span class="m">4096</span> Jan <span class="m">14</span> 07:43 jellyfin/movies
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">4</span> alma             alma   <span class="m">54</span> Jan <span class="m">14</span> 07:43 jellyfin/tvshows
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">4</span> root             root   <span class="m">33</span> Jan  <span class="m">6</span> 01:49 nextcloud
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">7</span> alma             alma   <span class="m">95</span> Jan  <span class="m">6</span> 02:30 nextcloud/appdata
+</span></span><span class="line"><span class="cl">drwxrwx---. <span class="m">5</span> alma             alma  <span class="m">158</span> Jan <span class="m">18</span> 06:30 nextcloud/data
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">4</span> root             root   <span class="m">37</span> Jan  <span class="m">6</span> 01:49 nginx
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">7</span> root             root  <span class="m">137</span> Jan <span class="m">18</span> 06:02 nginx/data
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">8</span> root             root  <span class="m">104</span> Jan <span class="m">18</span> 06:02 nginx/letsencrypt
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">3</span> root             root   <span class="m">30</span> Jan <span class="m">17</span> 23:28 odoo
+</span></span><span class="line"><span class="cl">drwxrwxr-x. <span class="m">5</span> systemd-coredump root   <span class="m">44</span> Jan <span class="m">18</span> 01:01 odoo/odoo-persistence
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">3</span> root             root   <span class="m">36</span> Jan <span class="m">18</span> 00:54 postgresql
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">3</span>             <span class="m">1001</span> <span class="m">1001</span>   <span class="m">18</span> Jan <span class="m">18</span> 00:58 postgresql/postgresql-persistence
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">4</span> root             root   <span class="m">31</span> Mar  <span class="m">2</span> 15:02 navidrome
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">3</span> root             root   <span class="m">87</span> Mar  <span class="m">2</span> 15:02 navidrome/data
+</span></span><span class="line"><span class="cl">drwxr-xr-x. <span class="m">2</span> root             root    <span class="m">6</span> Mar  <span class="m">2</span> 15:02 navidrome/music
+</span></span></code></pre></div><p>non-root container-н хувьд permission алдаа заавал, жишээ нь postgresql:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo chown -R 1001:1001 postgresql/postgresql-persistence
+</span></span></code></pre></div><p>Permission denied хийж байвал:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># jellyfin</span>
+</span></span><span class="line"><span class="cl">sudo chown -R alma:alma movies
+</span></span><span class="line"><span class="cl">sudo chmod -R <span class="m">755</span> movies <span class="c1">#tvshows</span>
+</span></span></code></pre></div><h3 id="nginx-proxy-manager">Nginx proxy manager</h3>
+<p><code>http://server-ip:81</code> хандан default creds-р (<code>admin@example.com</code> pass: <code>changeme</code>) нэвтэрнэ. Дараа нь <a href="https://duckdns.org/">DuckDNS</a> бүртгүүлээд sub domain (жишээ нь <code>hosono</code>.duckdns.org г.м) авна. <code>Current IP</code> хэсэгт host-н IP (192.168.1.200 г.м) save хийнэ дээд хэсэгт <code>token</code> -copy хийнэ.</p>
+<p>Nginx proxy manager -&gt; SSL Certificate -&gt; Add Let&rsquo;s Encrypt Certificate -&gt;  Let&rsquo;s Encrypt орон Domain Names хэсэгт DuckDNS авсан domain-аа (<code>*.hosono.duckdns.org</code> болон <code>hosono.duckdns.org</code>) оруулна. Email хэсэгт мэдэгдэл авах мэйл хаягаа оруулна. Use a DNS Challenge -г enable хийгээд <code>DuckDNS</code> сонгоод <code>dns_duckdns_token=өмнө copy хийсэн token-oo энд paste хийнэ</code>. Propagation Seconds хэсэгт <code>120</code> гэж бичээд save. Алдаа заавал дахин save хийнэ.</p>
+<h4 id="proxy-entry">Proxy entry</h4>
+<p><code>hosono.duckdns.org</code> -г <code>http://nginxproxymanager:81</code>
+<code>jellyfin.hosono.duckdns.org</code> -г <code>http://jellyfin:8096</code> гэх мэтээр Certificate тохируулахад Proxy host-ууд бүртгэнэ.</p>
+<p>Domain Names хэсэгт бүртгэж буй sub domain-аа бичин, Scheme хэсэгт <code>http</code> <code>https</code> -с сонгоно. container талаас 443 default хийгдээгүй л бол ихэхндээ <code>http</code> -г сонгоно.  Forward Hostname / IP хэсэгт container name эсхүл 127.0.0.1 байж болно.</p>
+<p>SSL хэсэгт SSL Certificate -д бүртгэсэн DuckDNS -с сонгоод Force SSL, HTTP/2 Support гэдгийг сонгоод хадаглах юм. Энэ мэтээр subdomain -уудаа бүртгэнэ.</p>
+<table>
+  <thead>
+      <tr>
+          <th>SOURCE</th>
+          <th>DESTINATION</th>
+          <th>SSL</th>
+          <th>ACCESS</th>
+          <th>STATUS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>home.hosono.duckdns.org</td>
+          <td>http://homeassistant:8123</td>
+          <td>Let&rsquo;s Encrypt</td>
+          <td>Public</td>
+          <td>Online</td>
+      </tr>
+      <tr>
+          <td>hosono.duckdns.org</td>
+          <td>http://nginxproxymanager:81</td>
+          <td>Let&rsquo;s Encrypt</td>
+          <td>Public</td>
+          <td>Online</td>
+      </tr>
+      <tr>
+          <td>jellyfin.hosono.duckdns.org</td>
+          <td>http://jellyfin:8096</td>
+          <td>Let&rsquo;s Encrypt</td>
+          <td>Public</td>
+          <td>Online</td>
+      </tr>
+      <tr>
+          <td>nextcloud.hosono.duckdns.org</td>
+          <td>https://nextcloud:443</td>
+          <td>Let&rsquo;s Encrypt</td>
+          <td>Public</td>
+          <td>Online</td>
+      </tr>
+      <tr>
+          <td>odoo.hosono.duckdns.org</td>
+          <td>http://odoo:8069</td>
+          <td>Let&rsquo;s Encrypt</td>
+          <td>Public</td>
+          <td>Online</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="ha">HA</h5>
+<p>http://homeassistant:8123 хувьд Proxy бүртгэх дээ Websockets Supports гэдгийг чагтлан өгнө. Дараа нь npm ажиллаж байгаа IP хаягийн мэдээллийг аван HASS дотор configuration.yml -г trusted_proxy хэсэгт npm нэмэн оруулна</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker inspect nginxproxymanager
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;IPAddress&#34;</span>: <span class="s2">&#34;172.23.0.2&#34;</span>
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># /home/user/docker/compose/hass/config</span>
+</span></span><span class="line"><span class="cl">vi configuration.yaml
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl">http:
+</span></span><span class="line"><span class="cl">  use_x_forwarded_for: <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">  trusted_proxies:
+</span></span><span class="line"><span class="cl">    - 172.23.0.0/24
+</span></span><span class="line"><span class="cl">  <span class="c1"># - 172.23.0.5</span>
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></div><p>configuration.yaml save хийгээд homeassistant restart хийнэ:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker restart homeassistant
+</span></span></code></pre></div><h3 id="watchtower">Watchtower</h3>
+<p>Гараар container-ууд update хийнэ.
+/Docker-compose дотор байнга ажилладаг байхаар тохируулж бас болно/</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker run -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once
+</span></span></code></pre></div><h3 id="bookmarks">Bookmarks</h3>
+<ul>
+<li><a href="https://youtu.be/qlcVx-k-02E">https://youtu.be/qlcVx-k-02E</a></li>
+<li><a href="https://notthebe.ee/blog/easy-ssl-in-homelab-dns01/">https://notthebe.ee/blog/easy-ssl-in-homelab-dns01/</a></li>
+<li><a href="https://github.com/bitnami/containers/tree/main/bitnami/odoo#configuration">https://github.com/bitnami/containers/tree/main/bitnami/odoo#configuration</a></li>
+<li><a href="https://linux.how2shout.com/how-to-open-or-close-ports-in-almalinux-8-or-rocky-firewall/">https://linux.how2shout.com/how-to-open-or-close-ports-in-almalinux-8-or-rocky-firewall/</a></li>
+<li><a href="https://techoverflow.net/2020/01/28/how-to-fix-bitnami-mariadb-mkdir-cannot-create-directory-bitnami-mariadb-permission-denied/">https://techoverflow.net/2020/01/28/how-to-fix-bitnami-mariadb-mkdir-cannot-create-directory-bitnami-mariadb-permission-denied/</a></li>
+<li><a href="https://github.com/containrrr/watchtower/discussions/901">https://github.com/containrrr/watchtower/discussions/901</a></li>
+<li><a href="https://containrrr.dev/watchtower/">https://containrrr.dev/watchtower/</a></li>
+<li><a href="https://github.com/navidrome/navidrome">https://github.com/navidrome/navidrome</a></li>
+</ul>
+]]></content:encoded></item><item><title>Chikara Kendo</title><link>https://ca4mi.github.io/photos/2023-11-26-chikara-kendo/</link><pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2023-11-26-chikara-kendo/</guid><description>Chikara Kendo</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7008.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7017.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7069.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7080.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7083.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7092-Edit.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7162.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7229.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7267.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7005.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7011.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7036.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7064.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7110.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2023-11-26-chikara-kendo/images/CDL_7170.avif"></p>
+]]></content:encoded></item><item><title>Monad</title><link>https://ca4mi.github.io/photos/2022-07-03-monad/</link><pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-07-03-monad/</guid><description>Monad</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-03-monad/images/CDL_7547.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-03-monad/images/CDL_7570.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-03-monad/images/CDL_7573.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-03-monad/images/CDL_7574.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-03-monad/images/CDL_7580.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-03-monad/images/CDL_7582.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-03-monad/images/CDL_7586.avif"></p>
+]]></content:encoded></item><item><title>XanaX - 2022</title><link>https://ca4mi.github.io/photos/2022-07-01-xanax/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-07-01-xanax/</guid><description>XanaX - 2022</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_6891.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_6968.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7009.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7088.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7104.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7147.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7267.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7306.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7328.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7372.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-07-01-xanax/images/CDL_7440.avif"></p>
+]]></content:encoded></item><item><title>7-694 Good Memories</title><link>https://ca4mi.github.io/photos/2022-05-31-7-694-gm/</link><pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-05-31-7-694-gm/</guid><description>7-694 Series - Good Memories</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_4956.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_4975.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5086.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5161.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5196.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5208.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5271.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5276.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5289.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5340.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5433.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5455.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5480.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5506.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5514.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5586.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5665.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-05-31-7-694-gm/images/CDL_5681.avif"></p>
+]]></content:encoded></item><item><title>UV Brand - 2022</title><link>https://ca4mi.github.io/photos/2022-04-05-uv-brand/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-04-05-uv-brand/</guid><description>UV Brand - 2022</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_3985.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4012.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4054.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4061.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4081.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4129.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4140.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4182.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4276.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-04-05-uv-brand/images/CDL_4301.avif"></p>
+]]></content:encoded></item><item><title>ГРАЦИЕ - /Gratsiye/</title><link>https://ca4mi.github.io/photos/2022-03-21-gratsiye/</link><pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-03-21-gratsiye/</guid><description>`Gratsiye` photos during 2022</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-21-gratsiye/images/CDL_3693.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-21-gratsiye/images/CDL_3883.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-21-gratsiye/images/CDL_3374.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-21-gratsiye/images/CDL_3668.avif"></p>
+]]></content:encoded></item><item><title>Gerhub X Uukhai</title><link>https://ca4mi.github.io/photos/2022-03-19-gerhub-x-uukhai/</link><pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-03-19-gerhub-x-uukhai/</guid><description>Gerhub X Uukhai</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_2762.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_2779.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_2794.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_2830.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_2952.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_2966.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3038.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3043.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3061.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3088.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3124.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3137.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3176.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3208.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-03-19-gerhub-x-uukhai/images/CDL_3254.avif"></p>
+]]></content:encoded></item><item><title>Bilgun Zayah - 2022</title><link>https://ca4mi.github.io/photos/2022-02-14-bilgun-zayah/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-02-14-bilgun-zayah/</guid><description>Bilgun Zayah - 2022</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-02-14-bilgun-zayah/images/CDL_1236.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-02-14-bilgun-zayah/images/CDL_1197.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-02-14-bilgun-zayah/images/CDL_1272.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-02-14-bilgun-zayah/images/CDL_1459.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-02-14-bilgun-zayah/images/CDL_2122.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-02-14-bilgun-zayah/images/CDL_2185.avif"></p>
+]]></content:encoded></item><item><title>Tsedoo</title><link>https://ca4mi.github.io/photos/2022-01-13-tsedoo/</link><pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2022-01-13-tsedoo/</guid><description>Tsedoo</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0220.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0291.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0048.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0075.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0099.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0082.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0134.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2022-01-13-tsedoo/images/CDL_0156.avif"></p>
+]]></content:encoded></item><item><title>Motocross</title><link>https://ca4mi.github.io/photos/2021-08-08-motocross/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-08-08-motocross/</guid><description>Motocross</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_0928.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_0965.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1161.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1202.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1243.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1285.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1291.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1507.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1596.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1600.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1728.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_1773.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_2488.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-08-08-motocross/images/IMG_2640.avif"></p>
+]]></content:encoded></item><item><title>Anna &amp; Chayo</title><link>https://ca4mi.github.io/photos/2021-06-19-anna/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-06-19-anna/</guid><description>Anna &amp;amp; Chayo</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8027.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8073.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8131.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8164.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8194.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8207.avif"></p>
+]]></content:encoded></item><item><title>Mongol Textile</title><link>https://ca4mi.github.io/photos/2021-06-12-mongol-textile/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-06-12-mongol-textile/</guid><description>Mongol Textile</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7528.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7547.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7592.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7636.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7660.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7665.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7670.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7686.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7732.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7746.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7846.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-12-mongol-textile/images/IMG_7937.avif"></p>
+]]></content:encoded></item><item><title>7-694</title><link>https://ca4mi.github.io/photos/2021-05-13-7-694/</link><pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/photos/2021-05-13-7-694/</guid><description>7-694</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5845.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5855.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5860.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5867.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5873.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5877.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5882.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5883.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5894.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5909.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5921.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_5957.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6008.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6017.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6027.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6041.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6071.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6138.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6142.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6151.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6173.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6186.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6274.avif">
+<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-05-13-7-694/images/IMG_6291.avif"></p>
+]]></content:encoded></item><item><title>Git</title><link>https://ca4mi.github.io/posts/2016-01-03-git/</link><pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2016-01-03-git/</guid><description>Git</description><content:encoded><![CDATA[<p>Терминал дээр шалгах</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></div><p><code>Permission denied (public key).</code> буцааж байвал:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&#34;email_or_github_mail@email.com&#34;</span>
+</span></span></code></pre></div><p>Mac дээр:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat ~/.ssh/id_rsa.pub <span class="p">|</span> pbcopy
+</span></span></code></pre></div><p>Linux дээр:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat ~/.ssh/id_rsa.pub <span class="p">|</span> xclip -sel clip
+</span></span></code></pre></div><p>copy хийсэн.</p>
+<p>Github тохиргоо орон SSH <a href="https://github.com/settings/keys">нэмэх</a>
+SSH Key нэмсэн бол терминал дээр:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;you@example.com&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Bookmark</title><link>https://ca4mi.github.io/bookmark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/bookmark/</guid><description>Bookmarks</description><content:encoded><![CDATA[<h3 id="blog">Blog</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Web</th>
+          <th>RSS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://news.ycombinator.com/">Hacker News</a></td>
+          <td><a href="https://hnrss.org/frontpage">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://timharek.no/">Tim Hårek</a></td>
+          <td><a href="https://timharek.no/feed.xml">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://%E3%83%9E%E3%83%AA%E3%82%A6%E3%82%B9.com/">マリウス</a></td>
+          <td><a href="https://xn--gckvb8fzb.com/index.xml">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://rarehistoricalphotos.com/">Rare Historical Photos</a></td>
+          <td><a href="https://rarehistoricalphotos.com/feed/">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://waitbutwhy.com/">Wait But Why</a></td>
+          <td><a href="https://waitbutwhy.com/feed">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://0xdf.gitlab.io/">0xdf hacks stuff</a></td>
+          <td><a href="https://0xdf.gitlab.io/feed.xml">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.jeffgeerling.com/">Jeff Geerling</a></td>
+          <td><a href="https://www.jeffgeerling.com/blog.xml">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://notthebe.ee/">Wolfgang&rsquo;s Blog</a></td>
+          <td><a href="https://notthebe.ee/rss.xml">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://davideisinger.com/">David Eisinger</a></td>
+          <td><a href="https://davideisinger.com/index.xml">RSS</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="tech">Tech</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Web</th>
+          <th>RSS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://9to5google.com/">9to5Google</a></td>
+          <td><a href="https://9to5google.com/feed/">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://9to5mac.com/">9to5Mac</a></td>
+          <td><a href="https://9to5mac.com/feed/">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://arstechnica.com">Ars Technica</a></td>
+          <td><a href="http://feeds.arstechnica.com/arstechnica/index">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.home-assistant.io/">Home Assistant</a></td>
+          <td><a href="https://www.home-assistant.io/atom.xml">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.mullvad.net/blog/">The Mullvad Blog</a></td>
+          <td><a href="https://mullvad.net/en/blog/feed/rss/">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.theverge.com/">The Verge</a></td>
+          <td><a href="https://www.theverge.com/rss/front-page/index.xml">RSS</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="podcast">Podcast</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Web</th>
+          <th>RSS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://hiddenbrain.org/">Hidden Brain</a></td>
+          <td><a href="https://feeds.simplecast.com/kwWc0lhf">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://rebuild.fm/">Rebuild</a></td>
+          <td><a href="https://feeds.rebuild.fm/rebuildfm">RSS</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="magazine">Magazine</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Web</th>
+          <th>RSS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://www.anothermag.com/">AnOther</a></td>
+          <td><a href="https://www.anothermag.com/Feed">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.dazeddigital.com/">Dazed</a></td>
+          <td><a href="https://www.dazeddigital.com/rss">RSS</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="youtube">Youtube</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Channel</th>
+          <th>RSS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://www.youtube.com/@WolfgangsChannel">Wolfgang&rsquo;s Channel</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@Fireship">Fireship</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@JeffGeerling">Jeff Geerling</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@MentalOutlaw">Mental Outlaw</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@ippsec">IppSec</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@aChairLeg">aChair Leg</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCRYeRa2iUMd8An1WTPIP2bw">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@mCoding">mCoding</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@Nerdwriter1">Nerdwriter1</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@JacobGeller">Jacob Geller</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCeTfBygNb1TahcNpZyELO8g">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@f4micom">f4mi</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCSWMraguMlNanVQgseTTr_Q">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@Einzelg%C3%A4nger">Einzelgänger</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCybBViio_TH_uiFFDJuz5tg">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@kurzgesagt">Kurzgesagt</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@JaredOwen">Jared Owen</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@3blue1brown">3Blue1Brown</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@Kojiseto">Koji Seto</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCFBjsYvwX7kWUjQoW7GcJ5A">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@PewDiePie">PewDiePie</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@casey">CaseyNeistat</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@Nostalgianerd">Nostalgia Nerd</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@LGR">LGR</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/@davidsteca">David Steca</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA">RSS</a></td>
+      </tr>
+  </tbody>
+</table>
+<p><a href="./ca4mi_rss.opml">OPML file</a></p>
+]]></content:encoded></item><item><title>Using for daily</title><link>https://ca4mi.github.io/using/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/using/</guid><description>Here&amp;rsquo;s list of items that using for daily</description><content:encoded><![CDATA[<table>
+  <thead>
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Laptop</td>
+          <td>IdeaPad Gaming 3 15IHU6. See what os/apps using from <a href="https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/">here</a></td>
+      </tr>
+      <tr>
+          <td>Phone</td>
+          <td>Google Pixel 7a. See what os/apps using from <a href="https://ca4mi.github.io/posts/2024-08-26-android-and-apps/">here</a></td>
+      </tr>
+      <tr>
+          <td>Headphone &amp; Buds</td>
+          <td>Sony CH-720N &amp; Sony Linkbuds S</td>
+      </tr>
+      <tr>
+          <td>Custom PC</td>
+          <td>Custom build PC since 2012, running macOS Monterey. You can see from <a href="https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/">here</a></td>
+      </tr>
+      <tr>
+          <td>Camera/lens</td>
+          <td>Canon R with Signa 24-70mm Art 17. Check out <a href="https://ca4mi.github.io/photos/">Photos section</a></td>
+      </tr>
+      <tr>
+          <td>iPad 2</td>
+          <td>Only for read ebooks</td>
+      </tr>
+      <tr>
+          <td>iPhone SE 2021</td>
+          <td>To try explore new features on iOS (18.3). Mostly using for Podcast &amp; Camera app</td>
+      </tr>
+  </tbody>
+</table>
+]]></content:encoded></item></channel></rss>

@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>MacOS on ca4mi</title><link>https://ca4mi.github.io/categories/macos/</link><description>Recent content in MacOS on ca4mi</description><generator>Hugo -- 0.143.0-DEV</generator><language>en</language><lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/categories/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>Hackintosh setup &amp; apps</title><link>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</guid><description>I&amp;#39;m using this custom desktop (hackintosh) since 2012. It just works!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>MacOS on ca4mi</title><link>https://ca4mi.github.io/categories/macos/</link><description>Recent content in MacOS on ca4mi</description><generator>Hugo -- 0.143.1</generator><language>en</language><lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/categories/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>Hackintosh setup &amp; apps</title><link>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/</guid><description>I&amp;#39;m using this custom desktop (hackintosh) since 2012. It just works!</description><content:encoded><![CDATA[<h4 id="os">OS</h4>
+<p>You can check my OpenCore config from <a href="https://github.com/ca4mi/open-core-config-sandy-bridge">here</a></p>
+<p><img alt="MacOS - Overview" loading="lazy" src="/posts/2024-10-13-hackintosh-setup-apps/images/macos_info.png"></p>
+<h4 id="hardware">Hardware</h4>
+<ul>
+<li>Motherboard: Colorful C.H61U V27</li>
+<li>CPU: Quad Core <a href="https://www.intel.com/content/www/us/en/products/sku/52206/intel-core-i52300-processor-6m-cache-up-to-3-10-ghz/specifications.html">Intel Core i5</a> | 2.79 GHz | Sandy Bridge</li>
+<li>GPU: ASUS GTX 770 DirectCU II OC 2 GB + kernel patch from <a href="https://github.com/chris1111/Geforce-Kepler-patcher">chirs1111</a></li>
+<li>Power Supply: COOLER MASTER|500 Watts| PFC Active MPW-5001-ACABN1</li>
+<li>SSD: Kingston 240 GB | <a href="https://en.wikipedia.org/wiki/Trim_(computing)">TRIM</a> Enabled via Kernel</li>
+<li>RAM: Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/</li>
+<li>Display: Asus PA279CV</li>
+<li>Keyboard &amp; Mouse: Generic</li>
+</ul>
+<h4 id="apps">Apps</h4>
+<p>Install Homebrew:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><p>Brew app list:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># formula</span>
+</span></span><span class="line"><span class="cl">brew install syncthing
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># cask</span>
+</span></span><span class="line"><span class="cl">brew install --cask mullvadvpn
+</span></span><span class="line"><span class="cl">brew install --cask obsidian
+</span></span><span class="line"><span class="cl">brew install --cask kitty
+</span></span></code></pre></div><p>Useful brew commands:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew search &lt;package_name&gt; <span class="c1"># search available packages </span>
+</span></span><span class="line"><span class="cl">brew update <span class="c1"># update homebrew</span>
+</span></span><span class="line"><span class="cl">brew list <span class="c1"># list all packages</span>
+</span></span><span class="line"><span class="cl">brew upgrade <span class="c1"># upgrade packages</span>
+</span></span><span class="line"><span class="cl">brew autoremove <span class="c1"># remove unused dependencies</span>
+</span></span><span class="line"><span class="cl">brew cleanup --prune<span class="o">=</span>all <span class="c1"># will cleanup</span>
+</span></span></code></pre></div><p><strong>Other Apps</strong></p>
+<ul>
+<li>Adobe Photoshop 2024</li>
+<li>Adobe Lightroom Classic</li>
+<li>Capture One 16.3</li>
+</ul>
+<p>I&rsquo;m thinking about upgrading 240GB SSD to a 2TB SSD in the future.</p>
+]]></content:encoded></item></channel></rss>

@@ -1,1 +1,92 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Android on ca4mi</title><link>https://ca4mi.github.io/categories/android/</link><description>Recent content in Android on ca4mi</description><generator>Hugo -- 0.143.0-DEV</generator><language>en</language><lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/categories/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Android and Apps</title><link>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</guid><description>Here&amp;#39;s apps using (actually in app list) daily</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Android on ca4mi</title><link>https://ca4mi.github.io/categories/android/</link><description>Recent content in Android on ca4mi</description><generator>Hugo -- 0.143.1</generator><language>en</language><lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/categories/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Android and Apps</title><link>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-08-26-android-and-apps/</guid><description>Here&amp;#39;s apps using (actually in app list) daily</description><content:encoded><![CDATA[<p>I&rsquo;m using a Google Pixel 7a with stock Android. I considered switching to GrapheneOS, but is it really necessary to change to a custom ROM for my main phone? Or am I overthinking the need for extra privacy?  For now, I&rsquo;ve stayed on Pixel OS with Android 15.</p>
+<p><strong><a href="https://f-droid.org">F-Droid</a></strong> apps:</p>
+<table>
+  <thead>
+      <tr>
+          <th>App</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://github.com/syncthing/syncthing-android">Syncthing</a></td>
+          <td>Sync files between devices</td>
+      </tr>
+      <tr>
+          <td><a href="https://f-droid.org/packages/org.videolan.vlc/">VLC Player</a></td>
+          <td>Default media player</td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/termux/termux-app">Termux</a></td>
+          <td>Terminal</td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/jocmp/capyreader">Capy Reader</a></td>
+          <td>Read RSS feeds. Want to check my RSS feeds in <a href="https://cadil.github.io/bookmark/">here</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/uazo/cromite">Cromite</a></td>
+          <td>Main/default browser</td>
+      </tr>
+      <tr>
+          <td><a href="https://f-droid.org/packages/net.mullvad.mullvadvpn/">Mullvad VPN</a></td>
+          <td>VPN for mostly for privacy</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Play store</strong> apps:</p>
+<table>
+  <thead>
+      <tr>
+          <th>App</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.authy.authy&amp;hl=en_US">Authy</a></td>
+          <td>Secondary 2FA app for backups.</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.x8bit.bitwarden&amp;hl=en_US">Bitwarden</a></td>
+          <td>Password manager</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.discord&amp;hl=en_US">Discord</a></td>
+          <td>Communicate with friends and community</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;hl=en_US">Firefox</a></td>
+          <td>Primary browser</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&amp;hl=en_US">Google Fit</a></td>
+          <td>Track my activities because sometimes I run. Then need to know how far went (km) and how fast (pace) was going</td>
+      </tr>
+      <tr>
+          <td>Finance Apps</td>
+          <td>Local bank apps</td>
+      </tr>
+      <tr>
+          <td>Instagram</td>
+          <td>Using for connect friends</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.sony.songpal.mdr&amp;hl=en_US">Sound Connect</a></td>
+          <td>Sony headphone app. Track/monitor usage of Sony CH-720N</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=ch.protonmail.android&amp;hl=en_US">Proton Mail</a></td>
+          <td>General mail app</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.spotify.music&amp;hl=en_US">Spotify</a></td>
+          <td>Using for explore new artists and albums/single</td>
+      </tr>
+      <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=md.obsidian&amp;hl=en_US">Obsidian</a></td>
+          <td>For Notes</td>
+      </tr>
+  </tbody>
+</table>
+]]></content:encoded></item></channel></rss>

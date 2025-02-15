@@ -1,1 +1,321 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on ca4mi</title><link>https://ca4mi.github.io/categories/linux/</link><description>Recent content in Linux on ca4mi</description><generator>Hugo -- 0.143.0-DEV</generator><language>en</language><lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Fedora 41 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</guid><description>Fedora 41 KDE Plasma - config</description></item><item><title>Backing up obsidian notes using github &amp; git-crypt</title><link>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</guid><description>Obsidian notes -&amp;gt; Push to github -&amp;gt; all notes will encrypted in github repo -&amp;gt; clone it -&amp;gt; import/export GPG keys -&amp;gt; unlock encrypted notes</description></item><item><title>Fedora 40 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</guid><description>Fedora 40 KDE Plasma - Setup</description></item><item><title>Fedora 40 - Config</title><link>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</link><pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</guid><description>Fedora 40 - Configuration</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on ca4mi</title><link>https://ca4mi.github.io/categories/linux/</link><description>Recent content in Linux on ca4mi</description><generator>Hugo -- 0.143.1</generator><language>en</language><lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Fedora 41 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/</guid><description>Fedora 41 KDE Plasma - config</description><content:encoded><![CDATA[<h3 id="fastfetch">Fastfetch</h3>
+<p><img alt="Fedora 41 KDE Plasma - fastfetch" loading="lazy" src="/posts/2024-12-20-fedora-41-kde/images/fedora_41_kde_plasma_fastfetch.png"></p>
+<h3 id="add-repos-and-install-apps--drivers">Add repos and install apps &amp; drivers</h3>
+<p>Add repos:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span></code></pre></div><p>Install Nvidia driver:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf update -y
+</span></span><span class="line"><span class="cl">sudo dnf install akmod-nvidia
+</span></span><span class="line"><span class="cl">sudo dnf install xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># also you can install Multimedia</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://rpmfusion.org/Howto/Multimedia</span>
+</span></span></code></pre></div><p>Install other apps using <code>dnf</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Apps</span>
+</span></span><span class="line"><span class="cl">sudo dnf install btop kitty syncthing podman-compose fastfetch vim git git-crypt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Mullvad VPN</span>
+</span></span><span class="line"><span class="cl">wget https://repository.mullvad.net/rpm/stable/mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf config-manager addrepo --from-repofile<span class="o">=</span>mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf update --refresh
+</span></span><span class="line"><span class="cl">sudo dnf install mullvad-vpn
+</span></span></code></pre></div><h3 id="install-flatpak--apps">Install flatpak &amp; apps</h3>
+<p>Add repo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+</span></span><span class="line"><span class="cl">flatpak remote-modify --enable flathub
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># checking flathub is enabled</span>
+</span></span><span class="line"><span class="cl">flatpak remotes
+</span></span></code></pre></div><p>install apps:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak install com.anydesk.Anydesk com.jeffser.Alpaca <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    com.thincast.client com.visualstudio.code io.gitlab.news_flash.NewsFlash <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    md.obsidian.Obsidian net.mullvad.MullvadBrowser org.videolan.VLC <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    org.signal.Signal org.kde.kdenlive org.darktable.Darktable <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    io.github.zen_browser.zen com.valvesoftware.Steam com.obsproject.Studio <span class="se">\
+</span></span></span></code></pre></div><p>App info:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Application ID</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>darktable</td>
+          <td>org.darktable.Darktable</td>
+      </tr>
+      <tr>
+          <td>Kdenlive</td>
+          <td>org.kde.kdenlive</td>
+      </tr>
+      <tr>
+          <td>Signal Desktop</td>
+          <td>org.signal.Signal</td>
+      </tr>
+      <tr>
+          <td>VLC</td>
+          <td>org.videolan.VLC</td>
+      </tr>
+      <tr>
+          <td>AnyDesk</td>
+          <td>com.anydesk.Anydesk</td>
+      </tr>
+      <tr>
+          <td>Alpaca</td>
+          <td>com.jeffser.Alpaca</td>
+      </tr>
+      <tr>
+          <td>Thincast Remote Desktop Client</td>
+          <td>com.thincast.client</td>
+      </tr>
+      <tr>
+          <td>Steam</td>
+          <td>com.valvesoftware.Steam</td>
+      </tr>
+      <tr>
+          <td>OBS</td>
+          <td>com.obsproject.Studio</td>
+      </tr>
+      <tr>
+          <td>Visual Studio Code</td>
+          <td>com.visualstudio.code</td>
+      </tr>
+      <tr>
+          <td>Zen</td>
+          <td>io.github.zen_browser.zen</td>
+      </tr>
+      <tr>
+          <td>Newsflash</td>
+          <td>io.gitlab.news_flash.NewsFlash</td>
+      </tr>
+      <tr>
+          <td>Obsidian</td>
+          <td>md.obsidian.Obsidian</td>
+      </tr>
+      <tr>
+          <td>Mullvad Browser</td>
+          <td>net.mullvad.MullvadBrowser</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="keyboard-layout">Keyboard layout</h3>
+<p>Dusal bicheech:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/almas/Dusal_Bicheech_XKB
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
+</span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
+</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
+</span></span></code></pre></div><h3 id="install-envycontrol">Install EnvyControl</h3>
+<p>In order to play games on external display with Nvidia gpu (dGPU) need to install EnvyControl and widget:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo dnf copr <span class="nb">enable</span> sunwire/envycontrol
+</span></span><span class="line"><span class="cl">sudo dnf install python3-envycontrol
+</span></span><span class="line"><span class="cl"><span class="c1"># Optimus GPU Switcher</span>
+</span></span><span class="line"><span class="cl">git clone --branch main-kde6 https://github.com/enielrodriguez/optimus-gpu-switcher.git
+</span></span><span class="line"><span class="cl">kpackagetool6 -t Plasma/Applet -i optimus-gpu-switcher
+</span></span></code></pre></div><p>Change mode to &lsquo;Nvidia&rsquo; for gaming. More info: <a href="https://github.com/bayasdev/envycontrol?tab=readme-ov-file#some-examples">EnvyControl</a>, <a href="https://github.com/bayasdev/envycontrol?tab=readme-ov-file">optimus-gpu-switcher</a></p>
+<p>Before launch game from Steam, add this line for launch option:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nv">DRI_PRIME</span><span class="o">=</span><span class="m">1</span> %command%
+</span></span></code></pre></div><h3 id="shell-script">Shell script</h3>
+<p>TL;DR: A shell script to install apps and driver on Fedora 41 KDE Plasma, as instructed in this blog post:
+<a href="./fedora_41_kde_basics.sh">Shell script</a></p>
+]]></content:encoded></item><item><title>Backing up obsidian notes using github &amp; git-crypt</title><link>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-12-01-git-crypt/</guid><description>Obsidian notes -&amp;gt; Push to github -&amp;gt; all notes will encrypted in github repo -&amp;gt; clone it -&amp;gt; import/export GPG keys -&amp;gt; unlock encrypted notes</description><content:encoded><![CDATA[<p>Install:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># fedora</span>
+</span></span><span class="line"><span class="cl">sudo dnf install git-crypt
+</span></span><span class="line"><span class="cl"><span class="c1"># macos</span>
+</span></span><span class="line"><span class="cl">brew install git-crypt
+</span></span></code></pre></div><p>Get GPG Key</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --full-generate-key
+</span></span><span class="line"><span class="cl"><span class="c1"># Choose RSA (1)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Choose 4096 bits</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Choose how long the key should be valid</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Enter your name and email</span>
+</span></span><span class="line"><span class="cl">gpg --list-keys --keyid-format LONG
+</span></span></code></pre></div><p>Then export key and save it safe place:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># export keys</span>
+</span></span><span class="line"><span class="cl">gpg --export-secret-key -a YOUR_EMAIL &gt; private_key.asc
+</span></span><span class="line"><span class="cl">gpg --export -a YOUR_EMAIL &gt; public_key.asc
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># import *.asc keys to other devices</span>
+</span></span><span class="line"><span class="cl">gpg --import private_key.asc
+</span></span><span class="line"><span class="cl">gpg --import public_key.asc
+</span></span></code></pre></div><p><strong>In your obsidian notes directory</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;* filter=git-crypt diff=git-crypt&#34;</span> &gt; .gitattributes
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;.gitattributes !filter !diff&#34;</span> &gt;&gt; .gitattributes
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;.gitignore !filter !diff&#34;</span> &gt;&gt; .gitattributes
+</span></span><span class="line"><span class="cl">git-crypt init
+</span></span><span class="line"><span class="cl"><span class="c1"># # replace KEY_ID with actual key ID)</span>
+</span></span><span class="line"><span class="cl">git-crypt add-gpg-user KEY_ID
+</span></span></code></pre></div><p>Add github repo then push it.</p>
+<p><code>.gitattributes</code>:
+Git-crypt encrypt everything in directory.</p>
+<pre tabindex="0"><code>* filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff
+.gitignore !filter !diff
+</code></pre><p><strong>Useful commands</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># unlock/lock</span>
+</span></span><span class="line"><span class="cl">git-crypt unlock
+</span></span><span class="line"><span class="cl">git-crypt lock
+</span></span><span class="line"><span class="cl"><span class="c1"># verify</span>
+</span></span><span class="line"><span class="cl">git-crypt status
+</span></span><span class="line"><span class="cl"><span class="c1"># delete gpg key</span>
+</span></span><span class="line"><span class="cl">gpg --delete-secret-key <span class="s2">&#34;KEYID&#34;</span>
+</span></span><span class="line"><span class="cl">gpg --delete-key <span class="s2">&#34;KEYID&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># check for existing keys</span>
+</span></span><span class="line"><span class="cl">gpg --list-keys --keyid-format LONG
+</span></span><span class="line"><span class="cl">gpg --list-secret-keys --keyid-format LONG
+</span></span></code></pre></div><p><strong>TL;DR</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl"><span class="c1"># vi .gitattributes and save it</span>
+</span></span><span class="line"><span class="cl">* <span class="nv">filter</span><span class="o">=</span>git-crypt <span class="nv">diff</span><span class="o">=</span>git-crypt
+</span></span><span class="line"><span class="cl">.gitattributes !filter !diff
+</span></span><span class="line"><span class="cl">.gitignore !filter !diff
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># git-crypt</span>
+</span></span><span class="line"><span class="cl">git-crypt init
+</span></span><span class="line"><span class="cl"><span class="c1"># copy long key from:</span>
+</span></span><span class="line"><span class="cl">gpg --list-keys --keyid-format LONG
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># replace long key &lt;KEY_ID&gt;</span>
+</span></span><span class="line"><span class="cl">git-crypt add-gpg-user KEY_ID
+</span></span><span class="line"><span class="cl">git-crypt status
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;add git-crypt&#34;</span>
+</span></span><span class="line"><span class="cl">git push -u origin main
+</span></span><span class="line"><span class="cl"><span class="c1"># after that add your note files</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># then push it again to main repo</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Fedora 40 KDE Plasma</title><link>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-10-01-fedora-40-plasma/</guid><description>Fedora 40 KDE Plasma - Setup</description><content:encoded><![CDATA[<p>Neofetch:
+<img alt="fedora plasma 40 - neofetch" loading="lazy" src="/posts/2024-10-01-fedora-40-plasma/images/neofetch-fedora-40-plasma.png">
+Fedora 40 KDE Plasma was suggested by a co-worker, and I tried it out. It seems way better than I thought. GPU is stable, X11 environment is clean, and overall it&rsquo;s running smoothly.</p>
+<p>Screenshot:
+<img alt="fedora plasma 40 - screenshot" loading="lazy" src="/posts/2024-10-01-fedora-40-plasma/images/fedora-40-plasma-screen.png"></p>
+<h3 id="setup">Setup</h3>
+<h4 id="dnf-installs">dnf installs</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Flatpak repo</span>
+</span></span><span class="line"><span class="cl">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Other apps</span>
+</span></span><span class="line"><span class="cl">sudo dnf install btop
+</span></span><span class="line"><span class="cl">sudo dnf install kitty
+</span></span><span class="line"><span class="cl">sudo dnf install syncthing
+</span></span><span class="line"><span class="cl">sudo dnf install fastfetch
+</span></span><span class="line"><span class="cl">sudo dnf install podman-compose
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># VPN</span>
+</span></span><span class="line"><span class="cl"><span class="c1">## Tailscale</span>
+</span></span><span class="line"><span class="cl">curl -fsSL https://tailscale.com/install.sh <span class="p">|</span> sh
+</span></span><span class="line"><span class="cl"><span class="c1">## Mulvad VPN</span>
+</span></span><span class="line"><span class="cl">sudo dnf config-manager --add-repo https://repository.mullvad.net/rpm/stable/mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf install mullvad-vpn
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># GPU</span>
+</span></span><span class="line"><span class="cl">sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span><span class="line"><span class="cl">sudo dnf install akmod-nvidia
+</span></span><span class="line"><span class="cl">sudo dnf install xorg-x11-drv-nvidia-cuda
+</span></span></code></pre></div><h4 id="mongolian-qwerty-keyboard-dusal-bicheech">Mongolian qwerty keyboard /Dusal bicheech/</h4>
+<p>I&rsquo;ve been using Dusal bicheech for a decade now. Really appreciate <a href="https://github.com/almas">Almas</a> for creating Mongolian qwerty keyboard.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/almas/Dusal_Bicheech_XKB
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
+</span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
+</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
+</span></span></code></pre></div><h4 id="flatpak-apps">Flatpak apps</h4>
+<p>Apps that using daily.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Name                             Application ID
+</span></span><span class="line"><span class="cl">AnyDesk                          com.anydesk.Anydesk
+</span></span><span class="line"><span class="cl">Discord                          com.discordapp.Discord
+</span></span><span class="line"><span class="cl">Alpaca                           com.jeffser.Alpaca
+</span></span><span class="line"><span class="cl">Thincast Remote Desktop Client   com.thincast.client
+</span></span><span class="line"><span class="cl">Visual Studio Code               com.visualstudio.code
+</span></span><span class="line"><span class="cl">Newsflash                        io.gitlab.news_flash.NewsFlash
+</span></span><span class="line"><span class="cl">Obsidian                         md.obsidian.Obsidian
+</span></span><span class="line"><span class="cl">Mullvad Browser                  net.mullvad.MullvadBrowser
+</span></span><span class="line"><span class="cl">Signal Desktop                   org.signal.Signal
+</span></span><span class="line"><span class="cl">Kdenlive                         org.kde.kdenlive
+</span></span><span class="line"><span class="cl">darktable                        org.darktable.Darktable
+</span></span><span class="line"><span class="cl">Zen                              io.github.zen_browser.zen 
+</span></span></code></pre></div><p>Note: Since NewsFlash&rsquo;s latest release was under Gnome 47, so need to run it with <code>GSK_RENDERER=opengl</code> from terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">GSK_RENDERER</span><span class="o">=</span>opengl flatpak run io.gitlab.news_flash.NewsFlash
+</span></span></code></pre></div><p>or use a specific environment:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># copy the desktop entry to your local directory</span>
+</span></span><span class="line"><span class="cl">cp /var/lib/flatpak/exports/share/applications/io.gitlab.news_flash.NewsFlash.desktop ~/.local/share/applications/
+</span></span><span class="line"><span class="cl"><span class="c1"># edit the copied desktop file</span>
+</span></span><span class="line"><span class="cl">vi ~/.local/share/applications/io.gitlab.news_flash.NewsFlash.desktop
+</span></span><span class="line"><span class="cl"><span class="c1"># find `exec=` and replace with:</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Exec</span><span class="o">=</span>sh -c <span class="s1">&#39;GSK_RENDERER=opengl flatpak run io.gitlab.news_flash.NewsFlash&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># save &amp; exit</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Fedora 40 - Config</title><link>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</link><pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2024-07-11-fedora-40/</guid><description>Fedora 40 - Configuration</description><content:encoded><![CDATA[<p><img alt="fedora 40 - neofetch" loading="lazy" src="/posts/2024-07-11-fedora-40/images/fedora-40-neofetch.png">
+Configuration of Fedora 40</p>
+<h3 id="cleaning">Cleaning</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf remove mediawriter gnome-contacts gnome-weather gnome-maps gnome-boxes gnome-tour gnome-software cheese totem -y
+</span></span><span class="line"><span class="cl">sudo dnf autoremove -y
+</span></span><span class="line"><span class="cl">systemctl disable NetworkManager-wait-online
+</span></span><span class="line"><span class="cl">systemctl mask NetworkManager-wait-online
+</span></span></code></pre></div><h3 id="configuring">Configuring</h3>
+<p>Install flatpak:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+</span></span></code></pre></div><p>Install dnf5:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Insatall dnf5</span>
+</span></span><span class="line"><span class="cl">sudo ln -sf dnf-3 /usr/bin/dnf
+</span></span><span class="line"><span class="cl">sudo dnf install dnf5
+</span></span><span class="line"><span class="cl">sudo ln -sf dnf5 /usr/bin/dnf
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;max_parallel_downloads=10&#34;</span> <span class="p">|</span> sudo tee -a /etc/dnf/dnf.conf
+</span></span><span class="line"><span class="cl">sudo dnf5 install <span class="s1">&#39;dnf5-command(config-manager)&#39;</span>
+</span></span></code></pre></div><p>Other apps:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Nvidia</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://rpmfusion.org/Howto/NVIDIA</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Multimedia</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://rpmfusion.org/Howto/Multimedia</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo dnf install btop                      <span class="c1"># https://github.com/aristocratos/btop</span>
+</span></span><span class="line"><span class="cl">sudo dnf install kitty                     <span class="c1"># https://sw.kovidgoyal.net/kitty/</span>
+</span></span><span class="line"><span class="cl">sudo dnf install syncthing                 <span class="c1"># https://syncthing.net/</span>
+</span></span><span class="line"><span class="cl">sudo dnf install podman                    <span class="c1"># https://podman.io/</span>
+</span></span><span class="line"><span class="cl">sudo dnf install podman-compose
+</span></span><span class="line"><span class="cl">sudo dnf install fastfetch
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># install VLC Player</span>
+</span></span><span class="line"><span class="cl">sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span><span class="line"><span class="cl">sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span><span class="line"><span class="cl">sudo dnf install vlc
+</span></span></code></pre></div><h3 id="install-apps">Install Apps</h3>
+<h4 id="vpn">VPN</h4>
+<ul>
+<li><a href="https://tailscale.com">Tailscale</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -fsSL https://tailscale.com/install.sh <span class="p">|</span> sh
+</span></span></code></pre></div><ul>
+<li><a href="https://mullvad.net/en">Mullvad VPN</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://repository.mullvad.net/rpm/stable/mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf config-manager addrepo --from-repofile<span class="o">=</span>mullvad.repo
+</span></span><span class="line"><span class="cl">sudo dnf update --refresh
+</span></span><span class="line"><span class="cl">sudo dnf install mullvad-vpn
+</span></span></code></pre></div><h4 id="apps-from-flatpak">Apps from flatpak</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Name                             Application ID
+</span></span><span class="line"><span class="cl">AnyDesk                          com.anydesk.Anydesk
+</span></span><span class="line"><span class="cl">Discord                          com.discordapp.Discord
+</span></span><span class="line"><span class="cl">Alpaca                           com.jeffser.Alpaca
+</span></span><span class="line"><span class="cl">Thincast Remote Desktop Client   com.thincast.client
+</span></span><span class="line"><span class="cl">Visual Studio Code               com.visualstudio.code
+</span></span><span class="line"><span class="cl">Newsflash                        io.gitlab.news_flash.NewsFlash
+</span></span><span class="line"><span class="cl">Obsidian                         md.obsidian.Obsidian
+</span></span><span class="line"><span class="cl">Mullvad Browser                  net.mullvad.MullvadBrowser
+</span></span><span class="line"><span class="cl">Signal Desktop                   org.signal.Signal
+</span></span><span class="line"><span class="cl">Kdenlive                         org.kde.kdenlive
+</span></span><span class="line"><span class="cl">darktable                        org.darktable.Darktable
+</span></span><span class="line"><span class="cl">Zen                              io.github.zen_browser.zen 
+</span></span></code></pre></div><h3 id="firefox-addons">Firefox addons</h3>
+<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark reader</a></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Bitwarden</a></li>
+<li><a href="https://ublockorigin.com/">uBlock Origin</a></li>
+</ul>
+<h3 id="keyboard-layout">Keyboard Layout</h3>
+<p>I&rsquo;ve been using Dusal bicheech for a decade now. Really appreciate <a href="https://github.com/almas">Almas</a> for creating Mongolian qwerty keyboard.
+<a href="https://dusal.blogmn.net/10759/">Dusal bicheech</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/almas/Dusal_Bicheech_XKB
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
+</span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
+</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
+</span></span></code></pre></div>]]></content:encoded></item></channel></rss>
