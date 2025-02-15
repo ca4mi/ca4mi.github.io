@@ -29,6 +29,9 @@ params:
   showtoc: false
   tocopen: false
 
+  assets:
+    favicon: "/static/favicon.ico"
+
   homeInfoParams:
     Title: Hi, I'm Hosono
     Content: Welcome!
