@@ -56,6 +56,7 @@ flatpak install com.anydesk.Anydesk com.jeffser.Alpaca \
     md.obsidian.Obsidian net.mullvad.MullvadBrowser org.videolan.VLC \
     org.signal.Signal org.kde.kdenlive org.darktable.Darktable \
     io.github.zen_browser.zen com.valvesoftware.Steam com.obsproject.Studio \
+    com.google.Chrome
 ```
 
 App info:
@@ -75,7 +76,8 @@ App info:
 | Zen                            | io.github.zen_browser.zen        |
 | Newsflash                      | io.gitlab.news_flash.NewsFlash   |
 | Obsidian                       | md.obsidian.Obsidian             | 
-| Mullvad Browser                | net.mullvad.MullvadBrowser       |  
+| Mullvad Browser                | net.mullvad.MullvadBrowser       |
+| Google Chrome                  | com.google.Chrome                |
 
 ### Keyboard layout
 Dusal bicheech:
