@@ -32,7 +32,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    md.obsidian.Obsidian net.mullvad.MullvadBrowser org.videolan.VLC <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    org.signal.Signal org.kde.kdenlive org.darktable.Darktable <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    io.github.zen_browser.zen com.valvesoftware.Steam com.obsproject.Studio <span class="se">\
-</span></span></span></code></pre></div><p>App info:</p>
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    com.google.Chrome
+</span></span></code></pre></div><p>App info:</p>
 <table>
   <thead>
       <tr>
@@ -96,6 +97,10 @@
       <tr>
           <td>Mullvad Browser</td>
           <td>net.mullvad.MullvadBrowser</td>
+      </tr>
+      <tr>
+          <td>Google Chrome</td>
+          <td>com.google.Chrome</td>
       </tr>
   </tbody>
 </table>

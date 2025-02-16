@@ -78,7 +78,8 @@ flatpak install -y flathub \
     org.darktable.Darktable \
     io.github.zen_browser.zen \
     com.valvesoftware.Steam \
-    com.obsproject.Studio
+    com.obsproject.Studio \
+    com.google.Chrome
 
 # Install EnvyControl
 print_message "Installing EnvyControl..."
