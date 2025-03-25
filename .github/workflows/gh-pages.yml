@@ -17,7 +17,8 @@ jobs:
           fetch-depth: 0
 
       - name: Build
-        run: hugo --buildDrafts --gc --logLevel info --minify
+        # run: hugo --buildDrafts --gc --logLevel info --minify
+        run: hugo --buildDrafts --gc --logLevel debug --minify --debug
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
