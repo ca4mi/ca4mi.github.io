@@ -1321,7 +1321,8 @@ Tailscale -г on болгоод <code>https://jellyfin.hosono.space</code> ру�
 <li><a href="https://containrrr.dev/watchtower/">https://containrrr.dev/watchtower/</a></li>
 <li><a href="https://github.com/navidrome/navidrome">https://github.com/navidrome/navidrome</a></li>
 </ul>
-]]></content:encoded></item><item><title>Git</title><link>https://ca4mi.github.io/posts/2016-01-03-git/</link><pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2016-01-03-git/</guid><description>Git</description><content:encoded><![CDATA[<p>Терминал дээр шалгах</p>
+]]></content:encoded></item><item><title>Git</title><link>https://ca4mi.github.io/posts/2016-01-03-git/</link><pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate><guid>https://ca4mi.github.io/posts/2016-01-03-git/</guid><description>Git</description><content:encoded><![CDATA[<h3 id="option-1">Option 1</h3>
+<p>Терминал дээр шалгах</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
 </span></span></code></pre></div><p><code>Permission denied (public key).</code> буцааж байвал:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&#34;email_or_github_mail@email.com&#34;</span>
@@ -1335,4 +1336,19 @@ SSH Key нэмсэн бол терминал дээр:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;you@example.com&#34;</span>
 </span></span><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span></code></pre></div><h3 id="option-2">Option 2</h3>
+<p>SSH key within a subdirectory</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mkdir -p ~/.ssh/git
+</span></span><span class="line"><span class="cl">ssh-keygen -t ed25519 -C <span class="s2">&#34;email_or_github_mail@email.com&#34;</span> -f ~/.ssh/git/github
+</span></span><span class="line"><span class="cl">cat ~/.ssh/git/github.pub <span class="p">|</span> xclip -sel clip
+</span></span></code></pre></div><p>Add key to Github<a href="https://github.com/settings/keys">key</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="c1"># create config </span>
+</span></span><span class="line"><span class="cl">vi ~/.ssh/config
+</span></span><span class="line"><span class="cl"><span class="c1"># add</span>
+</span></span><span class="line"><span class="cl">Host github.com
+</span></span><span class="line"><span class="cl">    HostName github.com
+</span></span><span class="line"><span class="cl">    User git
+</span></span><span class="line"><span class="cl">    IdentityFile ~/.ssh/git/github
+</span></span></code></pre></div><p>Test connection</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -T git@github.com
 </span></span></code></pre></div>]]></content:encoded></item></channel></rss>
