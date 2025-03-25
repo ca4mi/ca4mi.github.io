@@ -9,7 +9,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Install Hugo
-        run: sudo snap install hugo
+        run: sudo snap install hugo --edge
       - name: Git checkout
         uses: actions/checkout@v4
         with:
@@ -17,8 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build
-        # run: hugo --buildDrafts --gc --logLevel info --minify
-        run: hugo --buildDrafts --gc --logLevel debug --minify --debug
+        run: hugo --buildDrafts --gc --logLevel info --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
