@@ -34,10 +34,10 @@ params:
 
   profileMode:
     enabled: true
-    title: "Hi, I'm Hosono"
+    title: "I'm Hosono"
     subtitle: "Welcome!"
     imageUrl: "https://avatars.githubusercontent.com/u/9657445?v=4"
-    imageTitle: "Hosono avater fetched from github"
+    imageTitle: "avatar image fetched from github"
     imageWidth: 120
     imageHeight: 120
     buttons:
