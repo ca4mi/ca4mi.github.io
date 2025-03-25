@@ -2,7 +2,7 @@ name: GitHub Pages
 on: push
 jobs:
   build-github-pages:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
