@@ -45,28 +45,28 @@ summary: "Bookmarks"
 
 ### Youtube
 
-| Channel                                                            | RSS                                                                                 |
-| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| [Wolfgang's Channel](https://www.youtube.com/@WolfgangsChannel)    | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg) |
-| [Fireship](https://www.youtube.com/@Fireship)                      | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA) |
-| [Jeff Geerling](https://www.youtube.com/@JeffGeerling)             | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg) |
-| [Mental Outlaw](https://www.youtube.com/@MentalOutlaw)             | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA) |
-| [IppSec](https://www.youtube.com/@ippsec)                          | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA) |
-| [aChair Leg](https://www.youtube.com/@aChairLeg)                   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCRYeRa2iUMd8An1WTPIP2bw) |
-| [mCoding](https://www.youtube.com/@mCoding)                        | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg) |
-| [Nerdwriter1](https://www.youtube.com/@Nerdwriter1)                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg) |
-| [Jacob Geller](https://www.youtube.com/@JacobGeller)               | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCeTfBygNb1TahcNpZyELO8g) |
-| [f4mi](https://www.youtube.com/@f4micom)                           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCSWMraguMlNanVQgseTTr_Q) |
-| [Einzelgänger](https://www.youtube.com/@Einzelg%C3%A4nger)         | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCybBViio_TH_uiFFDJuz5tg) |
-| [Kurzgesagt](https://www.youtube.com/@kurzgesagt)                  | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q) |
-| [Jared Owen](https://www.youtube.com/@JaredOwen)                   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA) |
-| [3Blue1Brown](https://www.youtube.com/@3blue1brown)                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw) |
-| [Koji Seto](https://www.youtube.com/@Kojiseto)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCFBjsYvwX7kWUjQoW7GcJ5A) |
-| [PewDiePie](https://www.youtube.com/@PewDiePie)                    | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw) |
-| [CaseyNeistat](https://www.youtube.com/@casey)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ) |
-| [Nostalgia Nerd](https://www.youtube.com/@Nostalgianerd)           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ) |
-| [LGR](https://www.youtube.com/@LGR)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) |
-| [David Steca](https://www.youtube.com/@davidsteca)                 | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA) |
-| [Technology Connections](www.youtube.com/@TechnologyConnections)   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q) |
+| Channel                                                                    | RSS                                                                                 |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [Wolfgang's Channel](https://www.youtube.com/@WolfgangsChannel)            | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg) |
+| [Fireship](https://www.youtube.com/@Fireship)                              | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA) |
+| [Jeff Geerling](https://www.youtube.com/@JeffGeerling)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg) |
+| [Mental Outlaw](https://www.youtube.com/@MentalOutlaw)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA) |
+| [IppSec](https://www.youtube.com/@ippsec)                                  | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA) |
+| [aChair Leg](https://www.youtube.com/@aChairLeg)                           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCRYeRa2iUMd8An1WTPIP2bw) |
+| [mCoding](https://www.youtube.com/@mCoding)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg) |
+| [Nerdwriter1](https://www.youtube.com/@Nerdwriter1)                        | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg) |
+| [Jacob Geller](https://www.youtube.com/@JacobGeller)                       | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCeTfBygNb1TahcNpZyELO8g) |
+| [f4mi](https://www.youtube.com/@f4micom)                                   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCSWMraguMlNanVQgseTTr_Q) |
+| [Einzelgänger](https://www.youtube.com/@Einzelg%C3%A4nger)                 | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCybBViio_TH_uiFFDJuz5tg) |
+| [Kurzgesagt](https://www.youtube.com/@kurzgesagt)                          | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q) |
+| [Jared Owen](https://www.youtube.com/@JaredOwen)                           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA) |
+| [3Blue1Brown](https://www.youtube.com/@3blue1brown)                        | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw) |
+| [Koji Seto](https://www.youtube.com/@Kojiseto)                             | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCFBjsYvwX7kWUjQoW7GcJ5A) |
+| [PewDiePie](https://www.youtube.com/@PewDiePie)                            | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw) |
+| [CaseyNeistat](https://www.youtube.com/@casey)                             | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ) |
+| [Nostalgia Nerd](https://www.youtube.com/@Nostalgianerd)                   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ) |
+| [LGR](https://www.youtube.com/@LGR)                                        | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) |
+| [David Steca](https://www.youtube.com/@davidsteca)                         | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA) |
+| [Technology Connections](https://www.youtube.com/@TechnologyConnections)   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q) |
 
 [OPML file](./ca4mi_rss.opml)

@@ -40,7 +40,7 @@ params:
     imageWidth: 120
     imageHeight: 120
     buttons:
-      - name: Post
+      - name: Posts
         url: "/posts"
       - name: Photos
         url: "/photos"
