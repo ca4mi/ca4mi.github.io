@@ -32,9 +32,19 @@ params:
   assets:
     favicon: "/static/favicon.ico"
 
-  homeInfoParams:
-    Title: Hi, I'm Hosono
-    Content: Welcome!
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Hosono"
+    subtitle: "Welcome!"
+    imageUrl: "https://avatars.githubusercontent.com/u/9657445?v=4"
+    imageTitle: "Hosono avater fetched from github"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Post
+        url: "/posts"
+      - name: Photos
+        url: "/photos"
 
   socialIcons:
     - name: github

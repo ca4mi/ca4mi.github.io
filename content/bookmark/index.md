@@ -67,5 +67,6 @@ summary: "Bookmarks"
 | [Nostalgia Nerd](https://www.youtube.com/@Nostalgianerd)           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ) |
 | [LGR](https://www.youtube.com/@LGR)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) |
 | [David Steca](https://www.youtube.com/@davidsteca)                 | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA) |
+| [Technology Connections](www.youtube.com/@TechnologyConnections)   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q) |
 
 [OPML file](./ca4mi_rss.opml)

@@ -13,3 +13,4 @@ summary: "Here's list of items that using for daily"
 | Camera/lens      | Canon R with Signa 24-70mm Art 17. Check out [Photos section](https://ca4mi.github.io/photos/)                                               |
 | iPad 2           | Only for read ebooks                                                                                                                         |
 | iPhone SE 2021   | To try explore new features on iOS (18.3). Mostly using for Podcast & Camera app                                                             |
+| Keyboard         | [Corne keyboard v4](https://github.com/foostan/crkbd?tab=readme-ov-file/)                                                                    |
