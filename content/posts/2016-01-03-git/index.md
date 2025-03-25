@@ -6,7 +6,7 @@ description: "Git"
 ShowToc: true
 TocOpen: true
 ---
-
+### Option 1
 Терминал дээр шалгах
 ```bash
 ssh -T git@github.com
@@ -37,4 +37,29 @@ ssh -T git@github.com
 ```bash
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+```
+
+### Option 2
+SSH key within a subdirectory
+
+```sh
+mkdir -p ~/.ssh/git
+ssh-keygen -t ed25519 -C "email_or_github_mail@email.com" -f ~/.ssh/git/github
+cat ~/.ssh/git/github.pub | xclip -sel clip
+```
+Add key to Github[key](https://github.com/settings/keys)
+
+```sh
+# create config 
+vi ~/.ssh/config
+# add
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/git/github
+```
+Test connection
+
+```sh
+ssh -T git@github.com
 ```
