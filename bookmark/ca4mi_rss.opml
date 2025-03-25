@@ -53,7 +53,8 @@
       <outline text="PewDiePie" title="PewDiePie" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw"/>
       <outline text="Wolfgang's Channel" title="Wolfgang's Channel" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg"/>
       <outline text="Koji Seto" title="Koji Seto" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCFBjsYvwX7kWUjQoW7GcJ5A" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCFBjsYvwX7kWUjQoW7GcJ5A"/>
-      <outline text="David Steca" title="David Steca" descrciption="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA"/>
+      <outline text="David Steca" title="David Steca" descrciption="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCognN-lUK1yHpc_vEK6RNIA" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA"/>
+      <outline text="Name" title="Name" descrciption="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q"/>
     </outline>
   </body>
 </opml>
