@@ -1578,14 +1578,6 @@ SSH Key нэмсэн бол терминал дээр:</p>
   </thead>
   <tbody>
       <tr>
-          <td><a href="https://9to5google.com/">9to5Google</a></td>
-          <td><a href="https://9to5google.com/feed/">RSS</a></td>
-      </tr>
-      <tr>
-          <td><a href="https://9to5mac.com/">9to5Mac</a></td>
-          <td><a href="https://9to5mac.com/feed/">RSS</a></td>
-      </tr>
-      <tr>
           <td><a href="https://arstechnica.com">Ars Technica</a></td>
           <td><a href="http://feeds.arstechnica.com/arstechnica/index">RSS</a></td>
       </tr>
@@ -1596,10 +1588,6 @@ SSH Key нэмсэн бол терминал дээр:</p>
       <tr>
           <td><a href="https://www.mullvad.net/blog/">The Mullvad Blog</a></td>
           <td><a href="https://mullvad.net/en/blog/feed/rss/">RSS</a></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.theverge.com/">The Verge</a></td>
-          <td><a href="https://www.theverge.com/rss/front-page/index.xml">RSS</a></td>
       </tr>
   </tbody>
 </table>
