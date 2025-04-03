@@ -22,12 +22,9 @@ summary: "Bookmarks"
 
 | Web                                               | RSS                                                      |
 | ------------------------------------------------- | -------------------------------------------------------- |
-| [9to5Google](https://9to5google.com/)             | [RSS](https://9to5google.com/feed/)                      |
-| [9to5Mac](https://9to5mac.com/)                   | [RSS](https://9to5mac.com/feed/)                         |
 | [Ars Technica](https://arstechnica.com)           | [RSS](http://feeds.arstechnica.com/arstechnica/index)    |
 | [Home Assistant](https://www.home-assistant.io/)  | [RSS](https://www.home-assistant.io/atom.xml)            |
 | [The Mullvad Blog](https://www.mullvad.net/blog/) | [RSS](https://mullvad.net/en/blog/feed/rss/)             |
-| [The Verge](https://www.theverge.com/)            | [RSS](https://www.theverge.com/rss/front-page/index.xml) |
 
 ### Podcast
 

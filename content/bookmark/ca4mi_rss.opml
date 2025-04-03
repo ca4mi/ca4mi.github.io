@@ -20,15 +20,12 @@
     </outline>
     <outline text="News" title="News">
       <outline text="Ars Technica" title="Ars Technica" description="" type="rss" version="RSS" htmlUrl="https://arstechnica.com" xmlUrl="http://feeds.arstechnica.com/arstechnica/index"/>
-      <outline text="The Verge" title="The Verge" descrciption="" type="rss" version="RSS" htmlUrl="https://www.theverge.com/" xmlUrl="https://www.theverge.com/rss/front-page/index.xml"/>
     </outline>
     <outline text="Podcast" title="Podcast">
       <outline text="Hidden Brain" title="Hidden Brain" description="" type="rss" version="RSS" htmlUrl="https://www.stitcher.com" xmlUrl="https://feeds.simplecast.com/kwWc0lhf"/>
       <outline text="Rebuild" title="Rebuild" description="" type="rss" version="RSS" htmlUrl="https://rebuild.fm/" xmlUrl="https://feeds.rebuild.fm/rebuildfm"/>
     </outline>
     <outline text="Tech" title="Tech">
-      <outline text="9to5Google" title="9to5Google" description="" type="rss" version="RSS" htmlUrl="https://9to5google.com/" xmlUrl="https://9to5google.com/feed/"/>
-      <outline text="9to5Mac" title="9to5Mac" description="" type="rss" version="RSS" htmlUrl="https://9to5mac.com/" xmlUrl="https://9to5mac.com/feed/"/>
       <outline text="Hacker News" title="Hacker News" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/" xmlUrl="https://hnrss.org/frontpage"/>
       <outline text="Home Assistant" title="Home Assistant" description="" type="rss" version="RSS" htmlUrl="https://www.home-assistant.io/" xmlUrl="https://www.home-assistant.io/atom.xml"/>
       <outline text="The Mullvad Blog" title="The Mullvad Blog" description="" type="rss" version="RSS" htmlUrl="https://www.mullvad.net/blog/" xmlUrl="https://mullvad.net/en/blog/feed/rss/"/>
@@ -54,7 +51,7 @@
       <outline text="Wolfgang's Channel" title="Wolfgang's Channel" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCsnGwSIHyoYN0kiINAGUKxg" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg"/>
       <outline text="Koji Seto" title="Koji Seto" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCFBjsYvwX7kWUjQoW7GcJ5A" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCFBjsYvwX7kWUjQoW7GcJ5A"/>
       <outline text="David Steca" title="David Steca" descrciption="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCognN-lUK1yHpc_vEK6RNIA" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA"/>
-      <outline text="Name" title="Name" descrciption="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q"/>
+      <outline text="Technology Connections" title="Technology Connections" descrciption="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q"/>
     </outline>
   </body>
 </opml>
