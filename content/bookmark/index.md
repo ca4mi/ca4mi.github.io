@@ -65,6 +65,6 @@ summary: "Bookmarks"
 | [LGR](https://www.youtube.com/@LGR)                                        | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) |
 | [David Steca](https://www.youtube.com/@davidsteca)                         | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA) |
 | [Technology Connections](https://www.youtube.com/@TechnologyConnections)   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q) |
-| [Not Just Bikes](https://www.youtube.com/https://@NotJustBikes)            | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC0intLFzLaudFG-xAvUEO-A) |
+| [Not Just Bikes](https://www.youtube.com/@NotJustBikes)                    | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC0intLFzLaudFG-xAvUEO-A) |
 
 [OPML file](./ca4mi_rss.opml)
