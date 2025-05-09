@@ -127,12 +127,11 @@
 </span></span><span class="line"><span class="cl"><span class="c1"># checking flathub is enabled</span>
 </span></span><span class="line"><span class="cl">flatpak remotes
 </span></span></code></pre></div><p>install apps:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak install com.anydesk.Anydesk com.jeffser.Alpaca <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    com.thincast.client com.visualstudio.code io.gitlab.news_flash.NewsFlash <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    md.obsidian.Obsidian net.mullvad.MullvadBrowser org.videolan.VLC <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    org.signal.Signal org.kde.kdenlive org.darktable.Darktable <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    io.github.zen_browser.zen com.valvesoftware.Steam com.obsproject.Studio <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    com.google.Chrome
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flatpak install org.darktable.Darktable org.kde.kdenlive <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    org.videolan.VLC com.anydesk.Anydesk com.jeffser.Alpaca <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    com.valvesoftware.Steam com.obsproject.Studio io.github.zen_browser.zen <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    md.obsidian.Obsidian net.mullvad.MullvadBrowser com.google.Chrome <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    net.lutris.Lutris dev.zed.Zed
 </span></span></code></pre></div><p>App info:</p>
 <table>
   <thead>
@@ -151,10 +150,6 @@
           <td>org.kde.kdenlive</td>
       </tr>
       <tr>
-          <td>Signal Desktop</td>
-          <td>org.signal.Signal</td>
-      </tr>
-      <tr>
           <td>VLC</td>
           <td>org.videolan.VLC</td>
       </tr>
@@ -167,10 +162,6 @@
           <td>com.jeffser.Alpaca</td>
       </tr>
       <tr>
-          <td>Thincast Remote Desktop Client</td>
-          <td>com.thincast.client</td>
-      </tr>
-      <tr>
           <td>Steam</td>
           <td>com.valvesoftware.Steam</td>
       </tr>
@@ -179,16 +170,8 @@
           <td>com.obsproject.Studio</td>
       </tr>
       <tr>
-          <td>Visual Studio Code</td>
-          <td>com.visualstudio.code</td>
-      </tr>
-      <tr>
           <td>Zen</td>
           <td>io.github.zen_browser.zen</td>
-      </tr>
-      <tr>
-          <td>Newsflash</td>
-          <td>io.gitlab.news_flash.NewsFlash</td>
       </tr>
       <tr>
           <td>Obsidian</td>
@@ -202,6 +185,14 @@
           <td>Google Chrome</td>
           <td>com.google.Chrome</td>
       </tr>
+      <tr>
+          <td>Lutris</td>
+          <td>net.lutris.Lutris</td>
+      </tr>
+      <tr>
+          <td>Zed</td>
+          <td>dev.zed.Zed</td>
+      </tr>
   </tbody>
 </table>
 <h3 id="keyboard-layout">Keyboard layout</h3>
@@ -209,7 +200,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/almas/Dusal_Bicheech_XKB
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
 </span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
-</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
+</span></span><span class="line"><span class="cl">./Dusal_bicheech.sh
 </span></span></code></pre></div><h3 id="install-envycontrol">Install EnvyControl</h3>
 <p>In order to play games on external display with Nvidia gpu (dGPU) need to install EnvyControl and widget:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo dnf copr <span class="nb">enable</span> sunwire/envycontrol
@@ -1738,6 +1729,10 @@ SSH Key нэмсэн бол терминал дээр:</p>
       <tr>
           <td><a href="https://www.youtube.com/@TechnologyConnections">Technology Connections</a></td>
           <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q">RSS</a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.youtube.com/https://@NotJustBikes">Not Just Bikes</a></td>
+          <td><a href="https://www.youtube.com/feeds/videos.xml?channel_id=UC0intLFzLaudFG-xAvUEO-A">RSS</a></td>
       </tr>
   </tbody>
 </table>
