@@ -64,22 +64,20 @@ sudo flatpak remote-modify --enable flathub
 
 # Install applications via Flatpak
 print_message "Installing applications via Flatpak..."
-flatpak install -y flathub \
+flatpak install -y Flathub \
+    org.darktable.Darktable \
+    org.kde.kdenlive \
+    org.videolan.VLC \
     com.anydesk.Anydesk \
     com.jeffser.Alpaca \
-    com.thincast.client \
-    com.visualstudio.code \
-    io.gitlab.news_flash.NewsFlash \
-    md.obsidian.Obsidian \
-    net.mullvad.MullvadBrowser \
-    org.videolan.VLC \
-    org.signal.Signal \
-    org.kde.kdenlive \
-    org.darktable.Darktable \
-    io.github.zen_browser.zen \
     com.valvesoftware.Steam \
     com.obsproject.Studio \
-    com.google.Chrome
+    io.github.zen_browser.zen \
+    md.obsidian.Obsidian \
+    net.mullvad.MullvadBrowser \
+    com.google.Chrome \
+    net.lutris.Lutris \
+    dev.zed.Zed
 
 # Install EnvyControl
 print_message "Installing EnvyControl..."

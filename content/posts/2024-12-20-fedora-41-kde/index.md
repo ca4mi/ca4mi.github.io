@@ -51,12 +51,11 @@ flatpak remotes
 
 install apps:
 ```bash
-flatpak install com.anydesk.Anydesk com.jeffser.Alpaca \
-    com.thincast.client com.visualstudio.code io.gitlab.news_flash.NewsFlash \
-    md.obsidian.Obsidian net.mullvad.MullvadBrowser org.videolan.VLC \
-    org.signal.Signal org.kde.kdenlive org.darktable.Darktable \
-    io.github.zen_browser.zen com.valvesoftware.Steam com.obsproject.Studio \
-    com.google.Chrome
+flatpak install org.darktable.Darktable org.kde.kdenlive \
+    org.videolan.VLC com.anydesk.Anydesk com.jeffser.Alpaca \
+    com.valvesoftware.Steam com.obsproject.Studio io.github.zen_browser.zen \
+    md.obsidian.Obsidian net.mullvad.MullvadBrowser com.google.Chrome \
+    net.lutris.Lutris dev.zed.Zed
 ```
 
 App info:
@@ -65,19 +64,17 @@ App info:
 | ------------------------------ | -------------------------------- |
 | darktable                      | org.darktable.Darktable          |
 | Kdenlive                       | org.kde.kdenlive                 |
-| Signal Desktop                 | org.signal.Signal                |
 | VLC                            | org.videolan.VLC                 |
 | AnyDesk                        | com.anydesk.Anydesk              |
 | Alpaca                         | com.jeffser.Alpaca               |
-| Thincast Remote Desktop Client | com.thincast.client              |
 | Steam                          | com.valvesoftware.Steam          |
 | OBS                            | com.obsproject.Studio            |
-| Visual Studio Code             | com.visualstudio.code            |
 | Zen                            | io.github.zen_browser.zen        |
-| Newsflash                      | io.gitlab.news_flash.NewsFlash   |
-| Obsidian                       | md.obsidian.Obsidian             | 
+| Obsidian                       | md.obsidian.Obsidian             |
 | Mullvad Browser                | net.mullvad.MullvadBrowser       |
 | Google Chrome                  | com.google.Chrome                |
+| Lutris                         | net.lutris.Lutris                |
+| Zed                            | dev.zed.Zed                      |
 
 ### Keyboard layout
 Dusal bicheech:
@@ -85,7 +82,7 @@ Dusal bicheech:
 git clone https://github.com/almas/Dusal_Bicheech_XKB
 cd Dusal_Bicheech_XKB/
 chmod +x Dusal_bicheech.sh
-./Dusal_bicheech.sh 
+./Dusal_bicheech.sh
 ```
 
 ### Install EnvyControl
@@ -102,7 +99,7 @@ Change mode to 'Nvidia' for gaming. More info: [EnvyControl](https://github.com/
 Before launch game from Steam, add this line for launch option:
 ```sh
 DRI_PRIME=1 %command%
-``` 
+```
 
 ### Shell script
 TL;DR: A shell script to install apps and driver on Fedora 41 KDE Plasma, as instructed in this blog post:
