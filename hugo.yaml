@@ -1,4 +1,4 @@
-baseURL: "https://ca4mi.github.io/"
+baseURL: "https://ca4mi.net/"
 title: ca4mi
 theme: PaperMod
 
@@ -6,7 +6,7 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON 
+    - JSON
 
 params:
   env: production
