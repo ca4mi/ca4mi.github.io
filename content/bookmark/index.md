@@ -10,7 +10,7 @@ summary: "Bookmarks"
 | ----------------------------------------------------------- | --------------------------------------------- |
 | [Hacker News](https://news.ycombinator.com/)                | [RSS](https://hnrss.org/frontpage)            |
 | [Tim Hårek](https://timharek.no/)                           | [RSS](https://timharek.no/feed.xml)           |
-| [マリウス](https://マリウス.com/)                              | [RSS](https://xn--gckvb8fzb.com/index.xml)    |
+| [マリウス](https://マリウス.com/)                           | [RSS](https://xn--gckvb8fzb.com/index.xml)    |
 | [Rare Historical Photos](https://rarehistoricalphotos.com/) | [RSS](https://rarehistoricalphotos.com/feed/) |
 | [Wait But Why](https://waitbutwhy.com/)                     | [RSS](https://waitbutwhy.com/feed)            |
 | [0xdf hacks stuff](https://0xdf.gitlab.io/)                 | [RSS](https://0xdf.gitlab.io/feed.xml)        |
@@ -47,7 +47,6 @@ summary: "Bookmarks"
 | [Wolfgang's Channel](https://www.youtube.com/@WolfgangsChannel)            | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg) |
 | [Fireship](https://www.youtube.com/@Fireship)                              | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA) |
 | [Jeff Geerling](https://www.youtube.com/@JeffGeerling)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg) |
-| [Mental Outlaw](https://www.youtube.com/@MentalOutlaw)                     | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA) |
 | [IppSec](https://www.youtube.com/@ippsec)                                  | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA) |
 | [aChair Leg](https://www.youtube.com/@aChairLeg)                           | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCRYeRa2iUMd8An1WTPIP2bw) |
 | [mCoding](https://www.youtube.com/@mCoding)                                | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg) |
@@ -63,7 +62,7 @@ summary: "Bookmarks"
 | [CaseyNeistat](https://www.youtube.com/@casey)                             | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ) |
 | [Nostalgia Nerd](https://www.youtube.com/@Nostalgianerd)                   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC7qPftDWPw9XuExpSgfkmJQ) |
 | [LGR](https://www.youtube.com/@LGR)                                        | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ) |
-| [David Steca](https://www.youtube.com/@davidsteca)                         | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA) |
+| [Unframed Films](https://www.youtube.com/@unframed_films)                  | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCognN-lUK1yHpc_vEK6RNIA) |
 | [Technology Connections](https://www.youtube.com/@TechnologyConnections)   | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q) |
 | [Not Just Bikes](https://www.youtube.com/@NotJustBikes)                    | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC0intLFzLaudFG-xAvUEO-A) |
 
