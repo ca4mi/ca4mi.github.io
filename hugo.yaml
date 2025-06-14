@@ -53,8 +53,7 @@ params:
     - name: rss
       url: "index.xml"
     - name: email
-      url: "contact@ca4mi.net"
-
+      url: "mailto:contact@ca4mi.net"
 menu:
   main:
     - identifier: Posts
