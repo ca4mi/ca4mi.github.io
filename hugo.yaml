@@ -48,12 +48,12 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/ca4mi"
-    - name: instagram
-      url: "https://instagram.com/khosoonoo"
     - name: mastodon
       url: "https://mastodon.social/@hosono"
     - name: rss
       url: "index.xml"
+    - name: email
+      url: "contact@ca4mi.net"
 
 menu:
   main:
