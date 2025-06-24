@@ -63,3 +63,13 @@ Test connection
 ```sh
 ssh -T git@github.com
 ```
+
+### Option 3
+Add existing key
+```sh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/<key_name>
+# Identity added: ...
+# add <key_name>.pub key to github and check to connection
+ssh -T git@github.com
+```
