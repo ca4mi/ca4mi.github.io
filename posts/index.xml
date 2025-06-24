@@ -1342,4 +1342,11 @@ SSH Key нэмсэн бол терминал дээр:</p>
 </span></span><span class="line"><span class="cl">    IdentityFile ~/.ssh/git/github
 </span></span></code></pre></div><p>Test connection</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></div><h3 id="option-3">Option 3</h3>
+<p>Add existing key</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">eval</span> <span class="s2">&#34;</span><span class="k">$(</span>ssh-agent -s<span class="k">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">ssh-add ~/.ssh/&lt;key_name&gt;
+</span></span><span class="line"><span class="cl"><span class="c1"># Identity added: ...</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># add &lt;key_name&gt;.pub key to github and check to connection</span>
+</span></span><span class="line"><span class="cl">ssh -T git@github.com
 </span></span></code></pre></div>]]></content:encoded></item></channel></rss>
