@@ -97,4 +97,8 @@ xfreerdp /u:docker /p: /v:127.0.0.1:<tcp port> /clipboard
 xfreerdp /u:docker /p: /v:127.0.0.1:3387 /clipboard #win 7
 xfreerdp /u:docker /p: /v:127.0.0.1:3310 /clipboard #win 10
 xfreerdp /u:docker /p: /v:127.0.0.1:3311 /clipboard #win 11
+# or
+xfreerdp /u:docker /p:admin /v:127.0.0.1:3310 /clipboard /sec:tls /cert:ignore
+# gpu passthrough
+xfreerdp /v:192.168.99.2:3389 /w:1600 /h:900 /bpp:32 +clipboard +fonts /gdi:hw /rfx /rfx-mode:video /sound:sys:pulse +menu-anims +window-drag
 ```
