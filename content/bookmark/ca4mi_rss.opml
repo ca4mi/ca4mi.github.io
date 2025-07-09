@@ -17,6 +17,7 @@
     <outline text="Magazine" title="Magazine">
       <outline text="AnOther" title="AnOther" description="" type="rss" version="RSS" htmlUrl="https://www.anothermag.com/Feed" xmlUrl="https://www.anothermag.com/Feed"/>
       <outline text="Dazed" title="Dazed" description="" type="rss" version="RSS" htmlUrl="https://www.dazeddigital.com/rss" xmlUrl="https://www.dazeddigital.com/rss"/>
+      <outline text="Buro Mongolia" title="Buro Mongolia" description="rss" version="RSS" htmlUrl="https://www.buro247.mn" xmlUrl="https://buro247.mn/xml/rss.xml"/>
     </outline>
     <outline text="News" title="News">
       <outline text="Ars Technica" title="Ars Technica" description="" type="rss" version="RSS" htmlUrl="https://arstechnica.com" xmlUrl="http://feeds.arstechnica.com/arstechnica/index"/>

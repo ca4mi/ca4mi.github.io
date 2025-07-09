@@ -35,10 +35,11 @@ summary: "Bookmarks"
 
 ### Magazine
 
-| Web                                    | RSS                                     |
-| -------------------------------------- | --------------------------------------- |
-| [AnOther](https://www.anothermag.com/) | [RSS](https://www.anothermag.com/Feed)  |
-| [Dazed](https://www.dazeddigital.com/) | [RSS](https://www.dazeddigital.com/rss) |
+| Web                                      | RSS                                     |
+| ---------------------------------------- | --------------------------------------- |
+| [AnOther](https://www.anothermag.com/)   | [RSS](https://www.anothermag.com/Feed)  |
+| [Dazed](https://www.dazeddigital.com/)   | [RSS](https://www.dazeddigital.com/rss) |
+| [Buro Mongolia](https://www.buro247.mn/) | [RSS](https://buro247.mn/xml/rss.xml)   |
 
 ### Youtube
 
