@@ -375,7 +375,7 @@ You can check each details from here: <a href="https://github.com/dockur/windows
 </span></span><span class="line"><span class="cl"><span class="c1"># todo: make it work</span>
 </span></span><span class="line"><span class="cl">xfreerdp /u:docker /p:admin /v:127.0.0.1:3310 /clipboard /sec:tls +clipboard +fonts /gdi:hw /rfx /rfx-mode:video /sound:sys:pulse +menu-anims +window-drag
 </span></span></code></pre></div>]]></content:encoded></item><item><title>Hackintosh setup &amp; apps</title><link>https://ca4mi.net/posts/2024-10-13-hackintosh-setup-apps/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-10-13-hackintosh-setup-apps/</guid><description>I&amp;#39;m using this custom desktop (hackintosh) since 2012. It just works!</description><content:encoded><![CDATA[<h4 id="os">OS</h4>
-<p>You can check my OpenCore config from <a href="https://github.com/ca4mi/open-core-config-sandy-bridge">here</a></p>
+<p>You can check my OpenCore config from <a href="https://github.com/ca4mi/open-core-config">here</a></p>
 <p><img alt="MacOS - Overview" loading="lazy" src="/posts/2024-10-13-hackintosh-setup-apps/images/macos_info.png"></p>
 <h4 id="hardware">Hardware</h4>
 <ul>
