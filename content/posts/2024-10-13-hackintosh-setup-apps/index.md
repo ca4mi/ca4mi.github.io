@@ -7,7 +7,7 @@ categories: ["macOS"]
 ---
 
 #### OS
-You can check my OpenCore config from [here](https://github.com/ca4mi/open-core-config-sandy-bridge)
+You can check my OpenCore config from [here](https://github.com/ca4mi/open-core-config)
 
 ![MacOS - Overview](images/macos_info.png)
 
