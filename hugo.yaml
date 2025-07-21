@@ -40,9 +40,9 @@ params:
     imageWidth: 120
     imageHeight: 120
     buttons:
-      - name: Posts
+      - name: Blog
         url: "/posts"
-      - name: Photos
+      - name: Photography
         url: "/photos"
 
   socialIcons:
