@@ -57,11 +57,11 @@ params:
 menu:
   main:
     - identifier: Posts
-      name: Posts
+      name: Blog
       url: /posts/
       weight: 10
     - identifier: Photos
-      name: Photos
+      name: Photography
       url: /photos/
       weight: 15
     - identifier: bookmark
