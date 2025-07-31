@@ -708,8 +708,7 @@ Fedora 40 KDE Plasma was suggested by a co-worker, and I tried it out. It seems 
 </span></span><span class="line"><span class="cl"><span class="c1"># find `exec=` and replace with:</span>
 </span></span><span class="line"><span class="cl"><span class="nv">Exec</span><span class="o">=</span>sh -c <span class="s1">&#39;GSK_RENDERER=opengl flatpak run io.gitlab.news_flash.NewsFlash&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># save &amp; exit</span>
-</span></span></code></pre></div>]]></content:encoded></item><item><title>Android and Apps</title><link>https://ca4mi.net/posts/2024-08-26-android-and-apps/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-08-26-android-and-apps/</guid><description>Here&amp;#39;s apps using (actually in app list) daily</description><content:encoded><![CDATA[<p>I&rsquo;m using a Google Pixel 7a with stock Android. I considered switching to GrapheneOS, but is it really necessary to change to a custom ROM for my main phone? Or am I overthinking the need for extra privacy?  For now, I&rsquo;ve stayed on Pixel OS with Android 15.</p>
-<p><strong><a href="https://f-droid.org">F-Droid</a></strong> apps:</p>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Android and Apps</title><link>https://ca4mi.net/posts/2024-08-26-android-and-apps/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-08-26-android-and-apps/</guid><description>Here&amp;#39;s apps using (actually in app list) daily</description><content:encoded><![CDATA[<p><strong><a href="https://f-droid.org">F-Droid</a></strong> apps:</p>
 <table>
   <thead>
       <tr>
@@ -731,16 +730,20 @@ Fedora 40 KDE Plasma was suggested by a co-worker, and I tried it out. It seems 
           <td>Terminal</td>
       </tr>
       <tr>
-          <td><a href="https://github.com/jocmp/capyreader">Capy Reader</a></td>
-          <td>Read RSS feeds. Want to check my RSS feeds in <a href="https://cadil.github.io/bookmark/">here</a></td>
-      </tr>
-      <tr>
           <td><a href="https://github.com/uazo/cromite">Cromite</a></td>
           <td>Main/default browser</td>
       </tr>
       <tr>
-          <td><a href="https://f-droid.org/packages/net.mullvad.mullvadvpn/">Mullvad VPN</a></td>
-          <td>VPN for mostly for privacy</td>
+          <td><a href="https://f-droid.org/packages/com.tailscale.ipn/">Tailscale</a></td>
+          <td>VPN</td>
+      </tr>
+      <tr>
+          <td><a href="https://mobileapp.bitwarden.com/fdroid/repo/">Bitwarden</a></td>
+          <td>Password Manager</td>
+      </tr>
+      <tr>
+          <td><a href="https://f-droid.org/packages/eu.faircode.email/">FairEmail</a></td>
+          <td>Email client</td>
       </tr>
   </tbody>
 </table>
@@ -758,44 +761,12 @@ Fedora 40 KDE Plasma was suggested by a co-worker, and I tried it out. It seems 
           <td>Secondary 2FA app for backups.</td>
       </tr>
       <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=com.x8bit.bitwarden&amp;hl=en_US">Bitwarden</a></td>
-          <td>Password manager</td>
-      </tr>
-      <tr>
           <td><a href="https://play.google.com/store/apps/details?id=com.discord&amp;hl=en_US">Discord</a></td>
           <td>Communicate with friends and community</td>
       </tr>
       <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;hl=en_US">Firefox</a></td>
-          <td>Primary browser</td>
-      </tr>
-      <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&amp;hl=en_US">Google Fit</a></td>
-          <td>Track my activities because sometimes I run. Then need to know how far went (km) and how fast (pace) was going</td>
-      </tr>
-      <tr>
           <td>Finance Apps</td>
           <td>Local bank apps</td>
-      </tr>
-      <tr>
-          <td>Instagram</td>
-          <td>Using for connect friends</td>
-      </tr>
-      <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=com.sony.songpal.mdr&amp;hl=en_US">Sound Connect</a></td>
-          <td>Sony headphone app. Track/monitor usage of Sony CH-720N</td>
-      </tr>
-      <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=ch.protonmail.android&amp;hl=en_US">Proton Mail</a></td>
-          <td>General mail app</td>
-      </tr>
-      <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=com.spotify.music&amp;hl=en_US">Spotify</a></td>
-          <td>Using for explore new artists and albums/single</td>
-      </tr>
-      <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=md.obsidian&amp;hl=en_US">Obsidian</a></td>
-          <td>For Notes</td>
       </tr>
   </tbody>
 </table>
@@ -1758,11 +1729,11 @@ SSH Key нэмсэн бол терминал дээр:</p>
   <tbody>
       <tr>
           <td>Laptop</td>
-          <td>IdeaPad Gaming 3 15IHU6. See what os/apps using from <a href="https://ca4mi.github.io/posts/2024-12-20-fedora-41-kde/">here</a></td>
+          <td>IdeaPad Gaming 3 15IHU6. Codename: &ldquo;Asahina&rdquo; running on NixOS. See <a href="https://github.com/ca4mi/nix-config">config</a></td>
       </tr>
       <tr>
           <td>Phone</td>
-          <td>Google Pixel 7a. See what os/apps using from <a href="https://ca4mi.github.io/posts/2024-08-26-android-and-apps/">here</a></td>
+          <td>Google Pixel 7a running with GrapheneOS See what os/apps using from <a href="https://ca4mi.github.io/posts/2024-08-26-android-and-apps/">here</a></td>
       </tr>
       <tr>
           <td>Headphone &amp; Buds</td>
@@ -1782,11 +1753,15 @@ SSH Key нэмсэн бол терминал дээр:</p>
       </tr>
       <tr>
           <td>iPhone SE 2021</td>
-          <td>To try explore new features on iOS (18.3). Mostly using for Podcast &amp; Camera app</td>
+          <td>To try explore new features on iOS (26.0). Mostly using for Podcast &amp; Camera app</td>
       </tr>
       <tr>
           <td>Keyboard</td>
           <td><a href="https://github.com/foostan/crkbd?tab=readme-ov-file/">Corne keyboard v4</a></td>
+      </tr>
+      <tr>
+          <td>Laptop No.2</td>
+          <td>Thinkpad R500, Codename: &ldquo;Nagato&rdquo; also running on NixOS</td>
       </tr>
   </tbody>
 </table>
