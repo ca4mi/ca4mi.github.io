@@ -18,7 +18,7 @@ You can check my OpenCore config from [here](https://github.com/ca4mi/open-core-
 - Power Supply: COOLER MASTER|500 Watts| PFC Active MPW-5001-ACABN1
 - SSD: Kingston 240 GB | [TRIM](https://en.wikipedia.org/wiki/Trim_(computing)) Enabled via Kernel
 - RAM: Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/
-- Display: Asus PA279CV
+- Display: Asus PA279CV - [ICC Profiles](https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa279cv/helpdesk_download?model2Name=ProArt-Display-PA279CV)
 - Keyboard & Mouse: Generic
 
 #### Apps
