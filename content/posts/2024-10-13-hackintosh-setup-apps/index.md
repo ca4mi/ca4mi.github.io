@@ -2,7 +2,7 @@
 author: "ca4mi"
 title: "Hackintosh setup & apps"
 date: "2024-10-12"
-description: "I'm using this custom desktop (hackintosh) since 2012. It just works!"
+description: "Hackintosh"
 categories: ["macOS"]
 ---
 
@@ -12,14 +12,15 @@ You can check my OpenCore config from [here](https://github.com/ca4mi/open-core-
 ![MacOS - Overview](images/macos_info.png)
 
 #### Hardware
-- Motherboard: Colorful C.H61U V27
-- CPU: Quad Core [Intel Core i5](https://www.intel.com/content/www/us/en/products/sku/52206/intel-core-i52300-processor-6m-cache-up-to-3-10-ghz/specifications.html) | 2.79 GHz | Sandy Bridge
-- GPU: ASUS GTX 770 DirectCU II OC 2 GB + kernel patch from [chirs1111](https://github.com/chris1111/Geforce-Kepler-patcher)
-- Power Supply: COOLER MASTER|500 Watts| PFC Active MPW-5001-ACABN1
-- SSD: Kingston 240 GB | [TRIM](https://en.wikipedia.org/wiki/Trim_(computing)) Enabled via Kernel
-- RAM: Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/
-- Display: Asus PA279CV - [ICC Profiles](https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa279cv/helpdesk_download?model2Name=ProArt-Display-PA279CV)
-- Keyboard & Mouse: Generic
+
+| Parts | Name                                                                                         |
+| ----- | -------------------------------------------------------------------------------------------- |
+| MOBO  | Gigabyte GA-H61M-DS2V Rev 2.0                                                                |
+| CPU   | Intel(R) Core(TM) i5-2300 (4) @ 2.80 GHz                                                     |
+| GPU   | NVIDIA GeForce GTX 760 - 2GB                                                                 |
+| PSU   | Cooler Master NEX N700                                                                       |
+| SSD   | Kingston 240 GB  [TRIM](https://en.wikipedia.org/wiki/Trim_\(computing\)) Enabled via Kernel |
+| RAM   | Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/                                       |
 
 #### Apps
 Install Homebrew:
@@ -35,7 +36,6 @@ Brew app list:
 brew install syncthing
 
 # cask
-brew install --cask mullvadvpn
 brew install --cask obsidian
 brew install --cask kitty
 ```
@@ -52,7 +52,5 @@ brew cleanup --prune=all # will cleanup
 
 **Other Apps**
 * Adobe Photoshop 2024
-* Adobe Lightroom Classic
+* Adobe Lightroom Classic 9.4
 * Capture One 16.3
-
-I'm thinking about upgrading 240GB SSD to a 2TB SSD in the future.
