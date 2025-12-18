@@ -15,3 +15,5 @@ summary: "Here's list of items that using for daily"
 | iPhone SE 2021   | To try explore new features on iOS (26.0). Mostly using for Podcast & Camera app                                                             |
 | Keyboard         | [Corne keyboard v4](https://github.com/foostan/crkbd?tab=readme-ov-file/)                                                                    |
 | Laptop No.2      | Thinkpad R500, Codename: "Nagato" also running on NixOS                                                                                      |
+| Mouse            | MX Master 3s                                                                                                                                 |
+
