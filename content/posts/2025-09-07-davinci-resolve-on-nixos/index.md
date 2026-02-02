@@ -24,17 +24,22 @@ users.users.ca4mi = {
 ### 🚀 Forcing Resolve to Use the NVIDIA GPU (PRIME Offload)
 Nixos machine is already configured to use **NVIDIA PRIME** with render offload mode enabled. This allows the integrated GPU to handle the laptop while keeping the NVIDIA card ready for demanding applications.
 
-Then created a custom launch script. This script sets the necessary environment variables to force the application to run on the dedicated GPU.
+Then created a custom launch script. This script sets the necessary environment variables to force the application to run on the dedicated GPU. After Plasma 6 updates on NixOS, keyboard is not responding. So forcefully use x11 input system.
 
 `resolve-launcher.sh`:
 ```sh
 #!/bin/sh
+export UBUNTU_MENUPROXY=0
+export QT_QPA_PLATFORMTHEME=""
+export QT_QPA_PLATFORM=xcb
+unset KDE_FULL_SESSION
+
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __NV_PRIME_RENDER_OFFLOAD_PROVIDER=NVIDIA-G0
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 export __VK_LAYER_NV_optimus=NVIDIA_only
 
-exec davinci-resolve "$@"
+exec env -u DBUS_SESSION_BUS_ADDRESS davinci-resolve "$@"
 ```
 Making the script executable with `chmod +x resolve-launcher.sh`.
 
