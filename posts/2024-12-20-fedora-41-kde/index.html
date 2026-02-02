@@ -21,10 +21,10 @@
 </span></span><span class=line><span class=cl><span class=c1># checking flathub is enabled</span>
 </span></span><span class=line><span class=cl>flatpak remotes
 </span></span></code></pre></div><p>install apps:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>flatpak install org.darktable.Darktable org.kde.kdenlive <span class=se>\
-</span></span></span><span class=line><span class=cl><span class=se></span>    org.videolan.VLC com.anydesk.Anydesk com.jeffser.Alpaca <span class=se>\
-</span></span></span><span class=line><span class=cl><span class=se></span>    com.valvesoftware.Steam com.obsproject.Studio io.github.zen_browser.zen <span class=se>\
-</span></span></span><span class=line><span class=cl><span class=se></span>    md.obsidian.Obsidian net.mullvad.MullvadBrowser com.google.Chrome <span class=se>\
-</span></span></span><span class=line><span class=cl><span class=se></span>    net.lutris.Lutris dev.zed.Zed
+</span></span></span><span class=line><span class=cl>    org.videolan.VLC com.anydesk.Anydesk com.jeffser.Alpaca <span class=se>\
+</span></span></span><span class=line><span class=cl>    com.valvesoftware.Steam com.obsproject.Studio io.github.zen_browser.zen <span class=se>\
+</span></span></span><span class=line><span class=cl>    md.obsidian.Obsidian net.mullvad.MullvadBrowser com.google.Chrome <span class=se>\
+</span></span></span><span class=line><span class=cl>    net.lutris.Lutris dev.zed.Zed
 </span></span></code></pre></div><p>App info:</p><table><thead><tr><th>Name</th><th>Application ID</th></tr></thead><tbody><tr><td>darktable</td><td>org.darktable.Darktable</td></tr><tr><td>Kdenlive</td><td>org.kde.kdenlive</td></tr><tr><td>VLC</td><td>org.videolan.VLC</td></tr><tr><td>AnyDesk</td><td>com.anydesk.Anydesk</td></tr><tr><td>Alpaca</td><td>com.jeffser.Alpaca</td></tr><tr><td>Steam</td><td>com.valvesoftware.Steam</td></tr><tr><td>OBS</td><td>com.obsproject.Studio</td></tr><tr><td>Zen</td><td>io.github.zen_browser.zen</td></tr><tr><td>Obsidian</td><td>md.obsidian.Obsidian</td></tr><tr><td>Mullvad Browser</td><td>net.mullvad.MullvadBrowser</td></tr><tr><td>Google Chrome</td><td>com.google.Chrome</td></tr><tr><td>Lutris</td><td>net.lutris.Lutris</td></tr><tr><td>Zed</td><td>dev.zed.Zed</td></tr></tbody></table><h3 id=keyboard-layout>Keyboard layout<a hidden class=anchor aria-hidden=true href=#keyboard-layout>#</a></h3><p>Dusal bicheech:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>git clone https://github.com/almas/Dusal_Bicheech_XKB
 </span></span><span class=line><span class=cl><span class=nb>cd</span> Dusal_Bicheech_XKB/
 </span></span><span class=line><span class=cl>chmod +x Dusal_bicheech.sh
@@ -36,7 +36,7 @@
 </span></span><span class=line><span class=cl>kpackagetool6 -t Plasma/Applet -i optimus-gpu-switcher
 </span></span></code></pre></div><p>Change mode to &lsquo;Nvidia&rsquo; for gaming. More info: <a href="https://github.com/bayasdev/envycontrol?tab=readme-ov-file#some-examples">EnvyControl</a>, <a href="https://github.com/bayasdev/envycontrol?tab=readme-ov-file">optimus-gpu-switcher</a></p><p>Before launch game from Steam, add this line for launch option:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=nv>DRI_PRIME</span><span class=o>=</span><span class=m>1</span> %command%
 </span></span></code></pre></div><h3 id=shell-script>Shell script<a hidden class=anchor aria-hidden=true href=#shell-script>#</a></h3><p>TL;DR: A shell script to install apps and driver on Fedora 41 KDE Plasma, as instructed in this blog post:
-<a href=./fedora_41_kde_basics.sh>Shell script</a></p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://ca4mi.net/>ca4mi</a></span> ·
+<a href=./fedora_41_kde_basics.sh>Shell script</a></p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://ca4mi.net/>ca4mi</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
 <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
