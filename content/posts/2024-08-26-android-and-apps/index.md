@@ -8,22 +8,25 @@ ShowToc: true
 TocOpen: false
 ---
 
-**[F-Droid](https://f-droid.org)** apps:
-
-| App                                                                 | Description                                                                             |
-| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [Syncthing](https://github.com/syncthing/syncthing-android)         | Sync files between devices                                                              |
-| [VLC Player](https://f-droid.org/packages/org.videolan.vlc/)        | Default media player                                                                    |
-| [Termux](https://github.com/termux/termux-app)                      | Terminal                                                                                |
-| [Cromite](https://github.com/uazo/cromite)                          | Main/default browser                                                                    |
-| [Tailscale](https://f-droid.org/packages/com.tailscale.ipn/)        | VPN                                                                                     |
-| [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo/)           | Password Manager                                                                        |
-| [FairEmail](https://f-droid.org/packages/eu.faircode.email/)        | Email client                                                                            |
-
-**Play store** apps:
-
-| App                                                                                                  | Description                                                                                                    |
-| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [Authy](https://play.google.com/store/apps/details?id=com.authy.authy&hl=en_US)                      | Secondary 2FA app for backups.                                                                                 |
-| [Discord](https://play.google.com/store/apps/details?id=com.discord&hl=en_US)                        | Communicate with friends and community                                                                         |
-| Finance Apps                                                                                         | Local bank apps                                                                                                |
+| App | Description |
+| :--- | :--- |
+| Organic Maps | Offline maps and navigation. |
+| Spotify | Music and podcast streaming. |
+| Cromite | Private web browser with ad blocking. |
+| Vanadium | Highly secure web browser. |
+| Termux | Terminal emulator and Linux environment. |
+| FluffyChat | Matrix network messaging app. |
+| VLC | Audio and video player. |
+| F-Droid | App store for open-source apps. |
+| AntennaPod | Podcast player. |
+| Blackmagic Camera | Professional video camera app. |
+| Feeder | RSS feed reader. |
+| K-9 Mail | Open-source email client. |
+| Bitwarden | Password manager. |
+| ntfy | Push notification service. |
+| Tailscale | Easy-to-use VPN. |
+| Davx5 | Contacts and calendar sync. |
+| LibreTorrent | Torrent client. |
+| Aurora Store | Google Play Store alternative. |
+| Mastodon | Social media client. |
+| Simple Text Editor | Basic text editor. |
