@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on ca4mi</title><link>https://ca4mi.net/posts/</link><description>Recent content in Posts on ca4mi</description><generator>Hugo -- 0.159.0-DEV</generator><language>en</language><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.net/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Davinci Resolve on NixOS</title><link>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</link><pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</guid><description>Davinci Resolve 19 on NixOS</description><content:encoded><![CDATA[<p>Here&rsquo;s how I got DaVinci Resolve 19 running smoothly on my NixOS setup. This guide covers the basic installation, creating a launch script for NVIDIA GPUs, and handling common video formats that the free version doesn&rsquo;t support on Linux.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on ca4mi</title><link>https://ca4mi.net/posts/</link><description>Recent content in Posts on ca4mi</description><generator>Hugo -- 0.168.0-DEV</generator><language>en</language><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.net/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Davinci Resolve on NixOS</title><link>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</link><pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</guid><description>Davinci Resolve 19 on NixOS</description><content:encoded><![CDATA[<p>Here&rsquo;s how I got DaVinci Resolve 19 running smoothly on my NixOS setup. This guide covers the basic installation, creating a launch script for NVIDIA GPUs, and handling common video formats that the free version doesn&rsquo;t support on Linux.</p>
 <h3 id="-installation">⚙️ Installation</h3>
 <p>Firsty added the <code>davinci-resolve</code> package to my machine within configuration.nix</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nix" data-lang="nix"><span class="line"><span class="cl"><span class="n">users</span><span class="o">.</span><span class="n">users</span><span class="o">.</span><span class="n">ca4mi</span> <span class="o">=</span> <span class="p">{</span>
@@ -41,83 +41,83 @@
 <p><img alt="Order info of hibox.mn" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/order_info.png"></p>
 <p>Here’s the price breakdown:</p>
 <table>
-  <thead>
-      <tr>
-          <th>Product</th>
-          <th>Qty</th>
-          <th>Price</th>
-          <th>Total</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>DDR3 8GB 1600 MHz</td>
-          <td>2</td>
-          <td>$4.50 / 17,500 MNT</td>
-          <td>$9.00 / 31,400 MNT</td>
-      </tr>
-      <tr>
-          <td>Internal shipping cost in China</td>
-          <td>1</td>
-          <td>$2.50 / 9,000 MNT</td>
-          <td>$2.50 / 9,000 MNT</td>
-      </tr>
-      <tr>
-          <td>Internal shipping cost in Mongolia</td>
-          <td>1</td>
-          <td>$1.14 / 4,000 MNT</td>
-          <td>$1.14 / 4,000 MNT</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><strong>$12.64 / 44,400 MNT</strong></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Product</th>
+					<th>Qty</th>
+					<th>Price</th>
+					<th>Total</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>DDR3 8GB 1600 MHz</td>
+					<td>2</td>
+					<td>$4.50 / 17,500 MNT</td>
+					<td>$9.00 / 31,400 MNT</td>
+			</tr>
+			<tr>
+					<td>Internal shipping cost in China</td>
+					<td>1</td>
+					<td>$2.50 / 9,000 MNT</td>
+					<td>$2.50 / 9,000 MNT</td>
+			</tr>
+			<tr>
+					<td>Internal shipping cost in Mongolia</td>
+					<td>1</td>
+					<td>$1.14 / 4,000 MNT</td>
+					<td>$1.14 / 4,000 MNT</td>
+			</tr>
+			<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><strong>$12.64 / 44,400 MNT</strong></td>
+			</tr>
+	</tbody>
 </table>
 <p>After checkout, they generated a QR code for <strong>QPay</strong> (local e-payment or e-wallet system). The payment was successful, but when I checked the transaction, QPay merchant account was an individual’s name, not <strong>Hibox LLC</strong> or any registered company’s bank account.</p>
 <table>
-  <thead>
-      <tr>
-          <th>date</th>
-          <th>desc</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>2024/12/23 17:50</td>
-          <td>order confirmed</td>
-      </tr>
-      <tr>
-          <td>2024/12/25 10:33</td>
-          <td>YT751****** track enabled</td>
-      </tr>
-      <tr>
-          <td>2024/12/30 11:53</td>
-          <td>Came in Chinese warehouse</td>
-      </tr>
-      <tr>
-          <td>2025/01/08 17:53</td>
-          <td>Came in Hibox branch</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>date</th>
+					<th>desc</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>2024/12/23 17:50</td>
+					<td>order confirmed</td>
+			</tr>
+			<tr>
+					<td>2024/12/25 10:33</td>
+					<td>YT751****** track enabled</td>
+			</tr>
+			<tr>
+					<td>2024/12/30 11:53</td>
+					<td>Came in Chinese warehouse</td>
+			</tr>
+			<tr>
+					<td>2025/01/08 17:53</td>
+					<td>Came in Hibox branch</td>
+			</tr>
+	</tbody>
 </table>
 <p>After 16 days, item arrived and i installed it my <a href="https://ca4mi.github.io/posts/2024-10-13-hackintosh-setup-apps/">hackintosh</a></p>
 <table>
-  <thead>
-      <tr>
-          <th>Image</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><img alt="RAM spec on MacOS" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/ram_spec_macos.png"></td>
-      </tr>
-      <tr>
-          <td><img alt="Item" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/20250120_0029.jpg"></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Image</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><img alt="RAM spec on MacOS" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/ram_spec_macos.png"></td>
+			</tr>
+			<tr>
+					<td><img alt="Item" loading="lazy" src="/posts/2025-01-20-ordered-item-from-cross-border-ecommerce/images/20250120_0029.jpg"></td>
+			</tr>
+	</tbody>
 </table>
 ]]></content:encoded></item><item><title>Fedora 41 KDE Plasma</title><link>https://ca4mi.net/posts/2024-12-20-fedora-41-kde/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-12-20-fedora-41-kde/</guid><description>Fedora 41 KDE Plasma - config</description><content:encoded><![CDATA[<h3 id="fastfetch">Fastfetch</h3>
 <p><img alt="Fedora 41 KDE Plasma - fastfetch" loading="lazy" src="/posts/2024-12-20-fedora-41-kde/images/fedora_41_kde_plasma_fastfetch.png"></p>
@@ -155,66 +155,66 @@
 </span></span></span><span class="line"><span class="cl">    net.lutris.Lutris dev.zed.Zed
 </span></span></code></pre></div><p>App info:</p>
 <table>
-  <thead>
-      <tr>
-          <th>Name</th>
-          <th>Application ID</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>darktable</td>
-          <td>org.darktable.Darktable</td>
-      </tr>
-      <tr>
-          <td>Kdenlive</td>
-          <td>org.kde.kdenlive</td>
-      </tr>
-      <tr>
-          <td>VLC</td>
-          <td>org.videolan.VLC</td>
-      </tr>
-      <tr>
-          <td>AnyDesk</td>
-          <td>com.anydesk.Anydesk</td>
-      </tr>
-      <tr>
-          <td>Alpaca</td>
-          <td>com.jeffser.Alpaca</td>
-      </tr>
-      <tr>
-          <td>Steam</td>
-          <td>com.valvesoftware.Steam</td>
-      </tr>
-      <tr>
-          <td>OBS</td>
-          <td>com.obsproject.Studio</td>
-      </tr>
-      <tr>
-          <td>Zen</td>
-          <td>io.github.zen_browser.zen</td>
-      </tr>
-      <tr>
-          <td>Obsidian</td>
-          <td>md.obsidian.Obsidian</td>
-      </tr>
-      <tr>
-          <td>Mullvad Browser</td>
-          <td>net.mullvad.MullvadBrowser</td>
-      </tr>
-      <tr>
-          <td>Google Chrome</td>
-          <td>com.google.Chrome</td>
-      </tr>
-      <tr>
-          <td>Lutris</td>
-          <td>net.lutris.Lutris</td>
-      </tr>
-      <tr>
-          <td>Zed</td>
-          <td>dev.zed.Zed</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Name</th>
+					<th>Application ID</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>darktable</td>
+					<td>org.darktable.Darktable</td>
+			</tr>
+			<tr>
+					<td>Kdenlive</td>
+					<td>org.kde.kdenlive</td>
+			</tr>
+			<tr>
+					<td>VLC</td>
+					<td>org.videolan.VLC</td>
+			</tr>
+			<tr>
+					<td>AnyDesk</td>
+					<td>com.anydesk.Anydesk</td>
+			</tr>
+			<tr>
+					<td>Alpaca</td>
+					<td>com.jeffser.Alpaca</td>
+			</tr>
+			<tr>
+					<td>Steam</td>
+					<td>com.valvesoftware.Steam</td>
+			</tr>
+			<tr>
+					<td>OBS</td>
+					<td>com.obsproject.Studio</td>
+			</tr>
+			<tr>
+					<td>Zen</td>
+					<td>io.github.zen_browser.zen</td>
+			</tr>
+			<tr>
+					<td>Obsidian</td>
+					<td>md.obsidian.Obsidian</td>
+			</tr>
+			<tr>
+					<td>Mullvad Browser</td>
+					<td>net.mullvad.MullvadBrowser</td>
+			</tr>
+			<tr>
+					<td>Google Chrome</td>
+					<td>com.google.Chrome</td>
+			</tr>
+			<tr>
+					<td>Lutris</td>
+					<td>net.lutris.Lutris</td>
+			</tr>
+			<tr>
+					<td>Zed</td>
+					<td>dev.zed.Zed</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="keyboard-layout">Keyboard layout</h3>
 <p>Dusal bicheech:</p>
@@ -395,38 +395,38 @@ You can check each details from here: <a href="https://github.com/dockur/windows
 <p><img alt="MacOS - Overview" loading="lazy" src="/posts/2024-10-13-hackintosh-setup-apps/images/macos_info.png"></p>
 <h4 id="hardware">Hardware</h4>
 <table>
-  <thead>
-      <tr>
-          <th>Parts</th>
-          <th>Name</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>MOBO</td>
-          <td>Gigabyte GA-H61M-DS2V Rev 2.0</td>
-      </tr>
-      <tr>
-          <td>CPU</td>
-          <td>Intel(R) Core(TM) i5-2300 (4) @ 2.80 GHz</td>
-      </tr>
-      <tr>
-          <td>GPU</td>
-          <td>NVIDIA GeForce GTX 760 - 2GB</td>
-      </tr>
-      <tr>
-          <td>PSU</td>
-          <td>Cooler Master NEX N700</td>
-      </tr>
-      <tr>
-          <td>SSD</td>
-          <td>Kingston 240 GB  <a href="https://en.wikipedia.org/wiki/Trim_(computing)">TRIM</a> Enabled via Kernel</td>
-      </tr>
-      <tr>
-          <td>RAM</td>
-          <td>Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Parts</th>
+					<th>Name</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>MOBO</td>
+					<td>Gigabyte GA-H61M-DS2V Rev 2.0</td>
+			</tr>
+			<tr>
+					<td>CPU</td>
+					<td>Intel(R) Core(TM) i5-2300 (4) @ 2.80 GHz</td>
+			</tr>
+			<tr>
+					<td>GPU</td>
+					<td>NVIDIA GeForce GTX 760 - 2GB</td>
+			</tr>
+			<tr>
+					<td>PSU</td>
+					<td>Cooler Master NEX N700</td>
+			</tr>
+			<tr>
+					<td>SSD</td>
+					<td>Kingston 240 GB  <a href="https://en.wikipedia.org/wiki/Trim_(computing)">TRIM</a> Enabled via Kernel</td>
+			</tr>
+			<tr>
+					<td>RAM</td>
+					<td>Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/</td>
+			</tr>
+	</tbody>
 </table>
 <h4 id="apps">Apps</h4>
 <p>Install Homebrew:</p>
@@ -747,94 +747,94 @@ Fedora 40 KDE Plasma was suggested by a co-worker, and I tried it out. It seems 
 </span></span><span class="line"><span class="cl"><span class="nv">Exec</span><span class="o">=</span>sh -c <span class="s1">&#39;GSK_RENDERER=opengl flatpak run io.gitlab.news_flash.NewsFlash&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># save &amp; exit</span>
 </span></span></code></pre></div>]]></content:encoded></item><item><title>Android and Apps</title><link>https://ca4mi.net/posts/2024-08-26-android-and-apps/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-08-26-android-and-apps/</guid><description>Here&amp;#39;s apps using (actually in app list) daily</description><content:encoded><![CDATA[<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">App</th>
-          <th style="text-align: left">Description</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Organic Maps</td>
-          <td style="text-align: left">Offline maps and navigation.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Spotify</td>
-          <td style="text-align: left">Music and podcast streaming.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Cromite</td>
-          <td style="text-align: left">Private web browser with ad blocking.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Vanadium</td>
-          <td style="text-align: left">Highly secure web browser.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Termux</td>
-          <td style="text-align: left">Terminal emulator and Linux environment.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">FluffyChat</td>
-          <td style="text-align: left">Matrix network messaging app.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">VLC</td>
-          <td style="text-align: left">Audio and video player.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">F-Droid</td>
-          <td style="text-align: left">App store for open-source apps.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">AntennaPod</td>
-          <td style="text-align: left">Podcast player.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Blackmagic Camera</td>
-          <td style="text-align: left">Professional video camera app.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Feeder</td>
-          <td style="text-align: left">RSS feed reader.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">K-9 Mail</td>
-          <td style="text-align: left">Open-source email client.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Bitwarden</td>
-          <td style="text-align: left">Password manager.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">ntfy</td>
-          <td style="text-align: left">Push notification service.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Tailscale</td>
-          <td style="text-align: left">Easy-to-use VPN.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Davx5</td>
-          <td style="text-align: left">Contacts and calendar sync.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">LibreTorrent</td>
-          <td style="text-align: left">Torrent client.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Aurora Store</td>
-          <td style="text-align: left">Google Play Store alternative.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Mastodon</td>
-          <td style="text-align: left">Social media client.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Simple Text Editor</td>
-          <td style="text-align: left">Basic text editor.</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th style="text-align: left">App</th>
+					<th style="text-align: left">Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left">Organic Maps</td>
+					<td style="text-align: left">Offline maps and navigation.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Spotify</td>
+					<td style="text-align: left">Music and podcast streaming.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Cromite</td>
+					<td style="text-align: left">Private web browser with ad blocking.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Vanadium</td>
+					<td style="text-align: left">Highly secure web browser.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Termux</td>
+					<td style="text-align: left">Terminal emulator and Linux environment.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">FluffyChat</td>
+					<td style="text-align: left">Matrix network messaging app.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">VLC</td>
+					<td style="text-align: left">Audio and video player.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">F-Droid</td>
+					<td style="text-align: left">App store for open-source apps.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">AntennaPod</td>
+					<td style="text-align: left">Podcast player.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Blackmagic Camera</td>
+					<td style="text-align: left">Professional video camera app.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Feeder</td>
+					<td style="text-align: left">RSS feed reader.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">K-9 Mail</td>
+					<td style="text-align: left">Open-source email client.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Bitwarden</td>
+					<td style="text-align: left">Password manager.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">ntfy</td>
+					<td style="text-align: left">Push notification service.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Tailscale</td>
+					<td style="text-align: left">Easy-to-use VPN.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Davx5</td>
+					<td style="text-align: left">Contacts and calendar sync.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">LibreTorrent</td>
+					<td style="text-align: left">Torrent client.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Aurora Store</td>
+					<td style="text-align: left">Google Play Store alternative.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Mastodon</td>
+					<td style="text-align: left">Social media client.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Simple Text Editor</td>
+					<td style="text-align: left">Basic text editor.</td>
+			</tr>
+	</tbody>
 </table>
 ]]></content:encoded></item><item><title>Fedora 40 - Config</title><link>https://ca4mi.net/posts/2024-07-11-fedora-40/</link><pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-07-11-fedora-40/</guid><description>Fedora 40 - Configuration</description><content:encoded><![CDATA[<p><img alt="fedora 40 - neofetch" loading="lazy" src="/posts/2024-07-11-fedora-40/images/fedora-40-neofetch.png">
 Configuration of Fedora 40</p>
@@ -927,45 +927,45 @@ Configuration of Fedora 40</p>
 <p>hosono.space domain-н тохироо дах DNS хэсэгт доорх байдлаар тохируулга хийнэ:
 <img alt="Hover.com domain DNS" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325001442.png"></p>
 <table>
-  <thead>
-      <tr>
-          <th>TYPE</th>
-          <th>HOST</th>
-          <th>VALUE</th>
-          <th>TTL</th>
-          <th>ADDED BY</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>A</td>
-          <td>*</td>
-          <td>216.40.34.41</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-      <tr>
-          <td>A</td>
-          <td>@</td>
-          <td>216.40.34.41</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-      <tr>
-          <td>MX</td>
-          <td>@</td>
-          <td>10 mx.hover.com.cust.hostedemail.com</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-      <tr>
-          <td>CNAME</td>
-          <td>mail</td>
-          <td>mail.hover.com.cust.hostedemail.com</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>TYPE</th>
+					<th>HOST</th>
+					<th>VALUE</th>
+					<th>TTL</th>
+					<th>ADDED BY</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td>*</td>
+					<td>216.40.34.41</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+			<tr>
+					<td>A</td>
+					<td>@</td>
+					<td>216.40.34.41</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+			<tr>
+					<td>MX</td>
+					<td>@</td>
+					<td>10 mx.hover.com.cust.hostedemail.com</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+			<tr>
+					<td>CNAME</td>
+					<td>mail</td>
+					<td>mail.hover.com.cust.hostedemail.com</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+	</tbody>
 </table>
 <p><code>MX</code>, <code>CNAME</code> тохируулга хийхгүй байж болно.</p>
 <h4 id="domain-nameserver">Domain Nameserver</h4>
@@ -977,38 +977,38 @@ Configuration of Fedora 40</p>
 <p>Cloudflare.com хаягаар орон бүртгэлгүй бол шинээр бүртгүүлнэ. Нэвтрэн ороод Websites хэсгээр орон <code>Add a site</code> дээр даран өмнө авсан domain нэрээ оруулаарай. <code>DNS</code> цэсээр орон Records бүртгэл хийнэ.
 <img alt="Cloudflare add DNS records for domain" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325003911.png"></p>
 <table>
-  <thead>
-      <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Content</th>
-          <th>Proxy Status</th>
-          <th>TLL</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>A</td>
-          <td>*</td>
-          <td>216.40.34.41</td>
-          <td>Proxied</td>
-          <td>Auto</td>
-      </tr>
-      <tr>
-          <td>A</td>
-          <td>hosono.space</td>
-          <td>216.40.34.41</td>
-          <td>Proxied</td>
-          <td>Auto</td>
-      </tr>
-      <tr>
-          <td>A</td>
-          <td>www</td>
-          <td>216.40.34.41</td>
-          <td>Proxied</td>
-          <td>Auto</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Type</th>
+					<th>Name</th>
+					<th>Content</th>
+					<th>Proxy Status</th>
+					<th>TLL</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td>*</td>
+					<td>216.40.34.41</td>
+					<td>Proxied</td>
+					<td>Auto</td>
+			</tr>
+			<tr>
+					<td>A</td>
+					<td>hosono.space</td>
+					<td>216.40.34.41</td>
+					<td>Proxied</td>
+					<td>Auto</td>
+			</tr>
+			<tr>
+					<td>A</td>
+					<td>www</td>
+					<td>216.40.34.41</td>
+					<td>Proxied</td>
+					<td>Auto</td>
+			</tr>
+	</tbody>
 </table>
 <h4 id="api-token-авах">API Token авах</h4>
 <p>Overview цэсээс доошлуулаад харвал API гэсэн хэсэг байгаа Get your IP token дээр дарна.
@@ -1048,42 +1048,42 @@ Note: Жишээ энэ token-г устгасан болно.</p>
 <p><code>SSL Certificates</code> -&gt;  <code>Add SSL Certificate</code> -&gt; <code>Let's Encrypt</code> сонгоно.
 <img alt="Add SSL - Let&rsquo;s Encrypt" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325180527.png"></p>
 <table>
-  <thead>
-      <tr>
-          <th>Талбар</th>
-          <th>Тайлбар</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Domain Names</td>
-          <td>Эхэнд авсан domain-г бичин оруулна. <code>*.hosono.space</code> г.м</td>
-      </tr>
-      <tr>
-          <td>Email Address for Let&rsquo;s Encrypt</td>
-          <td>Certificates хугацаа дуусах үед мэдэгдэл авах мэйл хаяг бичин тохируулна</td>
-      </tr>
-      <tr>
-          <td>Use a DNS Challenge</td>
-          <td>Үүнийг чагтлах</td>
-      </tr>
-      <tr>
-          <td>DNS Provider</td>
-          <td>Cloudflare -г сонгоно</td>
-      </tr>
-      <tr>
-          <td>Credentials File Content</td>
-          <td>Cloudflares-с авсан API token-г 1234 гэсэн тоон утгийн оронд солин оруулна</td>
-      </tr>
-      <tr>
-          <td>Propagation Seconds</td>
-          <td>Хоосон орхиж болно</td>
-      </tr>
-      <tr>
-          <td>I Agree</td>
-          <td>Үүнийг чагтлах</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Талбар</th>
+					<th>Тайлбар</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Domain Names</td>
+					<td>Эхэнд авсан domain-г бичин оруулна. <code>*.hosono.space</code> г.м</td>
+			</tr>
+			<tr>
+					<td>Email Address for Let&rsquo;s Encrypt</td>
+					<td>Certificates хугацаа дуусах үед мэдэгдэл авах мэйл хаяг бичин тохируулна</td>
+			</tr>
+			<tr>
+					<td>Use a DNS Challenge</td>
+					<td>Үүнийг чагтлах</td>
+			</tr>
+			<tr>
+					<td>DNS Provider</td>
+					<td>Cloudflare -г сонгоно</td>
+			</tr>
+			<tr>
+					<td>Credentials File Content</td>
+					<td>Cloudflares-с авсан API token-г 1234 гэсэн тоон утгийн оронд солин оруулна</td>
+			</tr>
+			<tr>
+					<td>Propagation Seconds</td>
+					<td>Хоосон орхиж болно</td>
+			</tr>
+			<tr>
+					<td>I Agree</td>
+					<td>Үүнийг чагтлах</td>
+			</tr>
+	</tbody>
 </table>
 <p>Credentials File Content:</p>
 <pre tabindex="0"><code>dns_cloudflare_api_token = &lt;Cloudflare API token байна&gt;
@@ -1295,52 +1295,52 @@ Tailscale -г on болгоод <code>https://jellyfin.hosono.space</code> ру�
 <p>Domain Names хэсэгт бүртгэж буй sub domain-аа бичин, Scheme хэсэгт <code>http</code> <code>https</code> -с сонгоно. container талаас 443 default хийгдээгүй л бол ихэхндээ <code>http</code> -г сонгоно.  Forward Hostname / IP хэсэгт container name эсхүл 127.0.0.1 байж болно.</p>
 <p>SSL хэсэгт SSL Certificate -д бүртгэсэн DuckDNS -с сонгоод Force SSL, HTTP/2 Support гэдгийг сонгоод хадаглах юм. Энэ мэтээр subdomain -уудаа бүртгэнэ.</p>
 <table>
-  <thead>
-      <tr>
-          <th>SOURCE</th>
-          <th>DESTINATION</th>
-          <th>SSL</th>
-          <th>ACCESS</th>
-          <th>STATUS</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>home.hosono.duckdns.org</td>
-          <td>http://homeassistant:8123</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>hosono.duckdns.org</td>
-          <td>http://nginxproxymanager:81</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>jellyfin.hosono.duckdns.org</td>
-          <td>http://jellyfin:8096</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>nextcloud.hosono.duckdns.org</td>
-          <td>https://nextcloud:443</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>odoo.hosono.duckdns.org</td>
-          <td>http://odoo:8069</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>SOURCE</th>
+					<th>DESTINATION</th>
+					<th>SSL</th>
+					<th>ACCESS</th>
+					<th>STATUS</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>home.hosono.duckdns.org</td>
+					<td>http://homeassistant:8123</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>hosono.duckdns.org</td>
+					<td>http://nginxproxymanager:81</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>jellyfin.hosono.duckdns.org</td>
+					<td>http://jellyfin:8096</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>nextcloud.hosono.duckdns.org</td>
+					<td>https://nextcloud:443</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>odoo.hosono.duckdns.org</td>
+					<td>http://odoo:8069</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+	</tbody>
 </table>
 <h5 id="ha">HA</h5>
 <p>http://homeassistant:8123 хувьд Proxy бүртгэх дээ Websockets Supports гэдгийг чагтлан өгнө. Дараа нь npm ажиллаж байгаа IP хаягийн мэдээллийг аван HASS дотор configuration.yml -г trusted_proxy хэсэгт npm нэмэн оруулна</p>

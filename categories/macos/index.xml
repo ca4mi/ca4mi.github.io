@@ -1,40 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>MacOS on ca4mi</title><link>https://ca4mi.net/categories/macos/</link><description>Recent content in MacOS on ca4mi</description><generator>Hugo -- 0.159.0-DEV</generator><language>en</language><lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.net/categories/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>Hackintosh setup &amp; apps</title><link>https://ca4mi.net/posts/2024-10-13-hackintosh-setup-apps/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-10-13-hackintosh-setup-apps/</guid><description>Hackintosh</description><content:encoded><![CDATA[<h4 id="os">OS</h4>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>MacOS on ca4mi</title><link>https://ca4mi.net/categories/macos/</link><description>Recent content in MacOS on ca4mi</description><generator>Hugo -- 0.168.0-DEV</generator><language>en</language><lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.net/categories/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>Hackintosh setup &amp; apps</title><link>https://ca4mi.net/posts/2024-10-13-hackintosh-setup-apps/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-10-13-hackintosh-setup-apps/</guid><description>Hackintosh</description><content:encoded><![CDATA[<h4 id="os">OS</h4>
 <p>You can check my OpenCore config from <a href="https://github.com/ca4mi/open-core-config">here</a></p>
 <p><img alt="MacOS - Overview" loading="lazy" src="/posts/2024-10-13-hackintosh-setup-apps/images/macos_info.png"></p>
 <h4 id="hardware">Hardware</h4>
 <table>
-  <thead>
-      <tr>
-          <th>Parts</th>
-          <th>Name</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>MOBO</td>
-          <td>Gigabyte GA-H61M-DS2V Rev 2.0</td>
-      </tr>
-      <tr>
-          <td>CPU</td>
-          <td>Intel(R) Core(TM) i5-2300 (4) @ 2.80 GHz</td>
-      </tr>
-      <tr>
-          <td>GPU</td>
-          <td>NVIDIA GeForce GTX 760 - 2GB</td>
-      </tr>
-      <tr>
-          <td>PSU</td>
-          <td>Cooler Master NEX N700</td>
-      </tr>
-      <tr>
-          <td>SSD</td>
-          <td>Kingston 240 GB  <a href="https://en.wikipedia.org/wiki/Trim_(computing)">TRIM</a> Enabled via Kernel</td>
-      </tr>
-      <tr>
-          <td>RAM</td>
-          <td>Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Parts</th>
+					<th>Name</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>MOBO</td>
+					<td>Gigabyte GA-H61M-DS2V Rev 2.0</td>
+			</tr>
+			<tr>
+					<td>CPU</td>
+					<td>Intel(R) Core(TM) i5-2300 (4) @ 2.80 GHz</td>
+			</tr>
+			<tr>
+					<td>GPU</td>
+					<td>NVIDIA GeForce GTX 760 - 2GB</td>
+			</tr>
+			<tr>
+					<td>PSU</td>
+					<td>Cooler Master NEX N700</td>
+			</tr>
+			<tr>
+					<td>SSD</td>
+					<td>Kingston 240 GB  <a href="https://en.wikipedia.org/wiki/Trim_(computing)">TRIM</a> Enabled via Kernel</td>
+			</tr>
+			<tr>
+					<td>RAM</td>
+					<td>Envinda DDR3 1600 PCI-12800U-CL9 /only works 1333 MHz/</td>
+			</tr>
+	</tbody>
 </table>
 <h4 id="apps">Apps</h4>
 <p>Install Homebrew:</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Homelab on ca4mi</title><link>https://ca4mi.net/categories/homelab/</link><description>Recent content in Homelab on ca4mi</description><generator>Hugo -- 0.159.0-DEV</generator><language>en</language><lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.net/categories/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>Running Windows VMs using dockurr/windows</title><link>https://ca4mi.net/posts/2024-10-25-windows-wms/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-10-25-windows-wms/</guid><description>How to use Docker VMs to run various Windows environments within a Linux-based OS, like Fedora. Sometimes need to access to different Windows versions (7, 10, 11) for testing or other office/work related purposes. Manually installing and managing these versions can be cumbersome. This solution leverages podman with podman-compose and the `dockurr/windows` image to streamline the process.</description><content:encoded><![CDATA[<h4 id="sources">Sources</h4>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Homelab on ca4mi</title><link>https://ca4mi.net/categories/homelab/</link><description>Recent content in Homelab on ca4mi</description><generator>Hugo -- 0.168.0-DEV</generator><language>en</language><lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ca4mi.net/categories/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>Running Windows VMs using dockurr/windows</title><link>https://ca4mi.net/posts/2024-10-25-windows-wms/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-10-25-windows-wms/</guid><description>How to use Docker VMs to run various Windows environments within a Linux-based OS, like Fedora. Sometimes need to access to different Windows versions (7, 10, 11) for testing or other office/work related purposes. Manually installing and managing these versions can be cumbersome. This solution leverages podman with podman-compose and the `dockurr/windows` image to streamline the process.</description><content:encoded><![CDATA[<h4 id="sources">Sources</h4>
 <ul>
 <li><a href="https://youtu.be/xhGYobuG508">https://youtu.be/xhGYobuG508</a> /Running Windows in a Docker Container! - Wolfgang&rsquo;s Channel/</li>
 <li><a href="https://bobpony.com/downloads/">https://bobpony.com/downloads/</a> /Download ISO images/</li>
@@ -103,45 +103,45 @@ You can check each details from here: <a href="https://github.com/dockur/windows
 <p>hosono.space domain-н тохироо дах DNS хэсэгт доорх байдлаар тохируулга хийнэ:
 <img alt="Hover.com domain DNS" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325001442.png"></p>
 <table>
-  <thead>
-      <tr>
-          <th>TYPE</th>
-          <th>HOST</th>
-          <th>VALUE</th>
-          <th>TTL</th>
-          <th>ADDED BY</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>A</td>
-          <td>*</td>
-          <td>216.40.34.41</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-      <tr>
-          <td>A</td>
-          <td>@</td>
-          <td>216.40.34.41</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-      <tr>
-          <td>MX</td>
-          <td>@</td>
-          <td>10 mx.hover.com.cust.hostedemail.com</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-      <tr>
-          <td>CNAME</td>
-          <td>mail</td>
-          <td>mail.hover.com.cust.hostedemail.com</td>
-          <td>15 Minutes</td>
-          <td>Hover</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>TYPE</th>
+					<th>HOST</th>
+					<th>VALUE</th>
+					<th>TTL</th>
+					<th>ADDED BY</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td>*</td>
+					<td>216.40.34.41</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+			<tr>
+					<td>A</td>
+					<td>@</td>
+					<td>216.40.34.41</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+			<tr>
+					<td>MX</td>
+					<td>@</td>
+					<td>10 mx.hover.com.cust.hostedemail.com</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+			<tr>
+					<td>CNAME</td>
+					<td>mail</td>
+					<td>mail.hover.com.cust.hostedemail.com</td>
+					<td>15 Minutes</td>
+					<td>Hover</td>
+			</tr>
+	</tbody>
 </table>
 <p><code>MX</code>, <code>CNAME</code> тохируулга хийхгүй байж болно.</p>
 <h4 id="domain-nameserver">Domain Nameserver</h4>
@@ -153,38 +153,38 @@ You can check each details from here: <a href="https://github.com/dockur/windows
 <p>Cloudflare.com хаягаар орон бүртгэлгүй бол шинээр бүртгүүлнэ. Нэвтрэн ороод Websites хэсгээр орон <code>Add a site</code> дээр даран өмнө авсан domain нэрээ оруулаарай. <code>DNS</code> цэсээр орон Records бүртгэл хийнэ.
 <img alt="Cloudflare add DNS records for domain" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325003911.png"></p>
 <table>
-  <thead>
-      <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Content</th>
-          <th>Proxy Status</th>
-          <th>TLL</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>A</td>
-          <td>*</td>
-          <td>216.40.34.41</td>
-          <td>Proxied</td>
-          <td>Auto</td>
-      </tr>
-      <tr>
-          <td>A</td>
-          <td>hosono.space</td>
-          <td>216.40.34.41</td>
-          <td>Proxied</td>
-          <td>Auto</td>
-      </tr>
-      <tr>
-          <td>A</td>
-          <td>www</td>
-          <td>216.40.34.41</td>
-          <td>Proxied</td>
-          <td>Auto</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Type</th>
+					<th>Name</th>
+					<th>Content</th>
+					<th>Proxy Status</th>
+					<th>TLL</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td>*</td>
+					<td>216.40.34.41</td>
+					<td>Proxied</td>
+					<td>Auto</td>
+			</tr>
+			<tr>
+					<td>A</td>
+					<td>hosono.space</td>
+					<td>216.40.34.41</td>
+					<td>Proxied</td>
+					<td>Auto</td>
+			</tr>
+			<tr>
+					<td>A</td>
+					<td>www</td>
+					<td>216.40.34.41</td>
+					<td>Proxied</td>
+					<td>Auto</td>
+			</tr>
+	</tbody>
 </table>
 <h4 id="api-token-авах">API Token авах</h4>
 <p>Overview цэсээс доошлуулаад харвал API гэсэн хэсэг байгаа Get your IP token дээр дарна.
@@ -224,42 +224,42 @@ Note: Жишээ энэ token-г устгасан болно.</p>
 <p><code>SSL Certificates</code> -&gt;  <code>Add SSL Certificate</code> -&gt; <code>Let's Encrypt</code> сонгоно.
 <img alt="Add SSL - Let&rsquo;s Encrypt" loading="lazy" src="/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325180527.png"></p>
 <table>
-  <thead>
-      <tr>
-          <th>Талбар</th>
-          <th>Тайлбар</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Domain Names</td>
-          <td>Эхэнд авсан domain-г бичин оруулна. <code>*.hosono.space</code> г.м</td>
-      </tr>
-      <tr>
-          <td>Email Address for Let&rsquo;s Encrypt</td>
-          <td>Certificates хугацаа дуусах үед мэдэгдэл авах мэйл хаяг бичин тохируулна</td>
-      </tr>
-      <tr>
-          <td>Use a DNS Challenge</td>
-          <td>Үүнийг чагтлах</td>
-      </tr>
-      <tr>
-          <td>DNS Provider</td>
-          <td>Cloudflare -г сонгоно</td>
-      </tr>
-      <tr>
-          <td>Credentials File Content</td>
-          <td>Cloudflares-с авсан API token-г 1234 гэсэн тоон утгийн оронд солин оруулна</td>
-      </tr>
-      <tr>
-          <td>Propagation Seconds</td>
-          <td>Хоосон орхиж болно</td>
-      </tr>
-      <tr>
-          <td>I Agree</td>
-          <td>Үүнийг чагтлах</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Талбар</th>
+					<th>Тайлбар</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Domain Names</td>
+					<td>Эхэнд авсан domain-г бичин оруулна. <code>*.hosono.space</code> г.м</td>
+			</tr>
+			<tr>
+					<td>Email Address for Let&rsquo;s Encrypt</td>
+					<td>Certificates хугацаа дуусах үед мэдэгдэл авах мэйл хаяг бичин тохируулна</td>
+			</tr>
+			<tr>
+					<td>Use a DNS Challenge</td>
+					<td>Үүнийг чагтлах</td>
+			</tr>
+			<tr>
+					<td>DNS Provider</td>
+					<td>Cloudflare -г сонгоно</td>
+			</tr>
+			<tr>
+					<td>Credentials File Content</td>
+					<td>Cloudflares-с авсан API token-г 1234 гэсэн тоон утгийн оронд солин оруулна</td>
+			</tr>
+			<tr>
+					<td>Propagation Seconds</td>
+					<td>Хоосон орхиж болно</td>
+			</tr>
+			<tr>
+					<td>I Agree</td>
+					<td>Үүнийг чагтлах</td>
+			</tr>
+	</tbody>
 </table>
 <p>Credentials File Content:</p>
 <pre tabindex="0"><code>dns_cloudflare_api_token = &lt;Cloudflare API token байна&gt;
@@ -471,52 +471,52 @@ Tailscale -г on болгоод <code>https://jellyfin.hosono.space</code> ру�
 <p>Domain Names хэсэгт бүртгэж буй sub domain-аа бичин, Scheme хэсэгт <code>http</code> <code>https</code> -с сонгоно. container талаас 443 default хийгдээгүй л бол ихэхндээ <code>http</code> -г сонгоно.  Forward Hostname / IP хэсэгт container name эсхүл 127.0.0.1 байж болно.</p>
 <p>SSL хэсэгт SSL Certificate -д бүртгэсэн DuckDNS -с сонгоод Force SSL, HTTP/2 Support гэдгийг сонгоод хадаглах юм. Энэ мэтээр subdomain -уудаа бүртгэнэ.</p>
 <table>
-  <thead>
-      <tr>
-          <th>SOURCE</th>
-          <th>DESTINATION</th>
-          <th>SSL</th>
-          <th>ACCESS</th>
-          <th>STATUS</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>home.hosono.duckdns.org</td>
-          <td>http://homeassistant:8123</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>hosono.duckdns.org</td>
-          <td>http://nginxproxymanager:81</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>jellyfin.hosono.duckdns.org</td>
-          <td>http://jellyfin:8096</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>nextcloud.hosono.duckdns.org</td>
-          <td>https://nextcloud:443</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-      <tr>
-          <td>odoo.hosono.duckdns.org</td>
-          <td>http://odoo:8069</td>
-          <td>Let&rsquo;s Encrypt</td>
-          <td>Public</td>
-          <td>Online</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>SOURCE</th>
+					<th>DESTINATION</th>
+					<th>SSL</th>
+					<th>ACCESS</th>
+					<th>STATUS</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>home.hosono.duckdns.org</td>
+					<td>http://homeassistant:8123</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>hosono.duckdns.org</td>
+					<td>http://nginxproxymanager:81</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>jellyfin.hosono.duckdns.org</td>
+					<td>http://jellyfin:8096</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>nextcloud.hosono.duckdns.org</td>
+					<td>https://nextcloud:443</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+			<tr>
+					<td>odoo.hosono.duckdns.org</td>
+					<td>http://odoo:8069</td>
+					<td>Let&rsquo;s Encrypt</td>
+					<td>Public</td>
+					<td>Online</td>
+			</tr>
+	</tbody>
 </table>
 <h5 id="ha">HA</h5>
 <p>http://homeassistant:8123 хувьд Proxy бүртгэх дээ Websockets Supports гэдгийг чагтлан өгнө. Дараа нь npm ажиллаж байгаа IP хаягийн мэдээллийг аван HASS дотор configuration.yml -г trusted_proxy хэсэгт npm нэмэн оруулна</p>
