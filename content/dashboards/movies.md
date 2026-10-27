@@ -1,35 +1,59 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-10-27T15:57:48+08:00
+lastmod: 2026-10-27T16:24:33+08:00
 summary: "9 titles · avg 3.0/10"
 tags: ["dashboards"]
 weight: 2
+snapshot: "2026-10-27 16:24"
+data:
+  stats:
+    - {k: "Media", v: "9"}
+    - {k: "Movies", v: "7"}
+    - {k: "Series", v: "2"}
+    - {k: "Avg rating", v: "3.0/10"}
+  movies:
+    - title: "Hope"
+      year: "2026"
+      rating: "4"
+      watched: "2026-10-27"
+      poster: "https://m.media-amazon.com/images/M/MV5BZjE3ZDI0MmItMDIyMC00NzU2LTk2OTQtZTUxYTlkMjlkNmY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+    - title: "All You Need Is Kill"
+      year: "2026"
+      rating: "4"
+      watched: "2026-07-17"
+      poster: "https://m.media-amazon.com/images/M/MV5BOWFlYzdlZWYtMmYwNC00YmI5LTlkZjYtZDNlOTYwOTg5MmRiXkEyXkFqcGc@._V1_QL75_UY562_CR3,0,380,562_.jpg"
+    - title: "Disclosure Day"
+      year: "2026"
+      rating: "3"
+      watched: "2026-08-02"
+      poster: "https://m.media-amazon.com/images/M/MV5BMTgwNDI1ZjctYWNmMS00MTJhLTg1ZWItMzI1Yjk5NjZkYWFkXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg"
+    - title: "11817"
+      year: "—"
+      rating: "1"
+      watched: "2026-08-08"
+      poster: "https://m.media-amazon.com/images/M/MV5BNGVlY2E3YjYtMDI3OC00OTZjLWE5MTgtNzQ2NDdlNjMwMzVhXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg"
+    - title: "Spider-Man: Brand New Day"
+      year: "2026"
+      watched: "2026-10-06"
+      poster: "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+    - title: "The Pod Generation"
+      year: "2023"
+      watched: "2026-07-17"
+      poster: "https://m.media-amazon.com/images/M/MV5BNmRjOTc3ZWEtY2Y0Ni00MjgwLWFiMmMtOTA5NjUxNjE0MDNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+    - title: "Backrooms"
+      year: "2026"
+      watched: "2026-07-16"
+      poster: "https://m.media-amazon.com/images/M/MV5BYzQyYjZmMjctMzIyZi00MDI0LWJhNGQtMzQ3MTFlNDgwNGM5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+  series:
+    - show: "MobLand"
+      progress: "S2E6"
+      status: "watching"
+    - show: "GTO: Great Teacher Onizuka"
+      progress: "—"
+      status: "dropped"
+  empty_note: "Watchlist is empty."
 ---
 
-**9 titles** (7 movies, 2 series) · avg rating **3.0/10**
-
-## Watched movies
-
-| Title | Year | Rating | Last watched |
-|---|---:|---:|---|
-| Hope | 2026 | 4 | 2026-10-27 |
-| All You Need Is Kill | 2026 | 4 | 2026-07-17 |
-| Disclosure Day | 2026 | 3 | 2026-08-02 |
-| 11817 | — | 1 | 2026-08-08 |
-| Spider-Man: Brand New Day | 2026 | — | 2026-10-06 |
-| The Pod Generation | 2023 | — | 2026-07-17 |
-| Backrooms | 2026 | — | 2026-07-16 |
-
-## Series
-
-| Show | Progress | Status |
-|---|---|---|
-| MobLand | S2E6 | watching |
-| GTO: Great Teacher Onizuka | — | dropped |
-
-## Watchlist
-
-*Watchlist is empty.*
-
-> Data snapshot: 2026-10-27 15:57 (+08)
+*Values are generated from my tracker and refresh automatically when the
+data changes.*

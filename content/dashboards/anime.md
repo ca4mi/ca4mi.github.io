@@ -1,20 +1,47 @@
 ---
 title: "Anime"
 date: 2026-10-27T15:57:11+08:00
-lastmod: 2026-10-27T15:57:11+08:00
-summary: "5 shows · 34/58 episodes watched"
+lastmod: 2026-10-27T16:24:33+08:00
+summary: "5 shows · 34/58 episodes watched (59%)"
 tags: ["dashboards"]
 weight: 1
+snapshot: "2026-10-27 16:24"
+data:
+  stats:
+    - {k: "Shows", v: "5 (3 airing)"}
+    - {k: "Watched", v: "34/58 eps"}
+    - {k: "Rate", v: "59%"}
+  shows:
+    - title: "Chii Fuyo"
+      status: "airing"
+      watched: "2"
+      total: "10"
+      pct: "20"
+      cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b207329-6VPeZIDfF4Sr.png"
+    - title: "Cyberpunk Edgerunners 2"
+      status: "airing"
+      watched: "10"
+      total: "10"
+      pct: "100"
+      cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195539-4LdfmKIHzuxr.png"
+    - title: "Mushoku Tensei S3"
+      status: "airing"
+      watched: "14"
+      total: "14"
+      pct: "100"
+    - title: "FX Fighter Kurumi-chan"
+      status: "dropped"
+      watched: "1"
+      total: "12"
+      pct: "8"
+      cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx206401-8cAebkI0i8BA.png"
+    - title: "Jaadugar"
+      status: "dropped"
+      watched: "7"
+      total: "12"
+      pct: "58"
+      cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
 ---
 
-**5 shows** tracked (3 airing) · watched **34/58** episodes (59%)
-
-| Show | Status | Watched | Total | Progress |
-|---|---|---:|---:|---:|
-| [Chii Fuyo](https://anilist.co/search/anime?search=Chii%20Fuyo) | airing | 2 | 10 | 20% |
-| [Cyberpunk Edgerunners 2](https://anilist.co/search/anime?search=Cyberpunk%20Edgerunners%202) | airing | 10 | 10 | 100% |
-| [Mushoku Tensei S3](https://anilist.co/search/anime?search=Mushoku%20Tensei%20S3) | airing | 14 | 14 | 100% |
-| [FX Fighter Kurumi-chan](https://anilist.co/search/anime?search=FX%20Fighter%20Kurumi-chan) | dropped | 1 | 12 | 8% |
-| [Jaadugar](https://anilist.co/search/anime?search=Jaadugar) | dropped | 7 | 12 | 58% |
-
-> Data snapshot: 2026-10-27 15:57 (+08)
+*Values are generated from my tracker and refresh automatically when the
+data changes.*

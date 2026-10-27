@@ -64,6 +64,10 @@ menu:
       name: Photography
       url: /photos/
       weight: 15
+    - identifier: dashboards
+      name: Dashboards
+      url: /dashboards/
+      weight: 18
     - identifier: bookmark
       name: Bookmark
       url: /bookmark/
