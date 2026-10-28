@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "photos-style.html" . }}
+<section class="pg">
+  <h1 class="pg-h1">{{ .Title }}</h1>
+  {{ with .Description }}<p class="pg-sub">{{ . }}</p>{{ end }}
+  <div class="pg-grid">
+    {{ range .Pages }}
+    {{ $cover := "" }}
+    {{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $cover = .RelPermalink }}{{ end }}{{ end }}
+    {{ if not $cover }}{{ with (.Resources.ByType "image" | first) }}{{ $cover = .RelPermalink }}{{ end }}{{ end }}
+    <a class="pg-card" href="{{ .RelPermalink }}">
+      {{ if $cover }}<img src="{{ $cover }}" alt="{{ .Title }}" loading="lazy">
+      {{ else }}<div class="pg-ph">{{ .Title }}</div>{{ end }}
+      <span class="pg-cap"><b>{{ .Title }}</b><i>{{ .Date.Format "2006-01" }}</i></span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ partial "photos-style.html" . }}
+<article class="pg pg-single">
+  <h1 class="pg-h1">{{ .Title }}</h1>
+  <p class="pg-meta">{{ .Date.Format "2006-01" }}{{ with .Params.author }} · {{ . }}{{ end }}</p>
+  <div class="pg-flow">{{ .Content }}</div>
+  <nav class="pg-nav">
+    {{ with .PrevInSection }}{{ $c := "" }}{{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $c = .RelPermalink }}{{ end }}{{ end }}
+    <a class="pg-prev" href="{{ .RelPermalink }}">
+      {{ if $c }}<img src="{{ $c }}" alt="" loading="lazy">{{ end }}
+      <span><small>Previous</small><b>{{ .Title }}</b></span></a>
+    {{ end }}
+    {{ with .NextInSection }}{{ $c := "" }}{{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $c = .RelPermalink }}{{ end }}{{ end }}
+    <a class="pg-next" href="{{ .RelPermalink }}">
+      <span><small>Next</small><b>{{ .Title }}</b></span>
+      {{ if $c }}<img src="{{ $c }}" alt="" loading="lazy">{{ end }}</a>
+    {{ end }}
+  </nav>
+</article>
+{{ end }}

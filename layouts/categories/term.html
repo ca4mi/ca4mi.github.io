@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "photos-style.html" . }}
+<section class="pg">
+  <h1 class="pg-h1">{{ .Title }}</h1>
+  <p class="pg-sub">{{ len .Pages }} posts</p>
+  {{ $hasCover := false }}
+  {{ range .Pages }}{{ if .Params.cover }}{{ $hasCover = true }}{{ end }}{{ end }}
+  {{ if $hasCover }}
+  <div class="pg-grid">
+    {{ range .Pages }}
+    {{ $cover := "" }}
+    {{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $cover = .RelPermalink }}{{ end }}{{ end }}
+    <a class="pg-card" href="{{ .RelPermalink }}">
+      {{ if $cover }}<img src="{{ $cover }}" alt="{{ .Title }}" loading="lazy">
+      {{ else }}<div class="pg-ph">{{ .Title }}</div>{{ end }}
+      <span class="pg-cap"><b>{{ .Title }}</b><i>{{ .Date.Format "2006-01" }}</i></span>
+    </a>
+    {{ end }}
+  </div>
+  {{ else }}
+  {{ range .Pages }}
+  <a class="pg-text-row" href="{{ .RelPermalink }}">
+    <span>{{ .Title }}</span><i>{{ .Date.Format "2006-01" }}</i></a>
+  {{ end }}
+  {{ end }}
+</section>
+{{ end }}
