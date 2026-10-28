@@ -16,5 +16,58 @@
       {{ if $c }}<img src="{{ $c }}" alt="" loading="lazy">{{ end }}</a>
     {{ end }}
   </nav>
+  <script>
+(function () {
+  var imgs = Array.prototype.slice.call(
+    document.querySelectorAll('.pg-flow img'));
+  if (!imgs.length) return;
+  var box = document.createElement('div');
+  box.className = 'pg-lb';
+  box.hidden = true;
+  var im = document.createElement('img');
+  var cnt = document.createElement('div');
+  cnt.className = 'pg-lb-c';
+  function btn(sym, cls) {
+    var b = document.createElement('button');
+    b.className = 'pg-lb-b ' + cls;
+    b.textContent = sym;
+    return b;
+  }
+  var prev = btn('\u2039', 'pg-lb-prev');
+  var next = btn('\u203a', 'pg-lb-next');
+  var close = btn('\u00d7', 'pg-lb-x');
+  box.appendChild(im); box.appendChild(cnt);
+  box.appendChild(prev); box.appendChild(next); box.appendChild(close);
+  document.body.appendChild(box);
+  var i = 0;
+  function show(n) {
+    i = (n + imgs.length) % imgs.length;
+    var s = imgs[i];
+    im.src = s.currentSrc || s.src;
+    cnt.textContent = (i + 1) + ' / ' + imgs.length;
+    box.hidden = false;
+  }
+  function hide() { box.hidden = true; }
+  imgs.forEach(function (el, n) {
+    el.addEventListener('click', function () { show(n); });
+  });
+  prev.addEventListener('click', function (e) {
+    e.stopPropagation(); show(i - 1);
+  });
+  next.addEventListener('click', function (e) {
+    e.stopPropagation(); show(i + 1);
+  });
+  close.addEventListener('click', hide);
+  box.addEventListener('click', function (e) {
+    if (e.target === box || e.target === im) hide();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (box.hidden) return;
+    if (e.key === 'Escape') hide();
+    else if (e.key === 'ArrowLeft') show(i - 1);
+    else if (e.key === 'ArrowRight') show(i + 1);
+  });
+})();
+  </script>
 </article>
 {{ end }}

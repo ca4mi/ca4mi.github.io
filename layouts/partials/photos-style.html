@@ -12,7 +12,7 @@ category term). YEAR-MONTH dates only — site display rule. */ -}}
 .pg-sub { color: var(--pg-mut); font-size: .88em; margin: 0 0 1.4em; }
 .pg-grid { column-count: 3; column-gap: 14px; }
 @media (max-width: 900px) { .pg-grid { column-count: 2; } }
-@media (max-width: 560px) { .pg-grid { column-count: 1; } }
+@media (max-width: 560px) { .pg-grid { column-count: 2; column-gap: 10px; } }
 .pg-card { display: block; break-inside: avoid; margin: 0 0 14px;
       text-decoration: none; color: inherit; }
 .pg-card img { display: block; width: 100%; height: auto; border-radius: 6px;
@@ -32,10 +32,16 @@ category term). YEAR-MONTH dates only — site display rule. */ -}}
 .pg-single { max-width: 1060px; }
 .pg-single .pg-h1 { margin-bottom: .1em; }
 .pg-meta { color: var(--pg-mut); font-size: .85em; margin: 0 0 1.6em; }
-.pg-flow img { display: block; width: 100%; height: auto; margin: 0 0 16px;
-      border-radius: 6px; background: var(--pg-line); }
-.pg-flow p { margin: 0 0 16px; }
-.pg-flow a img:hover { filter: brightness(.94); }
+.pg-flow { column-count: 3; column-gap: 10px; }
+@media (max-width: 900px) { .pg-flow { column-count: 2; } }
+.pg-flow p { break-inside: avoid; margin: 0 0 10px; }
+/* posts have no blank lines between images -> all imgs live in one <p>;
+   unwrap those paragraphs so EVERY photo becomes its own grid cell */
+.pg-flow p:has(> img) { display: contents; }
+.pg-flow img { display: block; width: 100%; height: auto;
+      border-radius: 6px; background: var(--pg-line); cursor: zoom-in;
+      transition: filter .2s; margin-bottom: 10px; }
+.pg-flow img:hover { filter: brightness(.95); }
 .pg-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
       margin: 30px 0 10px; border-top: 1px solid var(--pg-line); padding-top: 18px; }
 .pg-nav a { display: flex; gap: 12px; align-items: center; text-decoration: none;
@@ -46,4 +52,19 @@ category term). YEAR-MONTH dates only — site display rule. */ -}}
       grid-column: 2; }
 .pg-nav b { display: block; font-weight: 600; }
 .pg-nav small { color: var(--pg-mut); }
+/* lightbox: click a photo -> fullscreen, one-by-one with arrows/Esc */
+.pg-lb { position: fixed; inset: 0; z-index: 999; background: rgba(8,10,14,.94);
+      display: flex; align-items: center; justify-content: center; }
+.pg-lb[hidden] { display: none; }
+.pg-lb > img { max-width: 94vw; max-height: 86vh; object-fit: contain;
+      border-radius: 4px; user-select: none; }
+.pg-lb-c { position: fixed; top: 16px; left: 50%; transform: translateX(-50%);
+      color: #e7e9ee; font-size: .85em; letter-spacing: .08em; }
+.pg-lb-b { position: fixed; background: rgba(255,255,255,.08); color: #e7e9ee;
+      border: 0; font-size: 1.5em; line-height: 1; width: 46px; height: 46px;
+      border-radius: 50%; cursor: pointer; }
+.pg-lb-b:hover { background: rgba(255,255,255,.18); }
+.pg-lb-prev { left: 14px; top: 50%; transform: translateY(-50%); }
+.pg-lb-next { right: 14px; top: 50%; transform: translateY(-50%); }
+.pg-lb-x { right: 14px; top: 14px; }
 </style>
