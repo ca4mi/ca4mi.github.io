@@ -1,11 +1,10 @@
 ---
 title: "Anime"
-date: 2026-10-27T15:57:11+08:00
-lastmod: 2026-10-27T16:24:33+08:00
+date: 2026-10-28T10:06:23+08:00
+lastmod: 2026-10-28T10:08:22+08:00
 summary: "5 shows · 34/58 episodes watched (59%)"
-tags: ["dashboards"]
 weight: 1
-snapshot: "2026-10-27 16:24"
+snapshot: "2026-10"
 data:
   stats:
     - {k: "Shows", v: "5 (3 airing)"}

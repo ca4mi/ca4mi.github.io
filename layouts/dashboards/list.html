@@ -1,0 +1,27 @@
+{{ define "main" }}
+<style>
+.wd { --wd-line: #e4e7ec; --wd-mut: #667085; --wd-ink: #1a1d21;
+      --wd-card: #fff; max-width: 820px; }
+@media (prefers-color-scheme: dark) {
+  .wd { --wd-line: #2c313a; --wd-mut: #98a2b3; --wd-ink: #e7e9ee;
+        --wd-card: #1c1f24; }
+}
+.wd-h1 { font-size: 1.7em; font-weight: 700; margin: 1.2em 0 .6em; }
+.wd-item { background: var(--wd-card); border: 1px solid var(--wd-line);
+      border-radius: 10px; padding: 14px 18px; margin: 12px 0; }
+.wd-item h2 { margin: 0 0 4px; font-size: 1.15em; }
+.wd-item h2 a { text-decoration: none; }
+.wd-sum { color: var(--wd-mut); font-size: .9em; margin: 0; }
+.wd-snap { font-size: .75em; color: var(--wd-mut); margin-top: 6px; }
+</style>
+<section class="wd">
+  <h1 class="wd-h1">{{ .Title }}</h1>
+  {{ range .Pages.ByWeight }}
+  <article class="wd-item">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="wd-sum">{{ .Params.summary }}</p>
+    {{ with .Params.snapshot }}<p class="wd-snap">Data snapshot: {{ . }} (+08)</p>{{ end }}
+  </article>
+  {{ end }}
+</section>
+{{ end }}
