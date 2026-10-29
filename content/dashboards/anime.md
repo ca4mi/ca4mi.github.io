@@ -1,21 +1,21 @@
 ---
 title: "Anime"
 date: 2026-10-28T10:06:23+08:00
-lastmod: 2026-10-28T10:08:22+08:00
-summary: "5 shows · 34/58 episodes watched (59%)"
+lastmod: 2026-10-29T11:46:19+08:00
+summary: "5 shows · 36/58 episodes watched (62%)"
 weight: 1
 snapshot: "2026-10"
 data:
   stats:
     - {k: "Shows", v: "5 (3 airing)"}
-    - {k: "Watched", v: "34/58 eps"}
-    - {k: "Rate", v: "59%"}
+    - {k: "Watched", v: "36/58 eps"}
+    - {k: "Rate", v: "62%"}
   shows:
     - title: "Chii Fuyo"
       status: "airing"
-      watched: "2"
+      watched: "4"
       total: "10"
-      pct: "20"
+      pct: "40"
       cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b207329-6VPeZIDfF4Sr.png"
     - title: "Cyberpunk Edgerunners 2"
       status: "airing"
