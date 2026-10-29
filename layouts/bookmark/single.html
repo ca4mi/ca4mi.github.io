@@ -1,5 +1,7 @@
 {{ define "main" }}
 <style>
+/* PaperMod caps content at --main-width:720px; cards need ~1040 */
+.main:has(.bm) { --main-width: 1040px; }
 .bm { --bm-ink: #1a1d21; --bm-mut: #7a8290; --bm-line: #e4e7ec;
       --bm-card: #ffffff; --bm-hover: rgba(0,0,0,.045); max-width: 1040px; }
 @media (prefers-color-scheme: dark) {
@@ -8,14 +10,17 @@
 }
 .bm-h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500;
       font-size: 1.9em; margin: 1.1em 0 .8em; }
-.bm-sec { font-size: 1.1em; font-weight: 700; margin: 1.6em 0 .5em;
-      letter-spacing: .01em; }
+/* section separators: hairline rule above each category heading
+   (first one sits right under the H1, so it stays rule-free) */
+.bm-body h3 { font-size: 1.05em; font-weight: 700; letter-spacing: .01em;
+      margin: 26px 0 12px; padding-top: 16px;
+      border-top: 1px solid var(--bm-line); }
+.bm-body h3:first-of-type { border-top: 0; padding-top: 0; margin-top: 4px; }
 .bm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
       margin: 0 0 6px; }
 @media (max-width: 900px) { .bm-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 560px) { .bm-grid { grid-template-columns: repeat(2, 1fr);
-      gap: 8px; } }
 .bm-card { position: relative; display: flex; align-items: center; gap: 10px;
+      min-width: 0;
       background: var(--bm-card); border: 1px solid var(--bm-line);
       border-radius: 10px; padding: 10px 12px; min-height: 56px;
       transition: border-color .2s, transform .2s; }
@@ -28,8 +33,9 @@
 .bm-ic img { position: absolute; inset: 0; width: 100%; height: 100%;
       object-fit: contain; background: #fff; padding: 4px; }
 .bm-meta { min-width: 0; flex: 1; }
-.bm-meta b { display: block; font-size: .88em; font-weight: 600;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bm-meta b { display: -webkit-box; -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; overflow: hidden; font-size: .88em;
+      font-weight: 600; line-height: 1.25; }
 .bm-meta small { display: block; font-size: .74em; color: var(--bm-mut);
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .bm-meta a::after { content: ""; position: absolute; inset: 0; }
@@ -40,6 +46,16 @@
       padding: .25em .6em; text-decoration: none; }
 .bm-rss:hover { background: rgba(194,65,12,.18); }
 .bm-fallback { overflow-x: auto; }
+/* phone overrides LAST so they win over the base rules above */
+@media (max-width: 560px) {
+  .bm-grid { grid-template-columns: 1fr; gap: 8px; }
+  .bm-card { gap: 10px; padding: 9px 12px; min-height: 50px; }
+  .bm-ic { flex-basis: 30px; width: 30px; height: 30px; border-radius: 7px; }
+  .bm-meta b { font-size: .85em; }
+  .bm-meta small { font-size: .7em; }
+  .bm-rss { font-size: .64em; padding: .25em .6em; }
+  .bm-h1 { font-size: 1.55em; }
+}
 </style>
 <section class="bm">
   <h1 class="bm-h1">{{ .Title }}</h1>
