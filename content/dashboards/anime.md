@@ -1,15 +1,15 @@
 ---
 title: "Anime"
 date: 2026-10-28T10:06:23+08:00
-lastmod: 2026-10-31T19:12:33+08:00
-summary: "8 shows · 36/90 episodes watched (40%)"
+lastmod: 2026-10-31T21:13:32+08:00
+summary: "9 shows · 36/101 episodes watched (36%)"
 weight: 1
 snapshot: "2026-10"
 data:
   stats:
-    - {k: "Shows", v: "8 (6 airing)"}
-    - {k: "Watched", v: "36/90 eps"}
-    - {k: "Rate", v: "40%"}
+    - {k: "Shows", v: "9 (7 airing)"}
+    - {k: "Watched", v: "36/101 eps"}
+    - {k: "Rate", v: "36%"}
   shows:
     - title: "Chii Fuyo"
       status: "airing"
@@ -34,6 +34,12 @@ data:
       total: "7"
       pct: "0"
       cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141953-S3RozQSOxzrw.png"
+    - title: "Though I Am an Inept Villainess"
+      status: "completed"
+      watched: "0"
+      total: "11"
+      pct: "0"
+      cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
     - title: "You and I Are Polar Opposites"
       status: "completed"
       watched: "0"
