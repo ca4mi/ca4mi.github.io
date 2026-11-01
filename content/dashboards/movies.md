@@ -1,14 +1,14 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-10-30T18:00:26+08:00
-summary: "10 titles · avg 3.7/10"
+lastmod: 2026-11-01T11:20:30+08:00
+summary: "12 titles · avg 3.7/10"
 weight: 2
-snapshot: "2026-10"
+snapshot: "2026-11"
 data:
   stats:
-    - {k: "Media", v: "10"}
-    - {k: "Movies", v: "8"}
+    - {k: "Media", v: "12"}
+    - {k: "Movies", v: "10"}
     - {k: "Series", v: "2"}
     - {k: "Avg rating", v: "3.7/10"}
   movies:
@@ -54,6 +54,12 @@ data:
       progress: "—"
       status: "dropped"
   watchlist:
+    - title: "Miao Miao"
+      year: "2008"
+      added: "2026-11"
+    - title: "A Confucian Confusion"
+      year: "1994"
+      added: "2026-11"
     - title: "Forgotten Island"
       year: "2026"
       added: "2026-10"

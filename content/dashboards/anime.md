@@ -1,15 +1,15 @@
 ---
 title: "Anime"
 date: 2026-10-28T10:06:23+08:00
-lastmod: 2026-10-31T21:13:32+08:00
-summary: "9 shows · 36/101 episodes watched (36%)"
+lastmod: 2026-11-01T11:20:30+08:00
+summary: "9 shows · 43/101 episodes watched (43%)"
 weight: 1
-snapshot: "2026-10"
+snapshot: "2026-11"
 data:
   stats:
     - {k: "Shows", v: "9 (7 airing)"}
-    - {k: "Watched", v: "36/101 eps"}
-    - {k: "Rate", v: "36%"}
+    - {k: "Watched", v: "43/101 eps"}
+    - {k: "Rate", v: "43%"}
   shows:
     - title: "Chii Fuyo"
       status: "airing"
@@ -30,9 +30,9 @@ data:
       pct: "100"
     - title: "False Memory (2026)"
       status: "completed"
-      watched: "0"
+      watched: "7"
       total: "7"
-      pct: "0"
+      pct: "100"
       cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141953-S3RozQSOxzrw.png"
     - title: "Though I Am an Inept Villainess"
       status: "completed"
