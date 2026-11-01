@@ -1,15 +1,15 @@
 ---
 title: "Anime"
 date: 2026-10-28T10:06:23+08:00
-lastmod: 2026-11-01T11:20:30+08:00
-summary: "9 shows · 43/101 episodes watched (43%)"
+lastmod: 2026-11-01T23:26:29+08:00
+summary: "9 shows · 46/101 episodes watched (46%)"
 weight: 1
 snapshot: "2026-11"
 data:
   stats:
     - {k: "Shows", v: "9 (7 airing)"}
-    - {k: "Watched", v: "43/101 eps"}
-    - {k: "Rate", v: "43%"}
+    - {k: "Watched", v: "46/101 eps"}
+    - {k: "Rate", v: "46%"}
   shows:
     - title: "Chii Fuyo"
       status: "airing"
@@ -42,15 +42,15 @@ data:
       cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
     - title: "You and I Are Polar Opposites"
       status: "completed"
-      watched: "0"
+      watched: "2"
       total: "12"
-      pct: "0"
+      pct: "17"
       cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg"
     - title: "You and I Are Polar Opposites Season 2"
       status: "completed"
-      watched: "0"
+      watched: "1"
       total: "13"
-      pct: "0"
+      pct: "8"
       cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx210031-TppgcHZh46LY.jpg"
     - title: "FX Fighter Kurumi-chan"
       status: "dropped"
