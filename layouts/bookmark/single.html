@@ -4,10 +4,8 @@
 .main:has(.bm) { --main-width: 1040px; }
 .bm { --bm-ink: #1a1d21; --bm-mut: #7a8290; --bm-line: #e4e7ec;
       --bm-card: #ffffff; --bm-hover: rgba(0,0,0,.045); max-width: 1040px; }
-@media (prefers-color-scheme: dark) {
-  .bm { --bm-ink: #e7e9ee; --bm-mut: #8b94a3; --bm-line: #2c313a;
-        --bm-card: #1c1f24; --bm-hover: rgba(255,255,255,.05); }
-}
+body.dark .bm { --bm-ink: #e7e9ee; --bm-mut: #8b94a3; --bm-line: #2c313a;
+      --bm-card: #1c1f24; --bm-hover: rgba(255,255,255,.05); }
 .bm-h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500;
       font-size: 1.9em; margin: 1.1em 0 .8em; }
 /* section separators: hairline rule above each category heading

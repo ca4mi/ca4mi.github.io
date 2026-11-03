@@ -3,10 +3,8 @@ category term). YEAR-MONTH dates only — site display rule. */ -}}
 <style>
 .pg { --pg-ink: #1a1d21; --pg-mut: #7a8290; --pg-line: #e4e7ec;
       --pg-card: #ffffff; --pg-hover: rgba(0,0,0,.045); max-width: 1200px; }
-@media (prefers-color-scheme: dark) {
-  .pg { --pg-ink: #e7e9ee; --pg-mut: #8b94a3; --pg-line: #2c313a;
-        --pg-card: #1c1f24; --pg-hover: rgba(255,255,255,.05); }
-}
+body.dark .pg { --pg-ink: #e7e9ee; --pg-mut: #8b94a3; --pg-line: #2c313a;
+      --pg-card: #1c1f24; --pg-hover: rgba(255,255,255,.05); }
 .pg-h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500;
       font-size: 1.9em; letter-spacing: .01em; margin: 1.1em 0 .2em; }
 .pg-sub { color: var(--pg-mut); font-size: .88em; margin: 0 0 1.4em; }

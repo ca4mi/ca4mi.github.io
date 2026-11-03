@@ -3,10 +3,8 @@
 .wd { --wd-bg: #f7f8fa; --wd-card: #ffffff; --wd-line: #e4e7ec; --wd-ink: #1a1d21;
       --wd-mut: #667085; --wd-acc: #2563eb; --wd-ok: #16a34a; --wd-warn: #d97706;
       --wd-bad: #dc2626; max-width: 1000px; }
-@media (prefers-color-scheme: dark) {
-  .wd { --wd-bg: #14161a; --wd-card: #1c1f24; --wd-line: #2c313a;
-        --wd-ink: #e7e9ee; --wd-mut: #98a2b3; --wd-acc: #60a5fa; }
-}
+body.dark .wd { --wd-bg: #14161a; --wd-card: #1c1f24; --wd-line: #2c313a;
+      --wd-ink: #e7e9ee; --wd-mut: #98a2b3; --wd-acc: #60a5fa; }
 .wd-title { font-size: 1.7em; font-weight: 700; margin: 1.2em 0 .15em; }
 .wd-sum { color: var(--wd-mut); font-size: .95em; margin-bottom: .4em; }
 .wd-chip { display: inline-block; font-size: .7em; font-weight: 600; letter-spacing: .04em;
