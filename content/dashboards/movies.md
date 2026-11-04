@@ -1,14 +1,14 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-01T11:20:30+08:00
-summary: "12 titles · avg 3.7/10"
+lastmod: 2026-11-04T16:56:32+08:00
+summary: "13 titles · avg 3.7/10"
 weight: 2
 snapshot: "2026-11"
 data:
   stats:
-    - {k: "Media", v: "12"}
-    - {k: "Movies", v: "10"}
+    - {k: "Media", v: "13"}
+    - {k: "Movies", v: "11"}
     - {k: "Series", v: "2"}
     - {k: "Avg rating", v: "3.7/10"}
   movies:
@@ -54,6 +54,9 @@ data:
       progress: "—"
       status: "dropped"
   watchlist:
+    - title: "Resident Evil"
+      year: "2026"
+      added: "2026-11"
     - title: "Miao Miao"
       year: "2008"
       added: "2026-11"
