@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-08T14:22:36+08:00
+lastmod: 2026-11-08T22:23:12+08:00
 summary: "14 titles · avg 4.1/10"
 weight: 2
 snapshot: "2026-11"
@@ -53,7 +53,7 @@ data:
       poster: "https://m.media-amazon.com/images/M/MV5BNmRjOTc3ZWEtY2Y0Ni00MjgwLWFiMmMtOTA5NjUxNjE0MDNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
   series:
     - show: "MobLand"
-      progress: "S2E7"
+      progress: "S2E8"
       status: "watching"
     - show: "GTO: Great Teacher Onizuka"
       progress: "—"
