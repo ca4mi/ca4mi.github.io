@@ -1,17 +1,22 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-04T16:56:32+08:00
-summary: "13 titles · avg 3.7/10"
+lastmod: 2026-11-08T14:22:36+08:00
+summary: "14 titles · avg 4.1/10"
 weight: 2
 snapshot: "2026-11"
 data:
   stats:
-    - {k: "Media", v: "13"}
-    - {k: "Movies", v: "11"}
+    - {k: "Media", v: "14"}
+    - {k: "Movies", v: "12"}
     - {k: "Series", v: "2"}
-    - {k: "Avg rating", v: "3.7/10"}
+    - {k: "Avg rating", v: "4.1/10"}
   movies:
+    - title: "Resident Evil"
+      year: "2026"
+      rating: "7"
+      watched: "2026-11"
+      poster: "https://m.media-amazon.com/images/M/MV5BODIwYTk4MWYtMGUxYS00OWUzLTg5MDYtNzg5MmYyNzcyNThkXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg"
     - title: "Spider-Man: Brand New Day"
       year: "2026"
       rating: "5"
@@ -54,7 +59,7 @@ data:
       progress: "—"
       status: "dropped"
   watchlist:
-    - title: "Resident Evil"
+    - title: "The Odyssey"
       year: "2026"
       added: "2026-11"
     - title: "Miao Miao"
