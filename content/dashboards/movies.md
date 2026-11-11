@@ -1,8 +1,8 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-08T22:23:12+08:00
-summary: "14 titles · avg 4.1/10"
+lastmod: 2026-11-11T12:31:23+08:00
+summary: "14 titles · avg 4.5/10"
 weight: 2
 snapshot: "2026-11"
 data:
@@ -10,8 +10,13 @@ data:
     - {k: "Media", v: "14"}
     - {k: "Movies", v: "12"}
     - {k: "Series", v: "2"}
-    - {k: "Avg rating", v: "4.1/10"}
+    - {k: "Avg rating", v: "4.5/10"}
   movies:
+    - title: "A Confucian Confusion"
+      year: "1994"
+      rating: "7"
+      watched: "2026-11"
+      poster: "https://m.media-amazon.com/images/M/MV5BYmZmZjVmZDUtZGExNS00NzZlLTlkOWYtMTg5YmQzMzM1Y2E3XkEyXkFqcGc@._V1_SX300.jpg"
     - title: "Resident Evil"
       year: "2026"
       rating: "7"
@@ -64,9 +69,6 @@ data:
       added: "2026-11"
     - title: "Miao Miao"
       year: "2008"
-      added: "2026-11"
-    - title: "A Confucian Confusion"
-      year: "1994"
       added: "2026-11"
     - title: "Forgotten Island"
       year: "2026"
