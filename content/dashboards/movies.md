@@ -1,14 +1,14 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-11T12:31:23+08:00
-summary: "14 titles · avg 4.5/10"
+lastmod: 2026-11-13T12:33:12+08:00
+summary: "15 titles · avg 4.5/10"
 weight: 2
 snapshot: "2026-11"
 data:
   stats:
-    - {k: "Media", v: "14"}
-    - {k: "Movies", v: "12"}
+    - {k: "Media", v: "15"}
+    - {k: "Movies", v: "13"}
     - {k: "Series", v: "2"}
     - {k: "Avg rating", v: "4.5/10"}
   movies:
@@ -64,6 +64,9 @@ data:
       progress: "—"
       status: "dropped"
   watchlist:
+    - title: "Survive Style 5+"
+      year: "2005"
+      added: "2026-11"
     - title: "The Odyssey"
       year: "2026"
       added: "2026-11"
