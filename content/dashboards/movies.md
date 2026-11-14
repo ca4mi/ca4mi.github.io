@@ -1,8 +1,8 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-13T18:33:27+08:00
-summary: "15 titles · avg 4.5/10"
+lastmod: 2026-11-14T14:34:06+08:00
+summary: "15 titles · avg 4.9/10"
 weight: 2
 snapshot: "2026-11"
 data:
@@ -10,8 +10,13 @@ data:
     - {k: "Media", v: "15"}
     - {k: "Movies", v: "13"}
     - {k: "Series", v: "2"}
-    - {k: "Avg rating", v: "4.5/10"}
+    - {k: "Avg rating", v: "4.9/10"}
   movies:
+    - title: "The Odyssey"
+      year: "2026"
+      rating: "8"
+      watched: "2026-11"
+      poster: "https://m.media-amazon.com/images/M/MV5BNTcyNmJlZmQtNDUwYy00NDBjLTg1NGQtYTY2Y2UxMWM3NmI1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
     - title: "A Confucian Confusion"
       year: "1994"
       rating: "7"
@@ -66,9 +71,6 @@ data:
   watchlist:
     - title: "Survive Style 5+"
       year: "2005"
-      added: "2026-11"
-    - title: "The Odyssey"
-      year: "2026"
       added: "2026-11"
     - title: "Miao Miao"
       year: "2008"
