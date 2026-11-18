@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-14T14:34:06+08:00
+lastmod: 2026-11-18T12:37:22+08:00
 summary: "15 titles · avg 4.9/10"
 weight: 2
 snapshot: "2026-11"
@@ -69,15 +69,9 @@ data:
       progress: "—"
       status: "dropped"
   watchlist:
-    - title: "Survive Style 5+"
-      year: "2005"
-      added: "2026-11"
     - title: "Miao Miao"
       year: "2008"
       added: "2026-11"
-    - title: "Forgotten Island"
-      year: "2026"
-      added: "2026-10"
 ---
 
 *Values are generated from my tracker and refresh automatically when the
