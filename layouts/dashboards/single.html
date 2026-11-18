@@ -101,11 +101,17 @@ body.dark .wd { --wd-bg: #14161a; --wd-card: #1c1f24; --wd-line: #2c313a;
 
   {{ with $d.series }}
   <div class="wd-sec">Series</div>
-  <div class="wd-list">
+  <div class="wd-grid">
     {{ range . }}
-    <div class="wd-row"><b>{{ .show }}</b>
-      <span class="wd-right"><span class="wd-chip">{{ .progress }}</span>
-      <span class="wd-chip">{{ .status }}</span></span></div>
+    <div class="wd-card wd-poster">
+      {{ if .poster }}<img src="{{ .poster }}" alt="{{ .show }}" loading="lazy">
+      {{ else }}<div class="wd-ph">{{ substr .show 0 1 }}</div>{{ end }}
+      <div class="wd-meta">
+        <div class="wd-name">{{ .show }}</div>
+        <span class="wd-chip">{{ .progress }}</span>
+        <span class="wd-chip">{{ .status }}</span>
+      </div>
+    </div>
     {{ end }}
   </div>
   {{ end }}
