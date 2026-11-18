@@ -110,6 +110,10 @@ body.dark .wd { --wd-bg: #14161a; --wd-card: #1c1f24; --wd-line: #2c313a;
         <div class="wd-name">{{ .show }}</div>
         <span class="wd-chip">{{ .progress }}</span>
         <span class="wd-chip">{{ .status }}</span>
+        {{ if .pct }}
+        <div class="wd-prog"><i class="{{ if ge .pct 100 }}wd-done{{ end }}" style="width:{{ .pct }}%"></i></div>
+        <div class="wd-pct">{{ .pct }}% · {{ .up }}/{{ .total_eps }} eps</div>
+        {{ end }}
       </div>
     </div>
     {{ end }}
