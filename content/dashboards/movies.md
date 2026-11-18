@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-18T12:37:22+08:00
+lastmod: 2026-11-18T12:58:24+08:00
 summary: "15 titles · avg 4.9/10"
 weight: 2
 snapshot: "2026-11"
@@ -65,9 +65,11 @@ data:
     - show: "MobLand"
       progress: "S2E9"
       status: "watching"
+      poster: "https://m.media-amazon.com/images/M/MV5BZDc4MmYxNTAtM2ViYy00YWQ4LThjZWUtNDZjNTZjNDFhNzBjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
     - show: "GTO: Great Teacher Onizuka"
       progress: "—"
       status: "dropped"
+      poster: "https://m.media-amazon.com/images/M/MV5BY2M4NmZlZmEtNWJhMi00ZDkxLTgwOWEtMGMyZGNjYjQ0MjU2XkEyXkFqcGc@._V1_SX300.jpg"
   watchlist:
     - title: "Miao Miao"
       year: "2008"
