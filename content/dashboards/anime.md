@@ -1,15 +1,15 @@
 ---
 title: "Anime"
 date: 2026-10-28T10:06:23+08:00
-lastmod: 2026-11-19T14:40:51+08:00
-summary: "8 shows · 45/89 episodes watched (51%)"
+lastmod: 2026-11-19T16:41:52+08:00
+summary: "7 shows · 44/76 episodes watched (58%)"
 weight: 1
 snapshot: "2026-11"
 data:
   stats:
-    - {k: "Shows", v: "8 (7 airing)"}
-    - {k: "Watched", v: "45/89 eps"}
-    - {k: "Rate", v: "51%"}
+    - {k: "Shows", v: "7 (6 airing)"}
+    - {k: "Watched", v: "44/76 eps"}
+    - {k: "Rate", v: "58%"}
   shows:
     - title: "Chii Fuyo"
       status: "airing"
@@ -46,12 +46,6 @@ data:
       total: "12"
       pct: "17"
       cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg"
-    - title: "You and I Are Polar Opposites Season 2"
-      status: "completed"
-      watched: "1"
-      total: "13"
-      pct: "8"
-      cover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx210031-TppgcHZh46LY.jpg"
     - title: "Jaadugar"
       status: "dropped"
       watched: "7"
