@@ -8,24 +8,39 @@ body.dark .pg { --pg-ink: #e7e9ee; --pg-mut: #8b94a3; --pg-line: #2c313a;
 .pg-h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500;
       font-size: 1.9em; letter-spacing: .01em; margin: 1.1em 0 .2em; }
 .pg-sub { color: var(--pg-mut); font-size: .88em; margin: 0 0 1.4em; }
-.pg-grid { column-count: 3; column-gap: 14px; }
-@media (max-width: 900px) { .pg-grid { column-count: 2; } }
-@media (max-width: 560px) { .pg-grid { column-count: 2; column-gap: 10px; } }
-.pg-card { display: block; break-inside: avoid; margin: 0 0 14px;
+/* GRID, not column-count: multi-column rebalances every column whenever one
+   card grows (long title wrapping), which reflows the whole gallery. A grid
+   keeps fixed columns; each card wraps inside its own cell instead. */
+.pg-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px; align-items: start; }
+@media (max-width: 900px) { .pg-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .pg-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 10px; } }
+.pg-card { display: block; min-width: 0; margin: 0;
       text-decoration: none; color: inherit; }
 .pg-card img { display: block; width: 100%; height: auto; border-radius: 6px;
       background: var(--pg-line); transition: filter .25s, transform .25s; }
 .pg-card:hover img { filter: brightness(.92); transform: translateY(-2px); }
-.pg-cap { display: flex; justify-content: space-between; align-items: baseline;
+/* caption: date is flex:none so it never gets squeezed; title wraps inside
+   its own box, clamped to 2 lines so rows stay even height */
+.pg-cap { display: flex; justify-content: space-between; align-items: flex-start;
       gap: 10px; padding: 7px 2px 0; font-size: .82em; }
-.pg-cap b { font-weight: 600; }
-.pg-cap i { font-style: normal; color: var(--pg-mut); font-size: .92em;
+.pg-cap b { font-weight: 600; min-width: 0; overflow-wrap: anywhere;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden; }
+.pg-cap i { flex: none; font-style: normal; color: var(--pg-mut); font-size: .92em;
       white-space: nowrap; }
+/* no-cover placeholder: fixed 4/3 box so such cells keep row height equal */
+.pg-ph { display: flex; align-items: center; justify-content: center;
+      aspect-ratio: 4 / 3; padding: 10px; border-radius: 6px;
+      background: var(--pg-line); color: var(--pg-mut); font-size: .9em;
+      text-align: center; overflow-wrap: anywhere; }
 .pg-text-row { display: flex; justify-content: space-between; align-items: baseline;
       gap: 12px; padding: 10px 4px; border-bottom: 1px solid var(--pg-line);
       font-size: .92em; text-decoration: none; color: inherit; }
 .pg-text-row:hover { background: var(--pg-hover); }
-.pg-text-row i { font-style: normal; color: var(--pg-mut); font-size: .9em; }
+.pg-text-row span { min-width: 0; overflow-wrap: anywhere; }
+.pg-text-row i { flex: none; font-style: normal; color: var(--pg-mut); font-size: .9em;
+      white-space: nowrap; }
 /* single project page */
 .pg-single { max-width: 1060px; }
 .pg-single .pg-h1 { margin-bottom: .1em; }
