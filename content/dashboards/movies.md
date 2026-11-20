@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-19T16:41:53+08:00
+lastmod: 2026-11-20T10:42:28+08:00
 summary: "15 titles · avg 4.9/10"
 weight: 2
 snapshot: "2026-11"
@@ -63,11 +63,11 @@ data:
       poster: "https://m.media-amazon.com/images/M/MV5BNmRjOTc3ZWEtY2Y0Ni00MjgwLWFiMmMtOTA5NjUxNjE0MDNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
   series:
     - show: "MobLand"
-      progress: "S2E9"
+      progress: "S2E10"
       status: "watching"
       poster: "https://m.media-amazon.com/images/M/MV5BZDc4MmYxNTAtM2ViYy00YWQ4LThjZWUtNDZjNTZjNDFhNzBjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
-      pct: "95"
-      up: "19"
+      pct: "100"
+      up: "20"
       total_eps: "20"
   watchlist:
     - title: "Miao Miao"
