@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-23T12:13:20+08:00
+lastmod: 2026-11-23T12:29:28+08:00
 summary: "16 titles · avg 5.1/10"
 weight: 2
 snapshot: "2026-11"
@@ -57,10 +57,6 @@ data:
       rating: "1"
       watched: "2026-08"
       poster: "https://m.media-amazon.com/images/M/MV5BNGVlY2E3YjYtMDI3OC00OTZjLWE5MTgtNzQ2NDdlNjMwMzVhXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg"
-    - title: "Miao Miao"
-      year: "2008"
-      watched: "2026-11"
-      poster: "https://m.media-amazon.com/images/M/MV5BYzBhNTY4NmQtYTBjNC00MDZkLThiYzAtMTJiMDc1MTk4ZTA5XkEyXkFqcGc@._V1_QL75_UX380_CR0,16,380,562_.jpg"
     - title: "The Pod Generation"
       year: "2023"
       watched: "2026-07"
@@ -84,7 +80,10 @@ data:
       total_eps: "8"
       rating: "5"
       seasons: [{n: 1, up: 8, total: 8, pct: 100, eps: [2,2,2,2,2,2,2,2]}]
-  empty_note: "Watchlist is empty."
+  watchlist:
+    - title: "Miao Miao"
+      year: "2008"
+      added: "2026-11"
 ---
 
 *Values are generated from my tracker and refresh automatically when the
