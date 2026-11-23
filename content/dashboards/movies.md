@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-23T12:29:28+08:00
+lastmod: 2026-11-23T13:34:33+08:00
 summary: "16 titles · avg 5.1/10"
 weight: 2
 snapshot: "2026-11"
@@ -71,7 +71,7 @@ data:
       total_eps: "20"
       rating: "7"
       seasons: [{n: 1, up: 10, total: 10, pct: 100, eps: [2,2,2,2,2,2,2,2,2,2]}, {n: 2, up: 10, total: 10, pct: 100, eps: [2,2,2,2,2,2,2,2,2,2]}]
-    - show: "Road"
+    - show: "The Blue Road"
       progress: "S1E8"
       status: "completed"
       poster: "https://m.media-amazon.com/images/M/MV5BYjcwZDg5NzQtNjQ2MS00NGNmLTk1OWEtNzBiM2JlMWNhZTRlXkEyXkFqcGc@._V1_SX300.jpg"
