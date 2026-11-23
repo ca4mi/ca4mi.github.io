@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-23T10:05:34+08:00
+lastmod: 2026-11-23T10:39:11+08:00
 summary: "16 titles · avg 5.3/10"
 weight: 2
 snapshot: "2026-11"
@@ -74,9 +74,6 @@ data:
       progress: "—"
       status: "completed"
       poster: "https://m.media-amazon.com/images/M/MV5BYjcwZDg5NzQtNjQ2MS00NGNmLTk1OWEtNzBiM2JlMWNhZTRlXkEyXkFqcGc@._V1_SX300.jpg"
-      pct: "100"
-      up: "254"
-      total_eps: "254"
       rating: "6"
   watchlist:
     - title: "Miao Miao"
