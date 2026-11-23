@@ -33,6 +33,13 @@ body.dark .wd { --wd-bg: #14161a; --wd-card: #1c1f24; --wd-line: #2c313a;
       overflow: hidden; margin-top: 6px; }
 .wd-prog i { display: block; height: 100%; background: var(--wd-acc); border-radius: 3px; }
 .wd-prog i.wd-done { background: var(--wd-ok); }
+.wd-seasons { margin-top: 6px; }
+.wd-season-head { font-size: .7em; color: var(--wd-mut); margin-top: 5px; }
+.wd-eps { display: flex; flex-wrap: wrap; gap: 2px; margin-top: 3px; }
+.wd-ep { width: 8px; height: 8px; border-radius: 2px;
+  background: var(--wd-line); }
+.wd-ep.on { background: var(--wd-ok); }
+.wd-ep.future { opacity: .35; }
 .wd-pct { font-size: .7em; color: var(--wd-mut); margin-top: 4px; }
 .wd-rate { position: absolute; top: 8px; left: 8px; background: var(--wd-card);
       border: 1px solid var(--wd-line); color: var(--wd-ink); font-size: .78em;
@@ -114,6 +121,14 @@ body.dark .wd { --wd-bg: #14161a; --wd-card: #1c1f24; --wd-line: #2c313a;
         {{ if .pct }}
         <div class="wd-prog"><i class="{{ if ge .pct 100 }}wd-done{{ end }}" style="width:{{ .pct }}%"></i></div>
         <div class="wd-pct">{{ .pct }}% · {{ .up }}/{{ .total_eps }} eps</div>
+        {{ end }}
+        {{ with .seasons }}
+        <div class="wd-seasons">
+          {{ range . }}
+          <div class="wd-season-head">S{{ .n }} · {{ .up }}/{{ .total }}</div>
+          <div class="wd-eps">{{ range .eps }}<span class="wd-ep{{ if eq (int .) 2 }} on{{ else if eq (int .) 0 }} future{{ end }}"></span>{{ end }}</div>
+          {{ end }}
+        </div>
         {{ end }}
       </div>
     </div>

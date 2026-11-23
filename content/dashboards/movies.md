@@ -1,8 +1,8 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-23T12:03:17+08:00
-summary: "16 titles · avg 5.3/10"
+lastmod: 2026-11-23T12:13:20+08:00
+summary: "16 titles · avg 5.1/10"
 weight: 2
 snapshot: "2026-11"
 data:
@@ -10,7 +10,7 @@ data:
     - {k: "Media", v: "16"}
     - {k: "Movies", v: "13"}
     - {k: "Series", v: "3"}
-    - {k: "Avg rating", v: "5.3/10"}
+    - {k: "Avg rating", v: "5.1/10"}
   movies:
     - title: "The Odyssey"
       year: "2026"
@@ -57,16 +57,15 @@ data:
       rating: "1"
       watched: "2026-08"
       poster: "https://m.media-amazon.com/images/M/MV5BNGVlY2E3YjYtMDI3OC00OTZjLWE5MTgtNzQ2NDdlNjMwMzVhXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg"
+    - title: "Miao Miao"
+      year: "2008"
+      watched: "2026-11"
+      poster: "https://m.media-amazon.com/images/M/MV5BYzBhNTY4NmQtYTBjNC00MDZkLThiYzAtMTJiMDc1MTk4ZTA5XkEyXkFqcGc@._V1_QL75_UX380_CR0,16,380,562_.jpg"
     - title: "The Pod Generation"
       year: "2023"
       watched: "2026-07"
       poster: "https://m.media-amazon.com/images/M/MV5BNmRjOTc3ZWEtY2Y0Ni00MjgwLWFiMmMtOTA5NjUxNjE0MDNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
   series:
-    - show: "Road"
-      progress: "—"
-      status: "planned"
-      poster: "https://m.media-amazon.com/images/M/MV5BYjcwZDg5NzQtNjQ2MS00NGNmLTk1OWEtNzBiM2JlMWNhZTRlXkEyXkFqcGc@._V1_SX300.jpg"
-      rating: "6"
     - show: "MobLand"
       progress: "S2E10"
       status: "completed"
@@ -74,11 +73,18 @@ data:
       pct: "100"
       up: "20"
       total_eps: "20"
-      rating: "8"
-  watchlist:
-    - title: "Miao Miao"
-      year: "2008"
-      added: "2026-11"
+      rating: "7"
+      seasons: [{n: 1, up: 10, total: 10, pct: 100, eps: [2,2,2,2,2,2,2,2,2,2]}, {n: 2, up: 10, total: 10, pct: 100, eps: [2,2,2,2,2,2,2,2,2,2]}]
+    - show: "Road"
+      progress: "S1E8"
+      status: "completed"
+      poster: "https://m.media-amazon.com/images/M/MV5BYjcwZDg5NzQtNjQ2MS00NGNmLTk1OWEtNzBiM2JlMWNhZTRlXkEyXkFqcGc@._V1_SX300.jpg"
+      pct: "100"
+      up: "8"
+      total_eps: "8"
+      rating: "5"
+      seasons: [{n: 1, up: 8, total: 8, pct: 100, eps: [2,2,2,2,2,2,2,2]}]
+  empty_note: "Watchlist is empty."
 ---
 
 *Values are generated from my tracker and refresh automatically when the
