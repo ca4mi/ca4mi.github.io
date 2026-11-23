@@ -1,7 +1,7 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-23T11:47:57+08:00
+lastmod: 2026-11-23T12:03:17+08:00
 summary: "16 titles · avg 5.3/10"
 weight: 2
 snapshot: "2026-11"
@@ -62,6 +62,11 @@ data:
       watched: "2026-07"
       poster: "https://m.media-amazon.com/images/M/MV5BNmRjOTc3ZWEtY2Y0Ni00MjgwLWFiMmMtOTA5NjUxNjE0MDNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
   series:
+    - show: "Road"
+      progress: "—"
+      status: "planned"
+      poster: "https://m.media-amazon.com/images/M/MV5BYjcwZDg5NzQtNjQ2MS00NGNmLTk1OWEtNzBiM2JlMWNhZTRlXkEyXkFqcGc@._V1_SX300.jpg"
+      rating: "6"
     - show: "MobLand"
       progress: "S2E10"
       status: "completed"
@@ -70,14 +75,6 @@ data:
       up: "20"
       total_eps: "20"
       rating: "8"
-    - show: "Road"
-      progress: "—"
-      status: "completed"
-      poster: "https://m.media-amazon.com/images/M/MV5BYjcwZDg5NzQtNjQ2MS00NGNmLTk1OWEtNzBiM2JlMWNhZTRlXkEyXkFqcGc@._V1_SX300.jpg"
-      pct: "100"
-      up: "8"
-      total_eps: "8"
-      rating: "6"
   watchlist:
     - title: "Miao Miao"
       year: "2008"
