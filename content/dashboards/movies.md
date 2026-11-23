@@ -1,16 +1,16 @@
 ---
 title: "Movies & TV"
 date: 2026-10-27T15:57:48+08:00
-lastmod: 2026-11-20T10:42:28+08:00
-summary: "15 titles · avg 4.9/10"
+lastmod: 2026-11-23T10:05:34+08:00
+summary: "16 titles · avg 5.3/10"
 weight: 2
 snapshot: "2026-11"
 data:
   stats:
-    - {k: "Media", v: "15"}
+    - {k: "Media", v: "16"}
     - {k: "Movies", v: "13"}
-    - {k: "Series", v: "2"}
-    - {k: "Avg rating", v: "4.9/10"}
+    - {k: "Series", v: "3"}
+    - {k: "Avg rating", v: "5.3/10"}
   movies:
     - title: "The Odyssey"
       year: "2026"
@@ -64,11 +64,20 @@ data:
   series:
     - show: "MobLand"
       progress: "S2E10"
-      status: "watching"
+      status: "completed"
       poster: "https://m.media-amazon.com/images/M/MV5BZDc4MmYxNTAtM2ViYy00YWQ4LThjZWUtNDZjNTZjNDFhNzBjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
       pct: "100"
       up: "20"
       total_eps: "20"
+      rating: "8"
+    - show: "Road"
+      progress: "—"
+      status: "completed"
+      poster: "https://m.media-amazon.com/images/M/MV5BYjcwZDg5NzQtNjQ2MS00NGNmLTk1OWEtNzBiM2JlMWNhZTRlXkEyXkFqcGc@._V1_SX300.jpg"
+      pct: "100"
+      up: "254"
+      total_eps: "254"
+      rating: "6"
   watchlist:
     - title: "Miao Miao"
       year: "2008"
