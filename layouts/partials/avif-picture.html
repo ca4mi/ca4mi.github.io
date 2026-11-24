@@ -1,0 +1,33 @@
+{{- /*
+  AVIF-first image with a JPEG fallback for browsers that cannot decode AVIF
+  (Safari < 16, older Android WebView). Capable browsers pick the <source>,
+  everyone else uses the <img> JPEG. Non-AVIF images are emitted unchanged.
+
+  Context: dict "res" (image resource, required), "alt" (string),
+           "attrs" (dict of extra <img> attributes, optional),
+           "size" (fallback width, default "1600x"; only used for AVIF).
+
+  NOTE: html/template rejects {{if}}/{{range}} control flow placed inside a
+  tag's attribute position, so the attribute string is assembled first and
+  injected in one shot.
+*/ -}}
+{{- $res := .res -}}
+{{- $alt := .alt | default "" -}}
+{{- $extra := .attrs | default dict -}}
+{{- $size := .size | default "1600x" -}}
+{{- $src := $res.RelPermalink -}}
+{{- if eq $res.MediaType.SubType "avif" -}}
+  {{- $src = ($res.Process (printf "resize %s jpeg" $size)).RelPermalink -}}
+{{- end -}}
+{{- $s := "" -}}
+{{- range $k, $v := merge $extra (dict "src" $src "alt" $alt "loading" "lazy") -}}
+  {{- if $v -}}{{- $s = printf "%s %s=%q" $s $k $v -}}{{- end -}}
+{{- end -}}
+{{- if eq $res.MediaType.SubType "avif" -}}
+<picture>
+  <source type="image/avif" srcset="{{ $res.RelPermalink }}">
+  <img{{ $s | safeHTMLAttr }}>
+</picture>
+{{- else -}}
+<img{{ $s | safeHTMLAttr }}>
+{{- end -}}

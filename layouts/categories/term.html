@@ -8,10 +8,10 @@
   {{ if $hasCover }}
   <div class="pg-grid">
     {{ range .Pages }}
-    {{ $cover := "" }}
-    {{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $cover = .RelPermalink }}{{ end }}{{ end }}
+    {{ $coverRes := false }}
+    {{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $coverRes = . }}{{ end }}{{ end }}
     <a class="pg-card" href="{{ .RelPermalink }}">
-      {{ if $cover }}<img src="{{ $cover }}" alt="{{ .Title }}" loading="lazy">
+      {{ if $coverRes }}{{ partial "avif-picture.html" (dict "res" $coverRes "alt" .Title "size" "800x") }}
       {{ else }}<div class="pg-ph">{{ .Title }}</div>{{ end }}
       <span class="pg-cap"><b>{{ .Title }}</b><i>{{ .Date.Format "2006-01" }}</i></span>
     </a>

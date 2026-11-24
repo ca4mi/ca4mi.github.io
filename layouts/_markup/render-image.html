@@ -1,0 +1,31 @@
+{{- /* Site-level override of PaperMod's render-image hook: wraps AVIF page
+   resources in <picture> (AVIF source + build-time JPEG fallback) so browsers
+   without AVIF support still see the photo. Everything else behaves exactly
+   like the theme's hook. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- $res := false -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path -}}
+  {{- with .PageInner.Resources.Get $path -}}
+    {{- $res = . -}}
+  {{- else -}}
+    {{- with resources.Get $path -}}{{- $res = . -}}{{- end -}}
+  {{- end -}}
+  {{- if $res -}}
+    {{- $src = $res.RelPermalink -}}
+    {{- with $u.RawQuery -}}{{- $src = printf "%s?%s" $src . -}}{{- end -}}
+    {{- with $u.Fragment -}}{{- $src = printf "%s#%s" $src . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if and $res (eq $res.MediaType.SubType "avif") -}}
+{{- partial "avif-picture.html" (dict "res" $res "alt" .Text "attrs" (merge .Attributes (dict "title" (.Title | transform.HTMLEscape)))) -}}
+{{- else -}}
+{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
+<img
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- end -}}

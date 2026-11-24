@@ -16,6 +16,14 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      - name: Restore image processing cache
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: hugo-img-${{ hashFiles('content/**/*.avif', 'content/**/*.png', 'content/**/*.webp', 'content/**/*.jpg') }}
+          restore-keys: |
+            hugo-img-
+
       - name: Build
         run: hugo --buildDrafts --gc --logLevel info --minify
 
