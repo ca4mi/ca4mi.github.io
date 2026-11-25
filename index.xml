@@ -30,6 +30,26 @@ data changes.&lt;/em>&lt;/p>
   <source type="image/avif" srcset="/photos/2026-08-01-mountain-couple/images/CDL_1859.avif">
   <img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2026-08-01-mountain-couple/images/CDL_1859_hu_86bf12baf3c768a.jpg">
 </picture></p>
+]]></content:encoded></item><item><title>Dania</title><link>https://ca4mi.net/photos/2025-12-11-dania/</link><pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.net/photos/2025-12-11-dania/</guid><description>MNKendoka series - Dania</description><content:encoded><![CDATA[<p><picture>
+  <source type="image/avif" srcset="/orig/CDL_3971_hu_486b75dcadd146b2.avif">
+  <img alt="photo 1" loading="lazy" src="/orig/CDL_3971_hu_8791d8c2e05035b9.jpg">
+</picture>
+<picture>
+  <source type="image/avif" srcset="/orig/CDL_3979_hu_6271fdc023999a3a.avif">
+  <img alt="photo 2" loading="lazy" src="/orig/CDL_3979_hu_1eb09c55e5706d19.jpg">
+</picture>
+<picture>
+  <source type="image/avif" srcset="/orig/CDL_4105_hu_9fe5e7791afbbea4.avif">
+  <img alt="photo 3" loading="lazy" src="/orig/CDL_4105_hu_839d4ec91cbf101f.jpg">
+</picture>
+<picture>
+  <source type="image/avif" srcset="/orig/CDL_4322_hu_4dccf72c8d0a75b.avif">
+  <img alt="photo 4" loading="lazy" src="/orig/CDL_4322_hu_ec87fb6a750bcd3c.jpg">
+</picture>
+<picture>
+  <source type="image/avif" srcset="/orig/CDL_4327_hu_30c3c820c26dc46a.avif">
+  <img alt="photo 5" loading="lazy" src="/orig/CDL_4327_hu_131dd60982d6f34f.jpg">
+</picture></p>
 ]]></content:encoded></item><item><title>Davinci Resolve on NixOS</title><link>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</link><pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</guid><description>Davinci Resolve 19 on NixOS</description><content:encoded><![CDATA[<p>Here&rsquo;s how I got DaVinci Resolve 19 running smoothly on my NixOS setup. This guide covers the basic installation, creating a launch script for NVIDIA GPUs, and handling common video formats that the free version doesn&rsquo;t support on Linux.</p>
 <h3 id="-installation">⚙️ Installation</h3>
 <p>Firsty added the <code>davinci-resolve</code> package to my machine within configuration.nix</p>
