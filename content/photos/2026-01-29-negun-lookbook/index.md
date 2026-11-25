@@ -10,6 +10,7 @@ cover:
   image: "images/CDL_8106.avif"
   relative: true 
 ---
+
 ![photo 1](images/CDL_8615.avif)
 ![photo 2](images/CDL_8538.avif)
 ![photo 3](images/CDL_8451.avif)
