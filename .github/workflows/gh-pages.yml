@@ -20,7 +20,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: resources/_gen
-          key: hugo-img-${{ hashFiles('content/**/*.avif', 'content/**/*.png', 'content/**/*.webp', 'content/**/*.jpg', 'assets/orig/**') }}
+          key: hugo-img-${{ hashFiles('content/**/*.avif', 'content/**/*.png', 'content/**/*.webp', 'content/**/*.jpg') }}
           restore-keys: |
             hugo-img-
 
