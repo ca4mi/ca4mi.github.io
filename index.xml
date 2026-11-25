@@ -8,7 +8,7 @@ data changes.&lt;/em>&lt;/p>
 </picture>
 <picture>
   <source type="image/avif" srcset="/photos/2026-08-01-mountain-couple/images/CDL_2042.avif">
-  <img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2026-08-01-mountain-couple/images/CDL_2042_hu_93b1299b0b049148.jpg">
+  <img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2026-08-01-mountain-couple/images/CDL_2042_hu_16cf8c27c98fd93f.jpg">
 </picture>
 <picture>
   <source type="image/avif" srcset="/photos/2026-08-01-mountain-couple/images/CDL_1989.avif">
@@ -30,11 +30,6 @@ data changes.&lt;/em>&lt;/p>
   <source type="image/avif" srcset="/photos/2026-08-01-mountain-couple/images/CDL_1859.avif">
   <img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2026-08-01-mountain-couple/images/CDL_1859_hu_86bf12baf3c768a.jpg">
 </picture></p>
-]]></content:encoded></item><item><title>Dania</title><link>https://ca4mi.net/photos/2025-12-11-dania/</link><pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.net/photos/2025-12-11-dania/</guid><description>MNKendoka series - Dania</description><content:encoded><![CDATA[<p><img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2025-12-11-dania/images/CDL_3971.webp">
-<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2025-12-11-dania/images/CDL_3979.webp">
-<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2025-12-11-dania/images/CDL_4105.webp">
-<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2025-12-11-dania/images/CDL_4322.webp">
-<img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2025-12-11-dania/images/CDL_4327.webp"></p>
 ]]></content:encoded></item><item><title>Davinci Resolve on NixOS</title><link>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</link><pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2025-09-07-davinci-resolve-on-nixos/</guid><description>Davinci Resolve 19 on NixOS</description><content:encoded><![CDATA[<p>Here&rsquo;s how I got DaVinci Resolve 19 running smoothly on my NixOS setup. This guide covers the basic installation, creating a launch script for NVIDIA GPUs, and handling common video formats that the free version doesn&rsquo;t support on Linux.</p>
 <h3 id="-installation">⚙️ Installation</h3>
 <p>Firsty added the <code>davinci-resolve</code> package to my machine within configuration.nix</p>
@@ -2002,7 +1997,7 @@ Tailscale -г on болгоод <code>https://jellyfin.hosono.space</code> ру�
 </picture>
 <picture>
   <source type="image/avif" srcset="/photos/2021-06-19-anna/images/IMG_8131.avif">
-  <img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8131_hu_f57afc83723626b5.jpg">
+  <img alt="see more from @khosoonoo - instagram" loading="lazy" src="/photos/2021-06-19-anna/images/IMG_8131_hu_797737c0cf760276.jpg">
 </picture>
 <picture>
   <source type="image/avif" srcset="/photos/2021-06-19-anna/images/IMG_8164.avif">
