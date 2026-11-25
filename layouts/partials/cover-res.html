@@ -1,0 +1,18 @@
+{{- $p := .page -}}
+{{- $cover := .cover | default false -}}
+{{- $res := false -}}
+{{- $orig := false -}}
+{{- if $cover -}}
+  {{- with $cover.image -}}
+    {{- with $p.Resources.GetMatch . }}{{ $res = . }}{{ end -}}
+    {{- if not $res -}}
+      {{- with resources.Get (printf "orig/%s" (path.Base .)) -}}
+        {{- $res = . -}}{{- $orig = true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $res -}}
+  {{- with (first 1 ($p.Resources.ByType "image")) -}}{{ $res = index . 0 }}{{ end -}}
+{{- end -}}
+{{- return (dict "res" $res "orig" $orig) -}}

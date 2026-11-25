@@ -5,11 +5,9 @@
   {{ with .Description }}<p class="pg-sub">{{ . }}</p>{{ end }}
   <div class="pg-grid">
     {{ range .Pages }}
-    {{ $coverRes := false }}
-    {{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $coverRes = . }}{{ end }}{{ end }}
-    {{ if not $coverRes }}{{ with (.Resources.ByType "image" | first) }}{{ $coverRes = . }}{{ end }}{{ end }}
+    {{ $coverRes := partial "cover-res.html" (dict "page" . "cover" .Params.cover) }}
     <a class="pg-card" href="{{ .RelPermalink }}">
-      {{ if $coverRes }}{{ partial "avif-picture.html" (dict "res" $coverRes "alt" .Title "size" "800x") }}
+      {{ if $coverRes.res }}{{ partial "avif-picture.html" (dict "res" $coverRes.res "orig" $coverRes.orig "alt" .Title "size" "800x") }}
       {{ else }}<div class="pg-ph">{{ .Title }}</div>{{ end }}
       <span class="pg-cap"><b>{{ .Title }}</b><i>{{ .Date.Format "2006-01" }}</i></span>
     </a>

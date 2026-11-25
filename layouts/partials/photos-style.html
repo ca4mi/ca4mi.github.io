@@ -50,9 +50,6 @@ body.dark .pg { --pg-ink: #e7e9ee; --pg-mut: #8b94a3; --pg-line: #2c313a;
 .pg-flow p { break-inside: avoid; margin: 0 0 10px; }
 /* posts have no blank lines between images -> all imgs live in one <p>;
    unwrap those paragraphs so EVERY photo becomes its own grid cell */
-/* AVIF fallback: markdown imgs are wrapped in <picture>. Make the wrapper
-   boxless so the img lays out exactly as it did as a direct child, and unwrap
-   paragraphs containing one (mirrors the p:has(> img) rule below). */
 picture { display: contents; }
 .pg-flow p:has(> picture) { display: contents; }
 .pg-flow p:has(> img) { display: contents; }

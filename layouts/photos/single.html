@@ -5,15 +5,15 @@
   <p class="pg-meta">{{ .Date.Format "2006-01" }}{{ with .Params.author }} · {{ . }}{{ end }}</p>
   <div class="pg-flow">{{ .Content }}</div>
   <nav class="pg-nav">
-    {{ with .PrevInSection }}{{ $c := false }}{{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $c = . }}{{ end }}{{ end }}
+    {{ with .PrevInSection }}{{ $c := partial "cover-res.html" (dict "page" . "cover" .Params.cover) }}
     <a class="pg-prev" href="{{ .RelPermalink }}">
-      {{ if $c }}{{ partial "avif-picture.html" (dict "res" $c "alt" "" "size" "160x") }}{{ end }}
+      {{ if $c.res }}{{ partial "avif-picture.html" (dict "res" $c.res "orig" $c.orig "alt" "" "size" "160x") }}{{ end }}
       <span><small>Previous</small><b>{{ .Title }}</b></span></a>
     {{ end }}
-    {{ with .NextInSection }}{{ $c := false }}{{ if .Params.cover }}{{ with .Resources.GetMatch .Params.cover.image }}{{ $c = . }}{{ end }}{{ end }}
+    {{ with .NextInSection }}{{ $c := partial "cover-res.html" (dict "page" . "cover" .Params.cover) }}
     <a class="pg-next" href="{{ .RelPermalink }}">
       <span><small>Next</small><b>{{ .Title }}</b></span>
-      {{ if $c }}{{ partial "avif-picture.html" (dict "res" $c "alt" "" "size" "160x") }}{{ end }}</a>
+      {{ if $c.res }}{{ partial "avif-picture.html" (dict "res" $c.res "orig" $c.orig "alt" "" "size" "160x") }}{{ end }}</a>
     {{ end }}
   </nav>
   <script>
