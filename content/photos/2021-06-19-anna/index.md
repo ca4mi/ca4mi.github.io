@@ -7,7 +7,7 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 cover:
-  image: "images/IMG_8073.avif"
+  image: "images/IMG_8131.avif"
   relative: true 
 ---
 ![see more from @khosoonoo - instagram](images/IMG_8027.avif)

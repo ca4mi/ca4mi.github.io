@@ -7,7 +7,7 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 cover:
-  image: "images/CDL_7845.avif"
+  image: "images/CDL_8296.avif"
   relative: true 
 ---
 

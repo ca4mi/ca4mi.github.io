@@ -7,7 +7,7 @@ categories: ["Photography"]
 ShowToc: false
 TocOpen: false
 cover:
-  image: "images/CDL_2026.avif"
+  image: "images/CDL_1520.avif"
   relative: true 
 ---
 ![see more from @khosoonoo - instagram](images/CDL_1520.avif)
