@@ -14,3 +14,5 @@ cover:
 ![photo 1](images/CDL_6169.avif)
 ![photo 2](images/CDL_5906.avif)
 ![photo 3](images/CDL_5899.avif)
+![photo 4](images/CDL_5972.avif)
+![photo 5](images/CDL_5964.avif)
