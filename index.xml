@@ -1087,7 +1087,15 @@ Configuration of Fedora 40</p>
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> Dusal_Bicheech_XKB/
 </span></span><span class="line"><span class="cl">chmod +x Dusal_bicheech.sh
 </span></span><span class="line"><span class="cl">./Dusal_bicheech.sh 
-</span></span></code></pre></div>]]></content:encoded></item><item><title>Tailscale VPN(mesh) + Cloudflare + NextDNS + Nignx Proxy Manager (Let's Encrypt) SSL certificate тохируулах</title><link>https://ca4mi.net/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</guid><description>&lt;p&gt;Note: Дээрх аргаас гадна өөр олон арга ашиглан vpn үүсгэх, тохируулах боломжтой.&lt;/p&gt;
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Yborn</title><link>https://ca4mi.net/photos/2024-05-02-yborn/</link><pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/photos/2024-05-02-yborn/</guid><description>Yborn</description><content:encoded><![CDATA[<p><picture>
+  <source type="image/avif" srcset="/photos/2024-05-02-yborn/images/CDL_3738.avif">
+  <img alt="photo 1" loading="lazy" src="/photos/2024-05-02-yborn/images/CDL_3738_hu_beea58a8cd682811.jpg">
+</picture>
+<picture>
+  <source type="image/avif" srcset="/photos/2024-05-02-yborn/images/CDL_3713.avif">
+  <img alt="photo 2" loading="lazy" src="/photos/2024-05-02-yborn/images/CDL_3713_hu_bb5c42e4b6d11e1f.jpg">
+</picture></p>
+]]></content:encoded></item><item><title>Tailscale VPN(mesh) + Cloudflare + NextDNS + Nignx Proxy Manager (Let's Encrypt) SSL certificate тохируулах</title><link>https://ca4mi.net/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://ca4mi.net/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/</guid><description>&lt;p&gt;Note: Дээрх аргаас гадна өөр олон арга ашиглан vpn үүсгэх, тохируулах боломжтой.&lt;/p&gt;
 &lt;h3 id="domain-худалдан-авах"&gt;Domain худалдан авах&lt;/h3&gt;
 &lt;p&gt;Энэ удаа hover.com-с domain аван тохируулга хийнэ. Нэвтрэн ороод авах гэж domain нэрээр хайлт хийнэ. Гарч ирсэн утгуудаас сонголт хийн худалдан авна. Domain, нэг жилдээ хямдхан, дараа жилээс үнэ нь 10 хэд дахин өсдөг тул сунгалт хийхэд үнийн өсөлт бага байхаар худалдан авалт хийгээрэй.
 &lt;img alt="Hover.com domain pick" loading="lazy" src="https://ca4mi.net/posts/2024-03-28-ssl-cert-using-npm-tailscale-cloudflare+nextdns/images/20240325000838.png"&gt;
