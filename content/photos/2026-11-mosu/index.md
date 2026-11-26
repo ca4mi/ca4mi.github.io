@@ -1,7 +1,7 @@
 ---
 author: "ca4mi"
 title: "Mosu"
-date: "2026-11"
+date: "2026-11-21"
 description: "Mosu with cats"
 categories: ["Photography"]
 ShowToc: false
